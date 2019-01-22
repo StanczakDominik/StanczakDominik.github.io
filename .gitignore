@@ -1,6 +1,0 @@
-cache
-.ropeproject
-*.swp
-output
-.doit.db
-__pycache__
