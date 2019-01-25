@@ -1,71 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Plasma Non Stop (Posts about posts)</title><link>https://stanczakdominik.github.io/</link><description></description><atom:link href="https://stanczakdominik.github.io/categories/cat_posts.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:stanczakdominik@gmail.com"&gt;Dominik Stańczak&lt;/a&gt; </copyright><lastBuildDate>Thu, 24 Jan 2019 13:50:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>An introduction</title><link>https://stanczakdominik.github.io/posts/an-introduction/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div&gt;&lt;p&gt;Why start this blog?&lt;/p&gt;
-&lt;h2&gt;To share knowledge&lt;/h2&gt;
-&lt;p&gt;Knowledge does not diminish from being shared, instead it is reinforced and gains in utility.
-I gain much utility from amazing resources on the web and elsewhere. It is only fair that I disseminate some
-of that knowledge. I have lots of projects I start and tinker with. While I try to keep them over at GitHub,
-they might be more useful to people with actual proper documentation and descriptions.&lt;/p&gt;
-&lt;p&gt;Besides, I think I can help some people with stuff like Python, numerics, nonlinear dynamics, &lt;a href="https://stackoverflow.com/questions/11828270/how-to-exit-the-vim-editor"&gt;quitting vim&lt;/a&gt;,
-setting up and using Linux, fluid and plasma dynamics, GPU computing, machine learning... While my perspective on these may not be helpful to all, I certainly don't expect it
-to do harm.&lt;/p&gt;
-&lt;h2&gt;Because some things just make you want to tell the world all about them&lt;/h2&gt;
-&lt;p&gt;There's a lot of beautiful science and physics around the world and plenty of it in simulation, which is my personal area of preference. Numerical simulation is the art and science of creating
-pretty plots that can also teach us something about the world or about the models we use to try and describe it. &lt;sup&gt;but most of us are probably in this for the plots&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Look at this animation of a hydrodynamic
-(&lt;a href="https://en.wikipedia.org/wiki/Kelvin%E2%80%93Helmholtz_instability"&gt;Kelvin-Helmholtz&lt;/a&gt;
-or Swirly-Vortex) instability simulation I found online, thanks to &lt;a href="http://www.kmschaal.de/"&gt;Kevin
-Schaal&lt;/a&gt; and reposted here with permission.
-Do yourself a service and watch it in full HD.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;center&gt;&lt;iframe width="480" height="270" src="https://www.youtube.com/embed/cTRQP6DSaqA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;
-&lt;p&gt;If that doesn't strike you as beautiful, you may have no emotion. Here's a few reasons why this is awesome to me:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This kind of pattern occurs in nature. Want an example? Here's one from &lt;a href="https://www.bibliotecapleyades.net/ciencia/ciencia_sol47.htm"&gt;Biblioteca Pleyades&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;center&gt; &lt;img src="https://stanczakdominik.github.io/images/solar-kelvin-helmholtz.jpg" width="700"&gt; &lt;/center&gt;
-&lt;p&gt;Yup. That's our very own Sun. And that's the exact same kind of pattern occurring out there.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;It's fairly well described on relevant time and spatial scales by a mathematical model people have devised via the art of &lt;del&gt;pondering&lt;/del&gt; science.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Our computers have the ability to perform this series of computations and spit out a visualization of this kind of resolution. People have gone to the moon on less - and they didn't have all of our current
-fancy tools like high level programming languages, GPUs, autocompletion, documentation, debuggers&lt;sup&gt;bar the occasional moth&lt;/sup&gt; and Stack Overflow.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To sum up... In our modern times, there is absolutely stopping you from sitting down at your computer right now and create good physics &lt;sup&gt; and pretty plots&lt;/sup&gt; using it.&lt;/p&gt;
-&lt;h2&gt;Because writing is fun&lt;/h2&gt;
-&lt;p&gt;Seriously. If you haven't tried freeflow, stream of consciousness style writing, try it. It's done wonders for me as a way of structuring my thoughts and pointing out
-flaws in my logic. Besides, with the ease of setting up a blog like this one, the cost of sharing your thoughts with the world is marginal.&lt;/p&gt;
-&lt;h2&gt;To make some positive impact&lt;/h2&gt;
-&lt;p&gt;Somebody wise once said,&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;What are the most pressing issues in your field, and why aren't you working on them?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;For the last half a century we've had a painfully underfunded technology capable of transforming energy generation
-around the globe. I am, of course, talking about &lt;a href="https://en.wikipedia.org/wiki/Fusion_energy"&gt;nuclear fusion&lt;/a&gt;. 
-We are currently orbiting &lt;a href="https://en.wikipedia.org/wiki/Sun"&gt;a large reactor that's a neat proof of concept for the principle&lt;/a&gt;,
-and we're beginning to harness that power using solar cells.&lt;/p&gt;
-&lt;p&gt;It's been amazing to see the growth of that. However, given the rising temperatures of our globe caused by us as a civilization
-relentlessly pumping carbon dioxides into the atmosphere,
-&lt;sup&gt;this post is brought to you by two open windows and a draught between them&lt;/sup&gt;
-it doesn't seem that's going to be enough. Not as long as our wires aren't superconducting and we can't just &lt;a href="https://cleantechnica.com/2011/12/14/solar-energy-from-the-sahara-desert-could-power-the-world-but-will-it/"&gt;power all the globe using
-African deserts&lt;/a&gt;,
- and as long as our best idea for large scale energy storage is pumping water up a hill, 
-we're tied to burning hydrocarbons.&lt;/p&gt;
-&lt;p&gt;Or are we?&lt;/p&gt;
-&lt;p&gt;That's the view many people take when faced with the problem, if they even acknowledge man-made global warning at all.
-It's certainly the view of plenty of politicians all over the world. How do we know that's true?&lt;/p&gt;
-&lt;p&gt;Now, I wish I had influence over public policy, but sadly, I don't. But what I can possibly affect, even if just a little bit,
-is public opinion. And here's hoping it propagates outwards.&lt;/p&gt;
-&lt;p&gt;With this blog I am going to try to present an objective view of the state and perspectives of nuclear fusion
-as a possible safe and clean alternative to hydrocarbons. Good people have been working on that for a long time and now
-we're getting quite close - a few more steps in a long marathon - to getting that actually working.&lt;/p&gt;
-&lt;p&gt;Because faced with a crisis such as climate change, we're going to need all of the tools at our disposal.&lt;/p&gt;
-&lt;p&gt;Because that idea might save the world one day, and that seems like a pretty pressing issue.&lt;/p&gt;
-&lt;!---
-&gt; **My client needs a strong defense, you're the solution.**
-
-&gt; *Who's your client?*
-
-&gt; **The future of nuclear fusion.**
---&gt;&lt;/div&gt;</description><guid>https://stanczakdominik.github.io/posts/an-introduction/</guid><pubDate>Fri, 30 Jun 2017 07:49:08 GMT</pubDate></item></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Plasma Non Stop (Posts about posts)</title><link>https://stanczakdominik.github.io/</link><description></description><atom:link href="https://stanczakdominik.github.io/categories/cat_posts.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2019 &lt;a href="mailto:stanczakdominik@gmail.com"&gt;Dominik Stańczak&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
+&lt;img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 25 Jan 2019 16:35:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>An introduction</title><link>https://stanczakdominik.github.io/posts/an-introduction/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div&gt;&lt;p&gt;Why start this blog?
+&lt;/p&gt;&lt;p&gt;&lt;a href="https://stanczakdominik.github.io/posts/an-introduction/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://stanczakdominik.github.io/posts/an-introduction/</guid><pubDate>Fri, 30 Jun 2017 07:49:08 GMT</pubDate></item></channel></rss>
