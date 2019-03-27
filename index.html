@@ -13,6 +13,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://stanczakdominik.github.io/">
+<link rel="next" href="index-1.html" type="text/html">
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     tex2jax: {
@@ -25,7 +26,7 @@ MathJax.Hub.Config({
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
-</script><!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/particle-in-cell-methods/" type="text/html">
+</script><!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -86,7 +87,38 @@ navbar-dark bg-dark
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/particle-in-cell-methods/" class="u-url">Particle in Cell methods</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper/" class="u-url">On the recent "On the Boris solver in Particle-in-cell simulations" paper</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Dominik Stańczak
+            </span></p>
+            <p class="dateline">
+            <a href="posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-03-27T09:00:00+01:00" itemprop="datePublished" title="2019-03-27 09:00">2019-03-27 09:00</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper/#disqus_thread" data-disqus-identifier="cache/posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I recently came across <a href="https://arxiv.org/abs/1809.04378">a pretty cool paper by Zenitani and Umeda named "On the Boris solver in particle-in-cell simulation"</a>. There are many splendid descriptions of the Boris solver on the Internet, so while I would rather not duplicate them, here's a brief overview. In PIC simulations, the Boris solver (or pusher) is the usual algorithm of choice for moving and accelerating particles in given electric and magnetic fields.</p>
+<p>You may wonder, since the equations of motion are ordinary differential equations, what's wrong with using the usual Runge-Kutta 4 solver? As it turns out, that one has a pretty major flaw. It has great accuracy for short term calculations, but over time your particle's motion will lose energy. This is a deal breaker for periodic motion, and simulations of, for example, plasma waves need to conserve that energy to provide accurate results.</p>
+<p>Boris came up with his solver in the 1950's, and in a single sentence: the algorithm splits the acceleration via electric field into two parts and sticks a rotation about the magnetic field between them. This turns out to conserve energy and will probably come up again on this blog as I read more about symplexicity. 
+</p>
+<p class="more"><a href="posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper/">Read more…</a></p>
+</div>
+</div>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/particle-in-cell-methods/" class="u-url">Particle in Cell methods</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Dominik Stańczak
@@ -426,36 +458,13 @@ $$ \Delta(k) = \frac{\rho_1-\rho_2}{\rho_1 + \rho_2} gk + \frac{\gamma k^3}{\rho
 </div>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/an-introduction/" class="u-url">An introduction</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Dominik Stańczak
-            </span></p>
-            <p class="dateline">
-            <a href="posts/an-introduction/" rel="bookmark">
-            <time class="published dt-published" datetime="2017-06-30T09:49:08+02:00" itemprop="datePublished" title="2017-06-30 09:49">2017-06-30 09:49</time></a>
-            </p>
-                <p class="commentline">
-        
-    <a href="posts/an-introduction/#disqus_thread" data-disqus-identifier="cache/posts/an-introduction.html">Comments</a>
-
-
-        </p>
-</div>
-    </header><div class="p-summary entry-summary">
-    <div>
-<p>Why start this blog?
-</p>
-<p class="more"><a href="posts/an-introduction/">Read more…</a></p>
-</div>
-    </div>
     </article>
 </div>
 
-
-
-        
-       <script>var disqus_shortname="stanczakdominik-github-io";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha256-SDRP1VVYu+tgAGKhddBSl5+ezofHKZeI+OzxakbIe/Y=" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
+        <ul class="pager postindexpager clearfix">
+<li class="next"><a href="index-1.html" rel="next">Older posts</a></li>
+        </ul>
+<script>var disqus_shortname="stanczakdominik-github-io";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha256-SDRP1VVYu+tgAGKhddBSl5+ezofHKZeI+OzxakbIe/Y=" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     tex2jax: {
         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
