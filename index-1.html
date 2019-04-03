@@ -106,7 +106,37 @@ MathJax.Hub.Config({
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/numpy-ish-gpu-computations-with-cupy/" class="u-url">NumPy-ish GPU computations with CuPy</a></h1>
+            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/" class="u-url">Parallelizable Numpy implementation of 2D Ising model</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Dominik Stańczak
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-01-29T18:00:00+01:00" itemprop="datePublished" title="2019-01-29 18:00">2019-01-29 18:00</time></a>
+            </p>
+                        <p class="commentline">
+        
+    <a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/#disqus_thread" data-disqus-identifier="cache/posts/parallelizable-numpy-implementation-of-2d-ising-model.html">Comments</a>
+
+
+                </p>
+</div>
+            </header><div class="p-summary entry-summary">
+                    <div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In the next few posts I'd like to discuss a fun project I've been procrastinating things with recently - a parallelizable (up to the GPU level) Python Numpy implementation of the 2D <a href="https://en.wikipedia.org/wiki/Ising_model">Ising model</a>, which I won't introduce at length here because it's been covered really well in multiple places out there and I'd rather not repeat them.</p>
+<p>The gist of it is that we have a grid of discrete spins represented by integers, +1 for spin up and -1 for spin down. Each spin interacts with its nearest neighbors via a sum of products of that spin's value and the neighbor's value, times minus a positive constant J. The minus is there so that spins pointing the same way decrease the total energy and spins pointing in the opposite direction increase it.
+</p>
+<p class="more"><a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/">Read more…</a></p>
+</div>
+</div>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/numpy-ish-gpu-computations-with-cupy/" class="u-url">NumPy-ish GPU computations with CuPy</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Dominik Stańczak

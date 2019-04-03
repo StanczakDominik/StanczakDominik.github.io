@@ -26,7 +26,7 @@ MathJax.Hub.Config({
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
-</script><!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/changing-fields/" type="text/html">
+</script><!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -106,7 +106,35 @@ MathJax.Hub.Config({
     
         
     <div class="postindex">
-            <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/changing-fields/" class="u-url">Changing fields</a></h1>
+            <article class="h-entry post-featured" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/" class="u-url">Post mortem for my engineering thesis code, PythonPIC</a></h1>
+                <div class="metadata">
+                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                        Dominik Stańczak
+                    </span></p>
+            <p class="dateline">
+            <a href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-04-03T21:15:00+02:00" itemprop="datePublished" title="2019-04-03 21:15">2019-04-03 21:15</time></a>
+            </p>
+                        <p class="commentline">
+        
+    <a href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/#disqus_thread" data-disqus-identifier="cache/posts/post-mortem-for-my-engineering-thesis-code-pythonpic.html">Comments</a>
+
+
+                </p>
+</div>
+            </header><div class="p-summary entry-summary">
+                    <div>
+<p>I'm giving a presentation on this less-than-glorious subject on Friday, so
+I figured, hey, it might be a nice time to write a summary of what <a href="https://github.com/StanczakDominik/PythonPIC">that old
+repository on my GitHub page</a> is. In a single video:</p>
+<p></p>
+<center><iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/rE4-X-jNoFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<p>Admittedly, this post is going to be rather personal - this messy little code
+was basically my life for a few hundreds of hours.</p>
+<p class="more"><a href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/">Read more…</a></p>
+</div>
+                </div>
+            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/changing-fields/" class="u-url">Changing fields</a></h1>
                 <div class="metadata">
                     <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                         Dominik Stańczak
@@ -432,36 +460,6 @@ $$ \Delta(k) = \frac{\rho_1-\rho_2}{\rho_1 + \rho_2} gk + \frac{\gamma k^3}{\rho
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><a href="posts/parallelizable-numpy-implementation-of-2d-ising-model">Last time, we made a neat little implementation of a 2D Ising model simulation</a>, and we showed that it looks reasonable. Well, that it might, but we can't be certain of that! I know I said that next time we would, er, <code>%timeit</code>, put it on the GPU and make it GO FAST, but perhaps it's a better idea to start with some data analysis first, making sure the result we're getting are quantitatively what we would like them to be - physical.</p>
 <p class="more"><a href="posts/quantitative-data-analysis-of-the-2d-ising-model/">Read more…</a></p>
-</div>
-</div>
-</div>
-                </div>
-            </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/" class="u-url">Parallelizable Numpy implementation of 2D Ising model</a></h1>
-                <div class="metadata">
-                    <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                        Dominik Stańczak
-                    </span></p>
-            <p class="dateline">
-            <a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-01-29T18:00:00+01:00" itemprop="datePublished" title="2019-01-29 18:00">2019-01-29 18:00</time></a>
-            </p>
-                        <p class="commentline">
-        
-    <a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/#disqus_thread" data-disqus-identifier="cache/posts/parallelizable-numpy-implementation-of-2d-ising-model.html">Comments</a>
-
-
-                </p>
-</div>
-            </header><div class="p-summary entry-summary">
-                    <div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In the next few posts I'd like to discuss a fun project I've been procrastinating things with recently - a parallelizable (up to the GPU level) Python Numpy implementation of the 2D <a href="https://en.wikipedia.org/wiki/Ising_model">Ising model</a>, which I won't introduce at length here because it's been covered really well in multiple places out there and I'd rather not repeat them.</p>
-<p>The gist of it is that we have a grid of discrete spins represented by integers, +1 for spin up and -1 for spin down. Each spin interacts with its nearest neighbors via a sum of products of that spin's value and the neighbor's value, times minus a positive constant J. The minus is there so that spins pointing the same way decrease the total energy and spins pointing in the opposite direction increase it.
-</p>
-<p class="more"><a href="posts/parallelizable-numpy-implementation-of-2d-ising-model/">Read more…</a></p>
 </div>
 </div>
 </div>
