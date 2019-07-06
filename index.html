@@ -26,7 +26,7 @@ MathJax.Hub.Config({
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
-</script><!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/" type="text/html">
+</script><!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -99,7 +99,33 @@ navbar-dark bg-dark
 
     
 <div class="postindex">
-    <article class="h-entry post-featured" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/" class="u-url">Post mortem for my engineering thesis code, PythonPIC</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/" class="u-url">Simple Binder usage with Sphinx-Gallery through Jupytext</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Dominik Stańczak
+            </span></p>
+            <p class="dateline">
+            <a href="posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-07-06T16:00:00+02:00" itemprop="datePublished" title="2019-07-06 16:00">2019-07-06 16:00</time></a>
+            </p>
+                <p class="commentline">
+        
+    <a href="posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/#disqus_thread" data-disqus-identifier="cache/posts/simple-binder-usage-with-sphinx-gallery-through-jupytext.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>It's been a busy week for <a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/">PlasmaPy</a>. I recently found out about Binder support in <a class="reference external" href="https://sphinx-gallery.github.io/">sphinx-gallery</a>. The latter is a package that we use to
+turn python scripts with comments into Sphinx pages and Jupyter Notebooks. I figured adding that could be a nice fit for <a class="reference external" href="http://docs.plasmapy.org/en/stable/auto_examples/index.html">our existing example gallery</a> .</p>
+<p>However, I quickly realized that the system in place is a bit unwieldy. Binder takes a link to an existing GitHub repository and executes <tt class="docutils literal">.ipynb</tt> notebooks located there online. However, with sphinx-gallery, we don't have those notebooks in the repository - we have <tt class="docutils literal">.py</tt> files with comments. <a class="reference external" href="https://sphinx-gallery.github.io/configuration.html#binder-links">The currently recommended way of setting this up with sphinx-gallery</a> is keeping your built documentation in <a class="reference external" href="https://github.com/sphinx-gallery/sphinx-gallery.github.io">another repository</a> and hosting it via something along the lines of GitHub Pages rather than <a class="reference external" href="https://readthedocs.org/">ReadTheDocs</a>, which we are currently using.</p>
+<p><a class="reference external" href="https://github.com/sphinx-gallery/sphinx-gallery/pull/505/files">I added the results of this investigation to sphinx-gallery's docs</a>, but I didn't want to switch away from RTD, so I figured I'd go ahead and find another way. I think I've got something that works well enough now!</p>
+<p>Trigger warning: later on during this post, there may be monkeypatching of sphinx_gallery internals. Beware.</p>
+<p class="more"><a href="posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/">Read more…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-featured" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/post-mortem-for-my-engineering-thesis-code-pythonpic/" class="u-url">Post mortem for my engineering thesis code, PythonPIC</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Dominik Stańczak
@@ -428,34 +454,6 @@ $$ \Delta(k) = \frac{\rho_1-\rho_2}{\rho_1 + \rho_2} gk + \frac{\gamma k^3}{\rho
 </div>
     </header><div class="p-summary entry-summary">
     <p>Exams are a pain.</p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/quantitative-data-analysis-of-the-2d-ising-model/" class="u-url">Quantitative data analysis of the 2D Ising model</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Dominik Stańczak
-            </span></p>
-            <p class="dateline">
-            <a href="posts/quantitative-data-analysis-of-the-2d-ising-model/" rel="bookmark">
-            <time class="published dt-published" datetime="2019-02-05T18:00:00+01:00" itemprop="datePublished" title="2019-02-05 18:00">2019-02-05 18:00</time></a>
-            </p>
-                <p class="commentline">
-        
-    <a href="posts/quantitative-data-analysis-of-the-2d-ising-model/#disqus_thread" data-disqus-identifier="cache/posts/quantitative-data-analysis-of-the-2d-ising-model.html">Comments</a>
-
-
-        </p>
-</div>
-    </header><div class="p-summary entry-summary">
-    <div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="posts/parallelizable-numpy-implementation-of-2d-ising-model">Last time, we made a neat little implementation of a 2D Ising model simulation</a>, and we showed that it looks reasonable. Well, that it might, but we can't be certain of that! I know I said that next time we would, er, <code>%timeit</code>, put it on the GPU and make it GO FAST, but perhaps it's a better idea to start with some data analysis first, making sure the result we're getting are quantitatively what we would like them to be - physical.</p>
-<p class="more"><a href="posts/quantitative-data-analysis-of-the-2d-ising-model/">Read more…</a></p>
-</div>
-</div>
-</div>
     </div>
     </article>
 </div>
