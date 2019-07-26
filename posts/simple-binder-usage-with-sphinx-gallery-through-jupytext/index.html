@@ -144,14 +144,14 @@ turn python scripts with comments into Sphinx pages and Jupyter Notebooks. I fig
 <div class="section" id="using-jupytext">
 <h2>Using Jupytext</h2>
 <p><a class="reference external" href="https://github.com/mwouts/jupytext/">The Jupytext project</a> is kind of like <a class="reference external" href="https://github.com/jupyter/nbconvert">nbconvert</a>, but two-way. It lets you turn notebooks into scripts and vice versa. The interesting thing is that, <a class="reference external" href="https://jupytext.readthedocs.io/en/latest/formats.html#sphinx-gallery-scripts">as per Jupytext's documentation</a>, it is possible to let Binder's jupyter instance parse sphinx-gallery style <tt class="docutils literal">.py</tt> files as jupyter notebooks. This was done in <a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/pull/656/files">PlasmaPy#656</a> . First, let's instruct the in-binder Jupyter instance to parse <tt class="docutils literal">.py</tt> files in <tt class="docutils literal">.jupyter/jupyter_notebook_config.py</tt> via blatant copy-paste:</p>
-<pre class="code python"><a name="rest_code_4b231f2c67fe4f528844ee1a43a5b6b8-1"></a><span class="n">c</span><span class="o">.</span><span class="n">NotebookApp</span><span class="o">.</span><span class="n">contents_manager_class</span> <span class="o">=</span> <span class="s2">"jupytext.TextFileContentsManager"</span>
-<a name="rest_code_4b231f2c67fe4f528844ee1a43a5b6b8-2"></a><span class="n">c</span><span class="o">.</span><span class="n">ContentsManager</span><span class="o">.</span><span class="n">preferred_jupytext_formats_read</span> <span class="o">=</span> <span class="s2">"py:sphinx"</span>
-<a name="rest_code_4b231f2c67fe4f528844ee1a43a5b6b8-3"></a><span class="n">c</span><span class="o">.</span><span class="n">ContentsManager</span><span class="o">.</span><span class="n">sphinx_convert_rst2md</span> <span class="o">=</span> <span class="bp">True</span>
+<pre class="code python"><a name="rest_code_59b264b2691e4f9c9447036c3bd6d051-1"></a><span class="n">c</span><span class="o">.</span><span class="n">NotebookApp</span><span class="o">.</span><span class="n">contents_manager_class</span> <span class="o">=</span> <span class="s2">"jupytext.TextFileContentsManager"</span>
+<a name="rest_code_59b264b2691e4f9c9447036c3bd6d051-2"></a><span class="n">c</span><span class="o">.</span><span class="n">ContentsManager</span><span class="o">.</span><span class="n">preferred_jupytext_formats_read</span> <span class="o">=</span> <span class="s2">"py:sphinx"</span>
+<a name="rest_code_59b264b2691e4f9c9447036c3bd6d051-3"></a><span class="n">c</span><span class="o">.</span><span class="n">ContentsManager</span><span class="o">.</span><span class="n">sphinx_convert_rst2md</span> <span class="o">=</span> <span class="bp">True</span>
 </pre>
 <p>And then let's also add a <tt class="docutils literal">binder/requirements.txt</tt> file that lets Binder know what Python packages to download while building the repository's image. The version I had there was pretty shoddy, as CI/<tt class="docutils literal">setup.py</tt>/packaging errors surfaced while I was tinkering with this. Long story short, something like this should do:</p>
-<pre class="code text"><a name="rest_code_8de7013963bf41f9837054730d553502-1"></a>-r ../requirements/automated-documentation-tests.txt
-<a name="rest_code_8de7013963bf41f9837054730d553502-2"></a>jupytext
-<a name="rest_code_8de7013963bf41f9837054730d553502-3"></a>.
+<pre class="code text"><a name="rest_code_b32a7e759b73473fb88d8bc99088bd37-1"></a>-r ../requirements/automated-documentation-tests.txt
+<a name="rest_code_b32a7e759b73473fb88d8bc99088bd37-2"></a>jupytext
+<a name="rest_code_b32a7e759b73473fb88d8bc99088bd37-3"></a>.
 </pre>
 <p>Where, in didactic order:</p>
 <ul class="simple">
@@ -167,7 +167,7 @@ turn python scripts with comments into Sphinx pages and Jupyter Notebooks. I fig
 <p>At this point all this really is is implementing what's mentioned in Jupytext's docs. The result is as follows:</p>
 <a class="reference external image-reference" href="https://mybinder.org/v2/gh/PlasmaPy/PlasmaPy/master?filepath=plasmapy%2Fexamples"><object class="align-center" data="https://mybinder.org/badge_logo.svg" type="image/svg+xml">https://mybinder.org/badge_logo.svg</object></a>
 <p>But you might notice an inconsistency in the Sphinx-rendered gallery itself: even if we were to <a class="reference external" href="https://sphinx-gallery.github.io/configuration.html#binder-links">configure docs to display Binder links</a> they will point to a path as imagined by the current implementation in Sphinx-Gallery, such as:</p>
-<pre class="code text"><a name="rest_code_e7a98d63c95c46c6a9f71446dc2d3efb-1"></a>https://gke.mybinder.org/v2/gh/PlasmaPy/PlasmaPy/master?filepath=plasmapy/examples/auto_examples/plot_physics.ipynb
+<pre class="code text"><a name="rest_code_cc0f0e283cdf43f3a60a024261c9e083-1"></a>https://gke.mybinder.org/v2/gh/PlasmaPy/PlasmaPy/master?filepath=plasmapy/examples/auto_examples/plot_physics.ipynb
 </pre>
 <p>Note the spurious <tt class="docutils literal">auto_examples</tt> directory supposedly including an <tt class="docutils literal">.ipynb</tt> file. This obviously doesn't work for our use case, so we'd like to be able to change the generated links somehow...</p>
 </div>
@@ -175,45 +175,45 @@ turn python scripts with comments into Sphinx pages and Jupyter Notebooks. I fig
 <h2>Monkeypatching</h2>
 <p>This (or rather, <a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/pull/658/files">PlasmaPy#658</a> ) is where it gets dirty. The solution developed in cooperation with Stuart Mumford (of SunPy fame, who contributed the idea which I implemented) is monkeypatching sphinx-gallery's link generation code. It's simple, yet effective.</p>
 <p>Let's use this config for <tt class="docutils literal"><span class="pre">sphinx-gallery</span></tt>:</p>
-<pre class="code python"><a name="rest_code_1d92176efb344121aba8502b49901fbf-1"></a><span class="n">sphinx_gallery_conf</span> <span class="o">=</span> <span class="p">{</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-2"></a>        <span class="c1"># path to your examples scripts</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-3"></a>        <span class="s1">'examples_dirs'</span><span class="p">:</span> <span class="s1">'../plasmapy/examples'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-4"></a>        <span class="c1"># path where to save gallery generated examples</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-5"></a>        <span class="s1">'backreferences_dir'</span><span class="p">:</span> <span class="s1">'gen_modules/backreferences'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-6"></a>        <span class="s1">'gallery_dirs'</span><span class="p">:</span> <span class="s1">'auto_examples'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-7"></a>        <span class="s1">'binder'</span><span class="p">:</span> <span class="p">{</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-8"></a>                <span class="s1">'org'</span><span class="p">:</span> <span class="s1">'PlasmaPy'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-9"></a>                <span class="s1">'repo'</span><span class="p">:</span> <span class="s1">'PlasmaPy'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-10"></a>                <span class="s1">'branch'</span><span class="p">:</span> <span class="s1">'master'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-11"></a>                <span class="s1">'binderhub_url'</span><span class="p">:</span> <span class="s1">'https://mybinder.org'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-12"></a>                <span class="s1">'dependencies'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'../binder/requirements.txt'</span><span class="p">],</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-13"></a>                <span class="s1">'notebooks_dir'</span><span class="p">:</span> <span class="s1">'plasmapy/examples'</span><span class="p">,</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-14"></a>        <span class="p">}</span>
-<a name="rest_code_1d92176efb344121aba8502b49901fbf-15"></a><span class="p">}</span>
+<pre class="code python"><a name="rest_code_aeccd884556048c6b406d954a63369fc-1"></a><span class="n">sphinx_gallery_conf</span> <span class="o">=</span> <span class="p">{</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-2"></a>        <span class="c1"># path to your examples scripts</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-3"></a>        <span class="s1">'examples_dirs'</span><span class="p">:</span> <span class="s1">'../plasmapy/examples'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-4"></a>        <span class="c1"># path where to save gallery generated examples</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-5"></a>        <span class="s1">'backreferences_dir'</span><span class="p">:</span> <span class="s1">'gen_modules/backreferences'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-6"></a>        <span class="s1">'gallery_dirs'</span><span class="p">:</span> <span class="s1">'auto_examples'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-7"></a>        <span class="s1">'binder'</span><span class="p">:</span> <span class="p">{</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-8"></a>                <span class="s1">'org'</span><span class="p">:</span> <span class="s1">'PlasmaPy'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-9"></a>                <span class="s1">'repo'</span><span class="p">:</span> <span class="s1">'PlasmaPy'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-10"></a>                <span class="s1">'branch'</span><span class="p">:</span> <span class="s1">'master'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-11"></a>                <span class="s1">'binderhub_url'</span><span class="p">:</span> <span class="s1">'https://mybinder.org'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-12"></a>                <span class="s1">'dependencies'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'../binder/requirements.txt'</span><span class="p">],</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-13"></a>                <span class="s1">'notebooks_dir'</span><span class="p">:</span> <span class="s1">'plasmapy/examples'</span><span class="p">,</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-14"></a>        <span class="p">}</span>
+<a name="rest_code_aeccd884556048c6b406d954a63369fc-15"></a><span class="p">}</span>
 </pre>
 <p>and add this fragment of <tt class="docutils literal">sphinx_gallery.binder</tt> code with a modification into Sphinx's <tt class="docutils literal">conf.py</tt> file:</p>
-<pre class="code python"><a name="rest_code_4f099ad694f54627b76f82bffc9761f2-1"></a><span class="c1"># Patch sphinx_gallery.binder.gen_binder_rst so as to point to .py file in repository</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-2"></a><span class="kn">import</span> <span class="nn">sphinx_gallery.binder</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-3"></a><span class="k">def</span> <span class="nf">patched_gen_binder_rst</span><span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="n">binder_conf</span><span class="p">,</span> <span class="n">gallery_conf</span><span class="p">):</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-4"></a>    <span class="sd">"""Generate the RST + link for the Binder badge.</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-5"></a><span class="sd">    ...</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-6"></a><span class="sd">    """</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-7"></a>    <span class="n">binder_conf</span> <span class="o">=</span> <span class="n">sphinx_gallery</span><span class="o">.</span><span class="n">binder</span><span class="o">.</span><span class="n">check_binder_conf</span><span class="p">(</span><span class="n">binder_conf</span><span class="p">)</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-8"></a>    <span class="n">binder_url</span> <span class="o">=</span> <span class="n">sphinx_gallery</span><span class="o">.</span><span class="n">binder</span><span class="o">.</span><span class="n">gen_binder_url</span><span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="n">binder_conf</span><span class="p">,</span> <span class="n">gallery_conf</span><span class="p">)</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-9"></a>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-10"></a>    <span class="c1"># I added the line below:</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-11"></a>    <span class="n">binder_url</span> <span class="o">=</span> <span class="n">binder_url</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">gallery_conf</span><span class="p">[</span><span class="s1">'gallery_dirs'</span><span class="p">]</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">sep</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"ipynb"</span><span class="p">,</span> <span class="s2">"py"</span><span class="p">)</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-12"></a>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-13"></a>    <span class="n">rst</span> <span class="o">=</span> <span class="p">(</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-14"></a>            <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-15"></a>            <span class="s2">"  .. container:: binder-badge</span><span class="se">\n\n</span><span class="s2">"</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-16"></a>            <span class="s2">"    .. image:: https://mybinder.org/badge_logo.svg</span><span class="se">\n</span><span class="s2">"</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-17"></a>            <span class="s2">"      :target: {}</span><span class="se">\n</span><span class="s2">"</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-18"></a>            <span class="s2">"      :width: 150 px</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">binder_url</span><span class="p">)</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-19"></a>    <span class="k">return</span> <span class="n">rst</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-20"></a>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-21"></a><span class="c1"># And then we finish our monkeypatching misdeed by redirecting sphinx-gallery to use our function:</span>
-<a name="rest_code_4f099ad694f54627b76f82bffc9761f2-22"></a><span class="n">sphinx_gallery</span><span class="o">.</span><span class="n">binder</span><span class="o">.</span><span class="n">gen_binder_rst</span> <span class="o">=</span> <span class="n">patched_gen_binder_rst</span>
+<pre class="code python"><a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-1"></a><span class="c1"># Patch sphinx_gallery.binder.gen_binder_rst so as to point to .py file in repository</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-2"></a><span class="kn">import</span> <span class="nn">sphinx_gallery.binder</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-3"></a><span class="k">def</span> <span class="nf">patched_gen_binder_rst</span><span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="n">binder_conf</span><span class="p">,</span> <span class="n">gallery_conf</span><span class="p">):</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-4"></a>    <span class="sd">"""Generate the RST + link for the Binder badge.</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-5"></a><span class="sd">    ...</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-6"></a><span class="sd">    """</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-7"></a>    <span class="n">binder_conf</span> <span class="o">=</span> <span class="n">sphinx_gallery</span><span class="o">.</span><span class="n">binder</span><span class="o">.</span><span class="n">check_binder_conf</span><span class="p">(</span><span class="n">binder_conf</span><span class="p">)</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-8"></a>    <span class="n">binder_url</span> <span class="o">=</span> <span class="n">sphinx_gallery</span><span class="o">.</span><span class="n">binder</span><span class="o">.</span><span class="n">gen_binder_url</span><span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="n">binder_conf</span><span class="p">,</span> <span class="n">gallery_conf</span><span class="p">)</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-9"></a>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-10"></a>    <span class="c1"># I added the line below:</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-11"></a>    <span class="n">binder_url</span> <span class="o">=</span> <span class="n">binder_url</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">gallery_conf</span><span class="p">[</span><span class="s1">'gallery_dirs'</span><span class="p">]</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">sep</span><span class="p">,</span> <span class="s2">""</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"ipynb"</span><span class="p">,</span> <span class="s2">"py"</span><span class="p">)</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-12"></a>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-13"></a>    <span class="n">rst</span> <span class="o">=</span> <span class="p">(</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-14"></a>            <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-15"></a>            <span class="s2">"  .. container:: binder-badge</span><span class="se">\n\n</span><span class="s2">"</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-16"></a>            <span class="s2">"    .. image:: https://mybinder.org/badge_logo.svg</span><span class="se">\n</span><span class="s2">"</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-17"></a>            <span class="s2">"      :target: {}</span><span class="se">\n</span><span class="s2">"</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-18"></a>            <span class="s2">"      :width: 150 px</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">binder_url</span><span class="p">)</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-19"></a>    <span class="k">return</span> <span class="n">rst</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-20"></a>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-21"></a><span class="c1"># And then we finish our monkeypatching misdeed by redirecting sphinx-gallery to use our function:</span>
+<a name="rest_code_96bfcdff0f4e4b08bedc52f0fa70b681-22"></a><span class="n">sphinx_gallery</span><span class="o">.</span><span class="n">binder</span><span class="o">.</span><span class="n">gen_binder_rst</span> <span class="o">=</span> <span class="n">patched_gen_binder_rst</span>
 </pre>
 <p>The current gallery is located <a class="reference external" href="http://docs.plasmapy.org/en/latest/auto_examples/index.html">here</a>, and an example link is <a class="reference external" href="https://mybinder.org/v2/gh/PlasmaPy/PlasmaPy/master?filepath=plasmapy/examples/particle_stepper.py">https://mybinder.org/v2/gh/PlasmaPy/PlasmaPy/master?filepath=plasmapy/examples/particle_stepper.py</a> - and you should instantly see it points to the right spot!</p>
 <p>Obviously, it would be better to implement such link customization in sphinx-gallery itself somehow, but it's up to their maintainers to decide whether this kind of combo usage with Jupytext is in scope for their project. For now, the monkeypatch solution works decently. I'll try to update this post if that comes about.</p>
