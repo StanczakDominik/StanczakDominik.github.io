@@ -162,7 +162,7 @@ $$\vec{t} = \tan{\frac{\theta}{2}} \vec{b} \tag{Boris-A}$$<p>And there's a subtl
 <div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">tan</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">tan</span>
 <span class="n">theta</span> <span class="o">=</span> <span class="mf">0.1</span>
 
 <span class="n">just_division</span> <span class="o">=</span> <span class="o">%</span><span class="k">timeit</span> -o theta/2
@@ -572,8 +572,8 @@ $$\vec{t} = \tan{\frac{\theta}{2}} \vec{b} \tag{Boris-A}$$<p>And there's a subtl
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">array_A</span><span class="p">,</span> <span class="n">array_B</span><span class="p">,</span> <span class="n">array_C</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="s2">"position"</span><span class="p">,</span> <span class="s2">"velocity"</span><span class="p">],</span> <span class="n">drift</span><span class="p">(</span><span class="n">BorisA</span><span class="p">),</span> <span class="n">drift</span><span class="p">(</span><span class="n">BorisB</span><span class="p">),</span> <span class="n">drift</span><span class="p">(</span><span class="n">BorisC</span><span class="p">)):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for rotation."</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for rotation."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for rotation."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for rotation."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -621,8 +621,8 @@ BorisB and BorisC DO NOT agree on velocity for rotation.
 <span class="n">borisB_drift</span> <span class="o">=</span> <span class="n">drift</span><span class="p">(</span><span class="n">BorisB</span><span class="p">,</span> <span class="n">E</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">B</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">borisA_drift</span> <span class="o">=</span> <span class="n">drift</span><span class="p">(</span><span class="n">BorisA</span><span class="p">,</span> <span class="n">E</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">B</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">array_A</span><span class="p">,</span> <span class="n">array_B</span><span class="p">,</span> <span class="n">array_C</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="s2">"position"</span><span class="p">,</span> <span class="s2">"velocity"</span><span class="p">],</span> <span class="n">borisA_drift</span><span class="p">,</span> <span class="n">borisB_drift</span><span class="p">,</span> <span class="n">borisC_drift</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> on the ExB drift."</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> on the ExB drift."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> on the ExB drift."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=1e-15) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> on the ExB drift."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -682,11 +682,11 @@ $$ \phi = \frac{0.01}{\sqrt{x^2 + y^2)}} $$$$ \vec{B} = \sqrt{x^2 + y^2} $$<p>wi
 <div class="prompt input_prompt">In [12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sympy.abc</span> <span class="k">import</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sympy.abc</span> <span class="kn">import</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span>
 <span class="n">phi</span> <span class="o">=</span> <span class="mf">0.01</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">**-</span><span class="mf">0.5</span>
 <span class="n">phi</span>
 
-<span class="kn">from</span> <span class="nn">sympy</span> <span class="k">import</span> <span class="n">lambdify</span>
+<span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">lambdify</span>
 
 <span class="n">Ex</span> <span class="o">=</span> <span class="o">-</span><span class="n">phi</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 <span class="n">Ey</span> <span class="o">=</span> <span class="o">-</span><span class="n">phi</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
@@ -825,8 +825,8 @@ $$ \phi = \frac{0.01}{\sqrt{x^2 + y^2)}} $$$$ \vec{B} = \sqrt{x^2 + y^2} $$<p>wi
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rtol</span> <span class="o">=</span> <span class="mf">1e-9</span>
 <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">array_A</span><span class="p">,</span> <span class="n">array_B</span><span class="p">,</span> <span class="n">array_C</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="s2">"position"</span><span class="p">,</span> <span class="s2">"velocity"</span><span class="p">],</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisA</span><span class="p">),</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisB</span><span class="p">),</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisC</span><span class="p">)):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -872,8 +872,8 @@ BorisB and BorisC DO NOT agree on velocity for long term stability for relative 
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rtol</span> <span class="o">=</span> <span class="mf">1e-10</span>
 <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">array_A</span><span class="p">,</span> <span class="n">array_B</span><span class="p">,</span> <span class="n">array_C</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="s2">"position"</span><span class="p">,</span> <span class="s2">"velocity"</span><span class="p">],</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisA</span><span class="p">),</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisB</span><span class="p">),</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisC</span><span class="p">)):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -909,8 +909,8 @@ BorisB and BorisC DO NOT agree on velocity for long term stability for relative 
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rtol</span> <span class="o">=</span> <span class="mf">1e-15</span>
 <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">array_A</span><span class="p">,</span> <span class="n">array_B</span><span class="p">,</span> <span class="n">array_C</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">([</span><span class="s2">"position"</span><span class="p">,</span> <span class="s2">"velocity"</span><span class="p">],</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisA</span><span class="p">),</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisB</span><span class="p">),</span> <span class="n">stability</span><span class="p">(</span><span class="n">BorisC</span><span class="p">)):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisA and BorisC {'' if np.allclose(array_A, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"BorisB and BorisC {'' if np.allclose(array_B, array_C, atol=1e-20, rtol=rtol) else 'DO NOT '}agree on </span><span class="si">{name}</span><span class="s2"> for long term stability for relative tolerance </span><span class="si">{rtol}</span><span class="s2">."</span><span class="p">)</span>
 </pre></div>
 
     </div>
