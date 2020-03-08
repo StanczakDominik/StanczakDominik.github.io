@@ -315,7 +315,7 @@ navbar-dark bg-dark
 <span class="c1"># sanity check!</span>
 <span class="n">assert_allclose</span><span class="p">(</span><span class="n">pairwise_numpy_result</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"The direct summation implementation is {direct_summation_timeit.average / pairwise_numpy_timing.average:.2f} slower than NumPy."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"The direct summation implementation is </span><span class="si">{</span><span class="n">direct_summation_timeit</span><span class="o">.</span><span class="n">average</span> <span class="o">/</span> <span class="n">pairwise_numpy_timing</span><span class="o">.</span><span class="n">average</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> slower than NumPy."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -367,7 +367,7 @@ The direct summation implementation is 49.11 slower than NumPy.
 
 <span class="n">assert_allclose</span><span class="p">(</span><span class="n">pairwise_numpy_result</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Our Numba implementation is {pairwise_numpy_timing.average/numba_jit_timing.average:.2f} times faster than NumPy!"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Our Numba implementation is </span><span class="si">{</span><span class="n">pairwise_numpy_timing</span><span class="o">.</span><span class="n">average</span><span class="o">/</span><span class="n">numba_jit_timing</span><span class="o">.</span><span class="n">average</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> times faster than NumPy!"</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -424,7 +424,7 @@ Our Numba implementation is 12.31 times faster than NumPy!
 
 <span class="n">assert_allclose</span><span class="p">(</span><span class="n">pairwise_numpy_result</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Using `parallel=True` grants us a further {numba_jit_timing.average/numba_jit_parallel_timing.average:.2f}x speedup."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Using `parallel=True` grants us a further </span><span class="si">{</span><span class="n">numba_jit_timing</span><span class="o">.</span><span class="n">average</span><span class="o">/</span><span class="n">numba_jit_parallel_timing</span><span class="o">.</span><span class="n">average</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">x speedup."</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -477,7 +477,7 @@ Using `parallel=True` grants us a further 3.90x speedup.
 
 <span class="n">direct_summation_prange_timeit</span> <span class="o">=</span> <span class="o">%</span><span class="k">timeit</span> -o -n1 -r1 scalar_distance_prange(r, output)
 <span class="n">assert_allclose</span><span class="p">(</span><span class="n">pairwise_numpy_result</span><span class="p">,</span> <span class="n">output</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{direct_summation_prange_timeit.average:.5f}</span><span class="s2">s vs </span><span class="si">{direct_summation_timeit.average:.5f}</span><span class="s2">s."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">direct_summation_prange_timeit</span><span class="o">.</span><span class="n">average</span><span class="si">:</span><span class="s2">.5f</span><span class="si">}</span><span class="s2">s vs </span><span class="si">{</span><span class="n">direct_summation_timeit</span><span class="o">.</span><span class="n">average</span><span class="si">:</span><span class="s2">.5f</span><span class="si">}</span><span class="s2">s."</span><span class="p">)</span>
 </pre></div>
 
     </div>
