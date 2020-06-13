@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Export YouTube's Watch Later playlist | Mostly Plasma Physics</title>
+<title>Export YouTube's Watch Later playlist | Prematurely optimizing</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -29,7 +29,7 @@ MathJax.Hub.Config({
 <meta name="author" content="Dominik Stańczak">
 <link rel="prev" href="../self-organized-criticality-student-project-post-mortem/" title="Self-organized criticality - student project post-mortem" type="text/html">
 <link rel="next" href="../recent-happenings/" title="Recent happenings" type="text/html">
-<meta property="og:site_name" content="Mostly Plasma Physics">
+<meta property="og:site_name" content="Prematurely optimizing">
 <meta property="og:title" content="Export YouTube's Watch Later playlist">
 <meta property="og:url" content="https://stanczakdominik.github.io/posts/youtube-watch-later-export.rst/">
 <meta property="og:description" content="YouTube is increasingly becoming a walled garden. One of the dark patterns I see in it is that the Watch Later playlist, which you may have gathered over what feels like a millenia (so many lectures, ">
@@ -47,7 +47,7 @@ navbar-dark bg-dark
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href="https://stanczakdominik.github.io/">
 
-            <span id="blog-title">Mostly Plasma Physics</span>
+            <span id="blog-title">Prematurely optimizing</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -129,10 +129,10 @@ navbar-dark bg-dark
 <p>YouTube is increasingly becoming a walled garden. One of the dark patterns I see in it is that the Watch Later playlist, which you may have gathered over what feels like a millenia (so many lectures, so little time...), cannot be exported - you can only add one video at a time to another playlist. That obviously doesn't scale. Here's a quick trick to solve that!</p>
 <!-- TEASER_END -->
 <p>Take this URL:</p>
-<pre class="code text"><a name="rest_code_043b8797cade4faa8a9f378d47bafc19-1"></a>https://www.youtube.com/playlist?list=WL
+<pre class="code text"><a name="rest_code_44d2840ac1534628bd050dd8052a73de-1"></a>https://www.youtube.com/playlist?list=WL
 </pre>
 <p>Append <cite>&amp;disable_polymer=true</cite> to it:</p>
-<pre class="code text"><a name="rest_code_729ed876042340d4a61962a0cd2a4736-1"></a>https://www.youtube.com/playlist?list=WL&amp;disable_polymer=true
+<pre class="code text"><a name="rest_code_bf461ac7a459442e9c22e1d4a52124b2-1"></a>https://www.youtube.com/playlist?list=WL&amp;disable_polymer=true
 </pre>
 <p>And this should bring you to an older version of the website, where if you click the 3-dot "More" menu, you'll find an "Add all to..." button. This allows you to export your Watch Later playlist to another playlist, without the annoying limitations. Once you're there, you can use better software (<a class="reference external" href="https://github.com/TeamNewPipe/NewPipe">NewPipe</a>, for example, or <a class="reference external" href="https://webapps.stackexchange.com/questions/27589/how-do-i-export-my-youtube-playlists">another solution from the many available</a>) to store the playlist elsewhere. I did not investigate those, as I simply wanted to mirror my Watch Later playlist in NewPipe.</p>
 <p>Sadly, the same method does not work for the Liked Videos page - which is why you should probably not trust YouTube with your data as much as you likely do now.</p>
