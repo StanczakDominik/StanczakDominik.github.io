@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="description" content="In this post, we'll redo last post's SC2 replay analysis, except we'll take the three matchups available and infer separate MMR values for each of those.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bayesian modeling of per-matchup StarCraft II MMR | Prematurely optimizing</title>
+<title>Learning my per-matchup MMR in Starcraft II through PyMC3 | Prematurely optimizing</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -30,7 +30,7 @@ MathJax.Hub.Config({
 <meta name="author" content="Dominik Stańczak">
 <link rel="prev" href="../bayes-sc2-part-1/" title="Bayesian modeling of StarCraft II ladder performance" type="text/html">
 <meta property="og:site_name" content="Prematurely optimizing">
-<meta property="og:title" content="Bayesian modeling of per-matchup StarCraft II MMR">
+<meta property="og:title" content="Learning my per-matchup MMR in Starcraft II through PyMC3">
 <meta property="og:url" content="https://stanczakdominik.github.io/posts/bayes-sc2-part-2/">
 <meta property="og:description" content="In this post, we'll redo last post's SC2 replay analysis, except we'll take the three matchups available and infer separate MMR values for each of those.">
 <meta property="og:type" content="article">
@@ -106,7 +106,7 @@ navbar-dark bg-dark
         
         
         
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Bayesian modeling of per-matchup StarCraft II MMR</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Learning my per-matchup MMR in Starcraft II through PyMC3</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -14973,7 +14973,7 @@ dl.xr-attrs {
         <script>
         var disqus_shortname ="stanczakdominik-github-io",
             disqus_url="https://stanczakdominik.github.io/posts/bayes-sc2-part-2/",
-        disqus_title="Bayesian modeling of per-matchup StarCraft II MMR",
+        disqus_title="Learning my per-matchup MMR in Starcraft II through PyMC3",
         disqus_identifier="cache/posts/bayes-sc2-2.html",
         disqus_config = function () {
             this.language = "en";
