@@ -17,6 +17,7 @@
 <link rel="stylesheet" type="text/css" href="../../assets/css/tipuesearch.css">
 <meta name="author" content="Dominik Stańczak">
 <link rel="prev" href="../bayes-sc2-part-2/" title="Learning my per-matchup MMR in Starcraft II through PyMC3" type="text/html">
+<link rel="next" href="../short-updates-bayes-masters-plasmapy-protoss-julia/" title="Short updates: Bayes, Master's, PlasmaPy, Protoss, Julia" type="text/html">
 <meta property="og:site_name" content="Prematurely optimizing">
 <meta property="og:title" content="Parsing SC2 replays for later analysis">
 <meta property="og:url" content="https://stanczakdominik.github.io/posts/sc2-parse-replays/">
@@ -187,12 +188,12 @@ navbar-dark bg-dark
 
  
  
-<div id="79dccd7e-dbe4-4373-9de6-fb2de6295fab"></div>
+<div id="f1b13215-a856-4371-abb3-93b8e5c02c3a"></div>
 <div class="output_subarea output_widget_view ">
 <script type="text/javascript">
-var element = $('#79dccd7e-dbe4-4373-9de6-fb2de6295fab');
+var element = $('#f1b13215-a856-4371-abb3-93b8e5c02c3a');
 </script><script type="application/vnd.jupyter.widget-view+json">
-{"model_id": "a6327b8ecfb84ea983489320741c6c3e", "version_major": 2, "version_minor": 0}
+{"model_id": "9847ef15b3b8474485e7b160ddcb92f5", "version_major": 2, "version_minor": 0}
 </script>
 </div>
 
@@ -1212,20 +1213,20 @@ We successfully pulled data out of 462 replays, which is 97.26% of the total!
     <span class="n">my_id</span> <span class="o">=</span> <span class="n">grab_player_id</span><span class="p">(</span><span class="n">players</span><span class="p">,</span> <span class="n">PLAYER_NAME</span><span class="p">)</span>
     <span class="n">enemy_id</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="p">(</span><span class="n">my_id</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="k">else</span> <span class="mi">2</span>
     
+    <span class="n">mmr</span> <span class="o">=</span> <span class="n">summary</span><span class="p">[</span><span class="s1">'mmr'</span><span class="p">][</span><span class="n">my_id</span><span class="p">]</span>
+
+    <span class="n">enemy_mmr</span> <span class="o">=</span> <span class="n">summary</span><span class="p">[</span><span class="s1">'mmr'</span><span class="p">][</span><span class="n">enemy_id</span><span class="p">]</span>
     <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
         <span class="nb">dict</span><span class="p">(</span>
             <span class="n">replay_file</span> <span class="o">=</span> <span class="n">replay_file</span><span class="p">,</span>
             <span class="n">time_played_at</span> <span class="o">=</span> <span class="n">meta</span><span class="p">[</span><span class="s1">'time_played_at'</span><span class="p">],</span>
             <span class="n">win</span> <span class="o">=</span> <span class="n">meta</span><span class="p">[</span><span class="s2">"winner"</span><span class="p">]</span> <span class="o">==</span> <span class="n">my_id</span><span class="p">,</span>
-            
+            <span class="n">mmr</span><span class="o">=</span><span class="n">mmr</span><span class="p">,</span>
+            <span class="n">enemy_mmr</span><span class="o">=</span><span class="n">enemy_mmr</span><span class="p">,</span>
+            <span class="n">mmr_diff</span> <span class="o">=</span> <span class="n">mmr</span> <span class="o">-</span> <span class="n">enemy_mmr</span>
             <span class="n">race</span> <span class="o">=</span> <span class="n">players</span><span class="p">[</span><span class="n">my_id</span><span class="p">]</span><span class="o">.</span><span class="n">race</span><span class="p">,</span>
             <span class="n">enemy_race</span> <span class="o">=</span> <span class="n">players</span><span class="p">[</span><span class="n">enemy_id</span><span class="p">]</span><span class="o">.</span><span class="n">race</span><span class="p">,</span>
-            
-            <span class="n">mmr</span> <span class="o">=</span> <span class="n">summary</span><span class="p">[</span><span class="s1">'mmr'</span><span class="p">][</span><span class="n">my_id</span><span class="p">],</span>
-            
-            <span class="n">enemy_mmr</span> <span class="o">=</span> <span class="n">summary</span><span class="p">[</span><span class="s1">'mmr'</span><span class="p">][</span><span class="n">enemy_id</span><span class="p">],</span>
             <span class="n">enemy_nickame</span> <span class="o">=</span> <span class="n">players</span><span class="p">[</span><span class="n">enemy_id</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
-            
             <span class="n">map_name</span> <span class="o">=</span> <span class="n">meta</span><span class="p">[</span><span class="s2">"map"</span><span class="p">],</span>
             <span class="n">duration</span> <span class="o">=</span> <span class="n">meta</span><span class="p">[</span><span class="s1">'game_length'</span><span class="p">],</span>
         <span class="p">)</span>
@@ -1257,7 +1258,7 @@ We successfully pulled data out of 462 replays, which is 97.26% of the total!
  
 
 <script type="application/vnd.jupyter.widget-state+json">
-{"state": {"06cffda8459b4a2bbcaca3832a673263": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "4e301cbe84ca43309f7557696b05aaad": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"bar_style": "success", "description": "100%", "layout": "IPY_MODEL_06cffda8459b4a2bbcaca3832a673263", "max": 475, "style": "IPY_MODEL_8f2670bee78f465c8d39676eb376bf4c", "value": 475}}, "653e4152a833463195e8359b3e812161": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"description_width": ""}}, "8f2670bee78f465c8d39676eb376bf4c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"description_width": "initial"}}, "a6327b8ecfb84ea983489320741c6c3e": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"children": ["IPY_MODEL_4e301cbe84ca43309f7557696b05aaad", "IPY_MODEL_ee6d44c8a7b846ed81ffc944476ec5e2"], "layout": "IPY_MODEL_dad73e5eb0e041fc94de8561ec1edb71"}}, "dad73e5eb0e041fc94de8561ec1edb71": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "ee6d44c8a7b846ed81ffc944476ec5e2": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"layout": "IPY_MODEL_fbb43262914b4884ac4f2829f4e14d53", "style": "IPY_MODEL_653e4152a833463195e8359b3e812161", "value": " 475/475 [06:56&lt;00:00,  1.14it/s]"}}, "fbb43262914b4884ac4f2829f4e14d53": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}}, "version_major": 2, "version_minor": 0}
+{"state": {}, "version_major": 2, "version_minor": 0}
 </script>
 </div>
     </div>
@@ -1268,6 +1269,9 @@ We successfully pulled data out of 462 replays, which is 97.26% of the total!
 <ul class="pager hidden-print">
 <li class="previous">
                 <a href="../bayes-sc2-part-2/" rel="prev" title="Learning my per-matchup MMR in Starcraft II through PyMC3">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../short-updates-bayes-masters-plasmapy-protoss-julia/" rel="next" title="Short updates: Bayes, Master's, PlasmaPy, Protoss, Julia">Next post</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
         
