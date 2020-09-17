@@ -1,441 +1,633 @@
-,time_played_at,win,race,enemy_race,mmr,mmr_diff,enemy_nickame,map_name,duration
-0,2020-05-27 10:32:29+00:00,True,Protoss,Terran,4004,-169,giletjaune,Nightshade LE,601
-1,2020-06-09 17:11:15+00:00,False,Protoss,Zerg,4186,39,djakette,Eternal Empire LE,420
-2,2020-02-02 17:27:27+00:00,True,Protoss,Terran,3971,58,Syocto,Ephemeron LE,10
-3,2019-12-20 18:53:00+00:00,True,Zerg,Terran,2984,-106,Jason,Simulacrum LE,569
-4,2019-12-09 20:36:21+00:00,True,Protoss,Zerg,4015,-9,&lt;OGCOСK&gt;<sp/>ShushYo,Nightshade LE,454
-5,2019-10-31 18:26:16+00:00,False,Zerg,Zerg,3042,-36,Rwzzz,Acropolis LE,218
-6,2020-01-05 20:34:11+00:00,False,Protoss,Protoss,3992,-22,&lt;iksD&gt;<sp/>OzjaszGoldbe,World of Sleepers LE,110
-7,2020-01-06 18:55:58+00:00,False,Terran,Protoss,0,0,&lt;Blacer&gt;<sp/>Hakerica,Ephemeron LE,765
-8,2019-10-06 12:36:36+00:00,True,Protoss,Protoss,3826,78,vasea,World of Sleepers LE,743
-9,2020-04-14 08:05:27+00:00,False,Protoss,Zerg,0,0,A.I. 1 (Very Easy),Zen LE,6
-10,2020-04-23 15:24:24+00:00,True,Protoss,Zerg,0,0,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,582
-11,2019-12-21 14:00:35+00:00,False,Protoss,Zerg,3937,180,RXX,Simulacrum LE,299
-12,2020-04-15 19:29:20+00:00,False,Protoss,Terran,0,0,&lt;TGCrew&gt;<sp/>Paloma,Ever Dream LE,532
-13,2019-12-24 20:35:20+00:00,True,Zerg,Protoss,3057,22,IAMFUNNYBOT,World of Sleepers LE,1456
-14,2020-04-27 11:15:08+00:00,False,Protoss,Zerg,3980,97,DupaDuupa,Zen LE,455
-15,2019-12-12 19:42:46+00:00,False,Protoss,Terran,4022,-385,cloud,Eternal Empire LE,398
-16,2020-01-19 18:32:41+00:00,True,Protoss,Terran,4010,13,MuKK,Nightshade LE,714
-17,2020-02-02 17:48:55+00:00,True,Protoss,Zerg,3970,-64,valera,Ephemeron LE,403
-18,2019-11-26 19:20:15+00:00,True,Protoss,Terran,3924,-17,Chief,World of Sleepers LE,463
-19,2019-10-05 09:12:10+00:00,True,Protoss,Zerg,-36400,-40074,&lt;TLBK&gt;<sp/>Nightly,World of Sleepers LE,755
-20,2019-10-21 11:14:30+00:00,True,Protoss,Zerg,3819,-88,&lt;IDLK&gt;<sp/>jasben,Acropolis LE,590
-21,2019-11-17 09:52:24+00:00,False,Zerg,Protoss,3054,-8,Unity,Triton LE,592
-22,2020-02-29 15:40:54+00:00,False,Protoss,Zerg,4104,-89,Othello,Nightshade LE,635
-23,2019-11-01 13:38:34+00:00,False,Zerg,Terran,3096,-60,Gladiator,Triton LE,373
-24,2020-02-10 19:37:26+00:00,True,Protoss,Zerg,4023,-9,&lt;biglol&gt;<sp/>bany,Nightshade LE,959
-25,2019-12-27 20:40:39+00:00,True,Protoss,Zerg,3914,0,Racin,Nightshade LE,911
-26,2019-09-14 07:10:24+00:00,True,Protoss,Terran,-36400,-39703,Gulgorf,Triton LE,948
-27,2019-11-18 16:17:57+00:00,True,Protoss,Protoss,3891,10,OlympusRoyal,Ephemeron LE,540
-28,2019-09-13 20:52:33+00:00,True,Protoss,Terran,-36400,-39378,oldmannap,Ephemeron LE,667
-29,2020-01-16 20:58:17+00:00,True,Protoss,Terran,3931,86,Exit,Nightshade LE,994
-30,2020-03-13 07:52:51+00:00,False,Protoss,Protoss,3984,-256,&lt;Dobro&gt;<sp/>KINE,Ever Dream LE,936
-31,2019-11-20 07:59:04+00:00,False,Protoss,Zerg,3969,-19,BuRneR,Ephemeron LE,453
-32,2020-04-27 11:29:31+00:00,True,Protoss,Terran,3955,-168,&lt;BARJO&gt;<sp/>JDH,Simulacrum LE,843
-33,2019-11-02 20:29:06+00:00,True,Protoss,Terran,3711,-25,&lt;PiGPan&gt;<sp/>Noose,World of Sleepers LE,796
-34,2019-09-23 16:05:15+00:00,True,Protoss,Zerg,-36400,-39735,leChrist,Triton LE,842
-35,2020-02-13 19:45:12+00:00,True,Protoss,Terran,4104,-121,ОТМОРОЗОК,Ephemeron LE,976
-36,2020-05-01 13:09:10+00:00,True,Protoss,Protoss,3942,-140,&lt;IBeAŚI&gt;<sp/>Epiku,Ever Dream LE,711
-37,2019-10-30 06:51:48+00:00,True,Protoss,Protoss,3881,40281,&lt;WPGG&gt;<sp/>Destructor,Ephemeron LE,18
-38,2020-02-13 18:20:49+00:00,True,Protoss,Protoss,4083,81,Salomoon,World of Sleepers LE,590
-39,2019-11-05 18:58:24+00:00,True,Protoss,Zerg,3776,24,smthFISHYcmg,World of Sleepers LE,546
-40,2019-10-12 14:27:06+00:00,True,Zerg,Protoss,2866,-21,PycckuuXAKEP,Ephemeron LE,502
-41,2019-12-03 19:10:16+00:00,False,Protoss,Protoss,4026,-78,Orian,World of Sleepers LE,817
-42,2020-06-03 18:34:39+00:00,True,Protoss,Zerg,4180,-124,feetlover,Ever Dream LE,763
-43,2019-11-18 15:58:52+00:00,True,Protoss,Zerg,3893,103,влад,Ephemeron LE,845
-44,2020-05-02 19:20:36+00:00,True,Protoss,Protoss,3944,-54,mozgj,Zen LE,823
-45,2019-11-19 19:10:36+00:00,False,Protoss,Protoss,3947,-62,&lt;TDDA&gt;<sp/>EMM,Ephemeron LE,219
-46,2019-10-22 12:04:14+00:00,False,Protoss,Zerg,3885,-465,&lt;МД86&gt;<sp/>Moldovanin,Acropolis LE,187
-47,2020-04-19 11:34:20+00:00,False,Protoss,Zerg,0,0,shadowofmich,Simulacrum LE,382
-48,2020-03-30 15:48:04+00:00,False,Protoss,Zerg,4001,4,Bee,Simulacrum LE,616
-49,2019-11-04 20:46:24+00:00,False,Protoss,Zerg,3825,-22,North,Ephemeron LE,311
-50,2020-02-18 18:56:03+00:00,True,Protoss,Zerg,4000,-95,Hello,Ephemeron LE,849
-51,2019-10-09 19:03:59+00:00,True,Zerg,Terran,2960,-21,KerMiTe,Acropolis LE,538
-52,2019-12-05 19:43:40+00:00,True,Protoss,Terran,4028,27,Niinja,World of Sleepers LE,1308
-53,2020-05-08 11:14:30+00:00,True,Protoss,Protoss,4107,60,&lt;tXs&gt;<sp/>TheBloke,Zen LE,992
-54,2019-10-10 07:41:27+00:00,False,Protoss,Zerg,3828,26,PereiRa,Winter's Gate LE,45
-55,2019-11-18 15:35:35+00:00,True,Zerg,Protoss,3014,-9,&lt;DayJ&gt;<sp/>Fuzzy,World of Sleepers LE,640
-56,2019-12-11 20:04:00+00:00,False,Protoss,Protoss,4042,14,&lt;PiGPan&gt;<sp/>TNTea,Eternal Empire LE,552
-57,2019-12-12 19:02:09+00:00,True,Protoss,Zerg,4042,13,contremaitre,World of Sleepers LE,772
-58,2019-12-20 18:42:21+00:00,False,Protoss,Zerg,3955,-205,Nyx,Simulacrum LE,329
-59,2019-12-28 20:58:25+00:00,True,Protoss,Terran,3959,22,rOoSter,Simulacrum LE,76
-60,2019-11-05 18:48:41+00:00,True,Protoss,Protoss,3752,-19,&lt;dumbfu&gt;<sp/>cheesus,Ephemeron LE,259
-61,2020-02-18 18:41:05+00:00,False,Protoss,Zerg,4019,-89,Canfup,Ephemeron LE,671
-62,2020-06-02 18:56:11+00:00,True,Protoss,Zerg,4097,69,&lt;IndyK&gt;<sp/>Wawszyn,Eternal Empire LE,874
-63,2019-11-19 19:02:22+00:00,True,Protoss,Terran,3954,384,&lt;EESC&gt;<sp/>penduloSFX,World of Sleepers LE,1003
-64,2019-11-03 11:18:56+00:00,True,Protoss,Terran,3740,-44,&lt;DaGOAT&gt;<sp/>Sinus,Acropolis LE,352
-65,2020-05-15 20:56:24+00:00,True,Protoss,Protoss,4006,46,TerenceSkill,Ever Dream LE,745
-66,2020-03-04 17:23:14+00:00,False,Protoss,Zerg,4153,-30,MothMonkey,Nightshade LE,385
-67,2019-10-29 09:14:41+00:00,True,Protoss,Protoss,3881,40281,teror,Triton LE,455
-68,2019-10-31 18:19:19+00:00,False,Zerg,Protoss,3109,0,minbear,Acropolis LE,115
-69,2019-11-19 19:33:09+00:00,True,Protoss,Zerg,3950,91,YvanDuRêve,Ephemeron LE,1173
-70,2020-04-19 11:14:04+00:00,True,Protoss,Zerg,0,0,shadowofmich,Simulacrum LE,646
-71,2020-04-17 20:26:10+00:00,False,Protoss,Protoss,4062,-31,&lt;HBGS&gt;<sp/>ShoWTimE,Golden Wall LE,297
-72,2020-04-17 20:20:05+00:00,True,Protoss,Terran,4040,-40,&lt;Peeps&gt;<sp/>ReNoVation,Simulacrum LE,443
-73,2020-01-19 18:19:18+00:00,True,Protoss,Terran,3989,10,&lt;Dytred&gt;<sp/>EmpiRE,Simulacrum LE,879
-74,2020-05-01 12:37:24+00:00,True,Protoss,Zerg,3923,153,&lt;HsDL&gt;<sp/>Zero,Ever Dream LE,805
-75,2020-03-18 12:57:49+00:00,True,Protoss,Terran,4040,-149,&lt;noIMBA&gt;<sp/>Facehugger,Golden Wall LE,865
-76,2019-10-11 09:19:52+00:00,True,Zerg,Terran,2952,39352,indy,Winter's Gate LE,696
-77,2020-03-29 20:40:34+00:00,False,Protoss,Protoss,4022,-18,&lt;SCBoys&gt;<sp/>CiRkuS,Nightshade LE,867
-78,2020-02-10 19:20:59+00:00,True,Protoss,Protoss,3999,-73,Pablink,Ephemeron LE,692
-79,2020-06-09 17:03:47+00:00,False,Protoss,Protoss,4208,14,Ziiim,Eternal Empire LE,360
-80,2019-11-02 17:55:38+00:00,False,Protoss,Zerg,3688,62,Pleydellia,Triton LE,162
-81,2020-02-17 17:15:49+00:00,True,Protoss,Terran,3997,-155,Stilgar,Ephemeron LE,1410
-82,2020-03-14 15:18:34+00:00,True,Protoss,Terran,3993,18,ODISEO,Simulacrum LE,220
-83,2020-05-15 20:43:42+00:00,True,Protoss,Zerg,0,0,A.I. 1 (Elite),Zen LE,579
-84,2020-01-13 20:56:14+00:00,False,Protoss,Terran,3968,-32,SUPERsKILLER,Nightshade LE,825
-85,2020-05-29 12:17:30+00:00,True,Protoss,Terran,4054,125,&lt;SeoYN&gt;<sp/>General,Ever Dream LE,2385
-86,2020-04-20 11:40:13+00:00,True,Protoss,Terran,4047,28,Kilkenny,Nightshade LE,788
-87,2019-11-07 18:24:02+00:00,True,Zerg,Protoss,3019,129,Icecöld,Ephemeron LE,830
-88,2020-03-09 10:57:07+00:00,False,Protoss,Terran,4068,40468,мясник,Ephemeron LE,718
-89,2020-04-15 14:50:51+00:00,False,Protoss,Zerg,4043,104,Anrik,Ever Dream LE,447
-90,2019-11-01 09:15:52+00:00,False,Protoss,Zerg,3729,-142,Ghalib,Ephemeron LE,552
-91,2020-05-01 12:42:40+00:00,True,Protoss,Protoss,3944,4,Cptred,Golden Wall LE,278
-92,2020-01-14 17:17:37+00:00,True,Protoss,Protoss,3948,12,TerenceSkill,Simulacrum LE,1171
-93,2020-03-18 12:33:17+00:00,False,Protoss,Protoss,4040,-61,ManeWicht,Nightshade LE,131
-94,2020-02-02 18:09:05+00:00,True,Protoss,Zerg,3993,104,Jetix,Ephemeron LE,1178
-95,2019-11-25 17:53:56+00:00,False,Protoss,Protoss,3949,14,Crombo,Disco Bloodbath LE,830
-96,2019-12-21 16:32:08+00:00,True,Zerg,Zerg,3023,-3,Undead,Nightshade LE,725
-97,2019-11-29 18:31:35+00:00,True,Protoss,Terran,3939,-14,&lt;ERHELM&gt;<sp/>Erik,Simulacrum LE,1015
-98,2019-10-29 18:34:48+00:00,True,Protoss,Zerg,3728,-16,&lt;Dobro&gt;<sp/>пиражок,World of Sleepers LE,911
-99,2020-04-18 20:30:57+00:00,False,Protoss,Terran,4042,-104,Alyaska,Simulacrum LE,651
-100,2020-03-02 13:26:04+00:00,True,Protoss,Protoss,4106,-84,WizZy,Simulacrum LE,390
-101,2019-10-29 11:20:33+00:00,False,Protoss,Protoss,3915,-17,abelian,Thunderbird LE,320
-102,2019-11-28 19:00:27+00:00,False,Protoss,Terran,3962,20,&lt;SILeSp&gt;<sp/>Galactus,Eternal Empire LE,307
-103,2019-12-11 20:23:18+00:00,True,Protoss,Terran,4020,8,Legionaru,Eternal Empire LE,1090
-104,2019-10-22 11:42:30+00:00,True,Protoss,Protoss,3840,83,NiGHTKiNG,World of Sleepers LE,453
-105,2020-02-11 17:52:08+00:00,True,Protoss,Protoss,4045,59,ZZtopGun,Simulacrum LE,441
-106,2020-05-07 09:42:21+00:00,True,Protoss,Terran,4062,-57,Yeezus,Zen LE,665
-107,2019-11-29 18:36:51+00:00,False,Zerg,Zerg,3050,-33,Kesko,Eternal Empire LE,267
-108,2020-01-13 20:21:41+00:00,True,Protoss,Zerg,3995,80,&lt;TARAGO&gt;<sp/>Revenge,Nightshade LE,1033
-109,2019-11-08 09:33:36+00:00,True,Protoss,Zerg,3821,-101,Zend,World of Sleepers LE,944
-110,2020-03-10 19:40:43+00:00,True,Protoss,Zerg,4032,-18,Drakezul,Simulacrum LE,1077
-111,2020-05-04 12:58:09+00:00,True,Protoss,Terran,3945,-7,Doghum,Ever Dream LE,869
-112,2020-01-18 19:38:03+00:00,True,Protoss,Zerg,3950,-30,&lt;SWWT&gt;<sp/>Epic,Ephemeron LE,719
-113,2019-12-14 10:50:21+00:00,True,Protoss,Terran,3933,-85,&lt;Div303&gt;<sp/>Dupsko,Simulacrum LE,930
-114,2019-10-20 16:35:03+00:00,True,Zerg,Zerg,3119,40,greg,Ephemeron LE,613
-115,2020-02-06 21:02:53+00:00,True,Protoss,Terran,4009,54,KJP,Nightshade LE,853
-116,2019-12-21 13:30:37+00:00,False,Protoss,Protoss,3957,1,Albus,Simulacrum LE,426
-117,2019-12-09 20:39:03+00:00,False,Protoss,Protoss,4036,-72,Heradrass,Eternal Empire LE,122
-118,2019-12-12 18:10:58+00:00,True,Protoss,Zerg,4041,49,Ciprian,Eternal Empire LE,955
-119,2019-10-08 19:28:16+00:00,True,Zerg,Zerg,2800,49,FullmetalRak,World of Sleepers LE,546
-120,2020-05-10 19:29:37+00:00,False,Protoss,Terran,4109,-18,&lt;2G1M&gt;<sp/>Mime,Zen LE,999
-121,2019-12-12 21:29:56+00:00,False,Protoss,Protoss,3957,75,Noobofsc,Simulacrum LE,709
-122,2019-12-21 13:54:33+00:00,False,Protoss,Terran,3959,6,tiwai,Eternal Empire LE,730
-123,2019-12-20 19:21:46+00:00,True,Protoss,Terran,3937,62,Neydark,Simulacrum LE,862
-124,2020-05-26 09:34:07+00:00,False,Protoss,Protoss,4046,6,kerokero,Zen LE,1136
-125,2020-01-05 20:30:44+00:00,False,Protoss,Terran,4015,27,oppresticles,Eternal Empire LE,405
-126,2019-10-29 18:17:37+00:00,False,Protoss,Zerg,3802,-110,beh,Disco Bloodbath LE,288
-127,2020-05-10 18:56:45+00:00,False,Protoss,Terran,4145,-282,Törttö,Simulacrum LE,1009
-128,2019-12-12 19:21:45+00:00,False,Protoss,Protoss,4063,12,Fraze,Nightshade LE,1163
-129,2019-10-22 11:34:42+00:00,False,Protoss,Protoss,3881,-185,&lt;НТТ&gt;<sp/>SPQR,Ephemeron LE,209
-130,2019-10-12 14:14:32+00:00,False,Zerg,Protoss,3053,-7,&lt;LSDW&gt;<sp/>kaboum,Ephemeron LE,497
-131,2020-06-10 11:27:56+00:00,False,Protoss,Terran,4125,125,Oink,Eternal Empire LE,211
-132,2020-05-02 14:40:15+00:00,False,Protoss,Zerg,3968,47,&lt;IndyK&gt;<sp/>Wawszyn,Golden Wall LE,401
-133,2019-11-12 09:49:52+00:00,True,Protoss,Terran,3870,-30,midhigh,World of Sleepers LE,363
-134,2019-11-04 20:57:05+00:00,False,Protoss,Protoss,3777,16,IIIIIIIIIIII,World of Sleepers LE,182
-135,2019-09-24 16:17:17+00:00,True,Protoss,Zerg,-36400,-41081,&lt;FxL&gt;<sp/>VokinLoksar,World of Sleepers LE,519
-136,2020-02-17 16:49:49+00:00,False,Protoss,Terran,4018,7,&lt;lLiTl&gt;<sp/>Quickman,World of Sleepers LE,800
-137,2019-11-02 17:45:05+00:00,True,Protoss,Protoss,3661,30,KKroer,Disco Bloodbath LE,585
-138,2019-10-10 20:42:11+00:00,True,Protoss,Protoss,3827,126,Pippuri,Acropolis LE,697
-139,2020-05-03 20:09:30+00:00,False,Protoss,Zerg,3966,78,RomaNo,Purity and Industry LE,270
-140,2020-05-02 14:53:55+00:00,True,Protoss,Terran,3945,14,&lt;EZPTS&gt;<sp/>talisman,Nightshade LE,792
-141,2020-06-02 18:39:35+00:00,True,Protoss,Protoss,4076,17,IIIIIIIII,Ever Dream LE,722
-142,2020-04-30 10:56:43+00:00,True,Protoss,Zerg,3915,-9,&lt;RIIP&gt;<sp/>Airea,Purity and Industry LE,534
-143,2020-02-28 07:06:26+00:00,False,Protoss,Zerg,4117,-327,IIIIIIIIIIII,Ephemeron LE,256
-144,2020-06-10 11:35:16+00:00,False,Protoss,Protoss,4100,-88,&lt;UATeam&gt;<sp/>click,Submarine LE,343
-145,2020-02-29 15:22:31+00:00,True,Protoss,Zerg,4083,23,StepO,Ephemeron LE,838
-146,2020-03-31 12:27:18+00:00,True,Protoss,Terran,3979,-31,&lt;lLiTl&gt;<sp/>Rud,Golden Wall LE,1051
-147,2020-06-04 19:18:46+00:00,True,Protoss,Zerg,4181,-189,&lt;AiRǂ&gt;<sp/>SuperNova,Nightshade LE,846
-148,2019-12-24 18:53:21+00:00,True,Protoss,Zerg,3893,50,Vakhtang,Nightshade LE,1004
-149,2020-04-28 13:05:12+00:00,True,Protoss,Protoss,3895,39,AndrU,Nightshade LE,845
-150,2020-01-31 12:54:05+00:00,False,Protoss,Zerg,4011,-104,Stick,Ephemeron LE,591
-151,2019-11-26 18:58:28+00:00,False,Protoss,Zerg,3927,19,прорвемся,World of Sleepers LE,321
-152,2020-04-22 20:45:38+00:00,True,Protoss,Zerg,4001,42,mSin,Simulacrum LE,704
-153,2019-11-18 17:08:15+00:00,False,Protoss,Terran,3912,89,InsighT,Ephemeron LE,44
-154,2020-01-05 14:40:17+00:00,False,Protoss,Protoss,4040,-3,&lt;PÂRłAH&gt;<sp/>SolusRex,Eternal Empire LE,297
-155,2020-05-10 19:12:24+00:00,False,Protoss,Terran,4131,26,&lt;2G1M&gt;<sp/>Mime,Ever Dream LE,834
-156,2019-11-17 10:20:15+00:00,True,Protoss,Terran,3894,96,MightyMurloc,Ephemeron LE,1313
-157,2019-09-11 15:22:43+00:00,True,Protoss,Terran,-36400,-39206,winstrol,Triton LE,478
-158,2020-03-24 16:59:08+00:00,True,Zerg,Protoss,3086,8,Steelseer,Purity and Industry LE,611
-159,2020-05-05 17:44:27+00:00,True,Protoss,Zerg,4005,24,&lt;ƮesXG&gt;<sp/>Rymdkrigaren,Simulacrum LE,696
-160,2020-01-13 20:42:12+00:00,False,Protoss,Protoss,3989,-28,MadProbe,Ephemeron LE,149
-161,2020-04-27 11:06:38+00:00,True,Protoss,Terran,3956,-77,Etharis,Golden Wall LE,22
-162,2020-01-19 18:04:18+00:00,True,Protoss,Terran,3969,80,StifleR,Simulacrum LE,480
-163,2019-11-19 07:23:00+00:00,True,Protoss,Protoss,3934,60,IIIIIIIIIIII,Disco Bloodbath LE,780
-164,2020-06-03 17:53:48+00:00,True,Protoss,Terran,4117,171,&lt;DisES&gt;<sp/>Kamenashi,Nightshade LE,471
-165,2020-04-24 18:14:15+00:00,False,Protoss,Zerg,4021,36,Spider,Simulacrum LE,369
-166,2020-02-29 15:07:01+00:00,False,Protoss,Terran,4100,-367,&lt;HBeS&gt;<sp/>LoziRa,Ephemeron LE,446
-167,2019-11-20 08:19:24+00:00,False,Protoss,Zerg,3948,63,&lt;CocoCo&gt;<sp/>Goty,Triton LE,1199
-168,2020-04-17 19:31:37+00:00,True,Protoss,Terran,4021,-9,Boban,Simulacrum LE,882
-169,2020-05-27 10:21:13+00:00,True,Protoss,Terran,3985,98,Froze,Ever Dream LE,461
-170,2020-04-24 18:18:47+00:00,False,Protoss,Zerg,3999,9,Spider,Golden Wall LE,218
-171,2020-03-12 19:06:49+00:00,False,Protoss,Protoss,4009,104,Salomoon,Ever Dream LE,594
-172,2020-01-05 20:39:37+00:00,True,Protoss,Protoss,3972,-56,lIlIlIIlIlIl,Eternal Empire LE,274
-173,2020-01-05 14:55:15+00:00,True,Protoss,Terran,0,0,Sanedude,Nightshade LE,394
-174,2019-12-24 11:17:11+00:00,False,Protoss,Terran,3869,6,&lt;isIMBA&gt;<sp/>naincraft,Eternal Empire LE,283
-175,2020-03-09 11:03:30+00:00,False,Protoss,Protoss,4050,-178,Noldo,Nightshade LE,225
-176,2020-01-05 20:23:43+00:00,False,Protoss,Zerg,4039,103,&lt;ORRO&gt;<sp/>jul,Simulacrum LE,280
-177,2019-11-25 17:38:25+00:00,True,Protoss,Zerg,3925,-95,&lt;kOzY&gt;<sp/>Dave,World of Sleepers LE,891
-178,2020-04-19 10:59:16+00:00,False,Protoss,Zerg,0,0,shadowofmich,Simulacrum LE,522
-179,2019-12-21 14:27:45+00:00,True,Protoss,Terran,3896,-15,Stefan,Eternal Empire LE,1009
-180,2020-02-05 21:05:33+00:00,True,Protoss,Protoss,3965,-46,Orian,Ephemeron LE,131
-181,2019-11-17 09:58:11+00:00,False,Protoss,Protoss,3913,-79,TrashCanMan,Triton LE,212
-182,2020-05-02 18:35:12+00:00,True,Protoss,Protoss,-36400,-36400,A.I. 1 (Very Easy),Nightshade LE,386
-183,2020-05-01 11:59:09+00:00,False,Protoss,Zerg,3965,-62,fireballkid,Zen LE,958
-184,2019-12-23 16:30:33+00:00,False,Protoss,Protoss,3898,116,æææ,Eternal Empire LE,17
-185,2020-04-18 20:05:07+00:00,False,Protoss,Zerg,4042,-29,MouseGGAXE,Purity and Industry LE,421
-186,2019-11-18 18:03:36+00:00,True,Protoss,Zerg,3911,-50,Cosmobrother,Acropolis LE,909
-187,2020-05-11 09:35:55+00:00,False,Protoss,Zerg,4070,-72,Elosai,Zen LE,696
-188,2020-06-10 11:18:56+00:00,False,Protoss,Protoss,4144,-41,Guinness,Ice and Chrome LE,299
-189,2020-02-27 21:17:28+00:00,False,Protoss,Terran,4139,-262,&lt;PlAr&gt;<sp/>Arcanewinds,Simulacrum LE,559
-190,2020-01-13 20:26:44+00:00,False,Protoss,Zerg,4014,118,&lt;TARAGO&gt;<sp/>Revenge,Eternal Empire LE,243
-191,2020-02-02 17:40:53+00:00,False,Protoss,Terran,3991,-4,VouS,Simulacrum LE,766
-192,2020-03-14 16:58:41+00:00,True,Protoss,Zerg,0,0,A.I. 1 (Elite),Golden Wall LE,1014
-193,2019-10-31 19:07:25+00:00,False,Protoss,Terran,3730,66,&lt;IndyK&gt;<sp/>Sven,Disco Bloodbath LE,381
-194,2019-10-09 19:24:28+00:00,True,Zerg,Protoss,2855,55,Decadance,Thunderbird LE,830
-195,2019-11-28 19:23:15+00:00,True,Protoss,Terran,3959,3,Inquisition,World of Sleepers LE,721
-196,2019-12-24 11:03:44+00:00,False,Protoss,Zerg,3892,47,&lt;Wø&gt;<sp/>poichiche,Simulacrum LE,629
-197,2020-05-27 10:12:25+00:00,False,Protoss,Protoss,4004,-89,MasterZERG,Nightshade LE,578
-198,2019-11-01 09:05:49+00:00,True,Protoss,Zerg,3691,-78,&lt;NerCC&gt;<sp/>speck,Triton LE,943
-199,2019-11-01 11:53:00+00:00,False,Zerg,Terran,3196,6,Wormzor,World of Sleepers LE,1280
-200,2019-11-02 17:51:37+00:00,False,Protoss,Zerg,3718,33,Hazard,Triton LE,256
-201,2020-01-31 13:10:03+00:00,True,Protoss,Terran,3992,64,&lt;GELSEN&gt;<sp/>Masaru,Nightshade LE,944
-202,2019-11-19 19:05:56+00:00,False,Protoss,Protoss,3972,-387,Pudgey,Ephemeron LE,183
-203,2020-02-02 17:26:32+00:00,False,Protoss,Zerg,3992,-14,djakette,Nightshade LE,595
-204,2020-04-18 20:18:26+00:00,True,Protoss,Zerg,4021,8,&lt;HsDL&gt;<sp/>Domius,Zen LE,749
-205,2020-05-11 16:06:39+00:00,False,Protoss,Zerg,0,0,TGE,Ever Dream LE,935
-206,2020-01-05 14:03:19+00:00,False,Protoss,Zerg,4036,-160,&lt;Lowko&gt;<sp/>HardNeper,Eternal Empire LE,300
-207,2019-10-29 18:18:43+00:00,False,Protoss,Zerg,3767,27,Hannibal,Thunderbird LE,10
-208,2019-12-27 21:24:06+00:00,True,Protoss,Terran,3936,-41,&lt;DemuCl&gt;<sp/>Jazzz,Nightshade LE,1277
-209,2020-05-03 20:53:32+00:00,False,Protoss,Protoss,3946,-79,Epicnoob,Simulacrum LE,535
-210,2020-06-09 17:24:17+00:00,False,Protoss,Terran,4164,-68,StaMinA,Eternal Empire LE,758
-211,2019-11-18 17:26:00+00:00,True,Protoss,Zerg,3888,-16,trouth,Triton LE,970
-212,2019-12-05 19:21:37+00:00,True,Protoss,Zerg,4007,18,AlexMacedon,World of Sleepers LE,585
-213,2019-11-03 11:35:01+00:00,True,Protoss,Terran,3769,-87,&lt;LESeV&gt;<sp/>iceclaw,Triton LE,932
-214,2019-09-17 19:00:36+00:00,True,Zerg,Protoss,-36400,-38954,Aertemis,Acropolis LE,373
-215,2020-04-21 19:29:13+00:00,False,Protoss,Protoss,4067,18,BsCMBANerd,Zen LE,131
-216,2019-12-20 18:36:11+00:00,True,Protoss,Terran,3935,-246,utopike,World of Sleepers LE,1112
-217,2020-06-03 18:04:43+00:00,True,Protoss,Protoss,4156,-88,Liverpool,Simulacrum LE,529
-218,2019-11-06 21:43:25+00:00,True,Protoss,Zerg,3798,-5,ProtoZZavr,Disco Bloodbath LE,551
-219,2019-10-29 11:28:05+00:00,False,Protoss,Protoss,3873,-79,abelian,Thunderbird LE,383
-220,2020-03-14 20:10:15+00:00,True,Protoss,Terran,3994,-51,&lt;GROF&gt;<sp/>Shefarin,Simulacrum LE,923
-221,2019-11-19 18:45:19+00:00,False,Zerg,Terran,3054,14,MooseMan,Disco Bloodbath LE,807
-222,2019-12-21 13:41:55+00:00,True,Protoss,Terran,3936,-40,tiwai,Eternal Empire LE,611
-223,2020-01-04 19:07:07+00:00,True,Protoss,Protoss,4031,-132,&lt;unƊeaƊ&gt;<sp/>òMégà,World of Sleepers LE,107
-224,2020-01-05 15:02:49+00:00,False,Protoss,Protoss,4041,-37,Tomstar,World of Sleepers LE,293
-225,2019-12-22 20:55:54+00:00,False,Protoss,Protoss,3965,67,Bingo,Nightshade LE,182
-226,2020-02-14 12:29:16+00:00,False,Protoss,Protoss,4101,-350,StormHead,Simulacrum LE,227
-227,2020-02-20 20:24:49+00:00,False,Protoss,Terran,4067,219,Badcomedian,Nightshade LE,625
-228,2020-03-11 20:53:48+00:00,False,Protoss,Terran,4054,81,StaryPijany,Simulacrum LE,531
-229,2019-11-01 14:28:00+00:00,False,Zerg,Zerg,3104,-36,&lt;THUT&gt;<sp/>Vladosik,Disco Bloodbath LE,262
-230,2019-11-29 18:46:06+00:00,False,Zerg,Zerg,3015,107,OVERMIND,World of Sleepers LE,528
-231,2019-10-30 07:06:31+00:00,True,Protoss,Terran,3881,389,Paulie,Ephemeron LE,548
-232,2019-11-01 10:57:15+00:00,True,Zerg,Terran,3043,126,Varrag,World of Sleepers LE,1153
-233,2020-04-27 11:42:24+00:00,False,Protoss,Zerg,3975,-224,&lt;NetGG&gt;<sp/>vladozerg,Nightshade LE,695
-234,2020-05-01 12:54:20+00:00,False,Protoss,Protoss,3965,66,Cptred,Nightshade LE,415
-235,2020-05-05 18:00:50+00:00,True,Protoss,Protoss,4026,193,helldenn,Purity and Industry LE,873
-236,2020-01-05 15:09:49+00:00,True,Protoss,Protoss,4021,93,Majcher,Nightshade LE,388
-237,2019-11-01 11:09:16+00:00,True,Zerg,Zerg,3092,47,dabo,Triton LE,673
-238,2019-12-09 20:18:26+00:00,False,Protoss,Protoss,4049,-188,Delaam,Eternal Empire LE,307
-239,2019-12-21 16:49:32+00:00,True,Protoss,Zerg,3941,-994,&lt;Гномик&gt;<sp/>IndeX,Eternal Empire LE,107
-240,2020-05-02 18:28:26+00:00,True,Protoss,Zerg,-36400,-36400,A.I. 1 (Very Easy),Simulacrum LE,369
-241,2019-10-31 18:12:23+00:00,False,Protoss,Terran,3881,-761,Tyson,Acropolis LE,49
-242,2020-05-29 18:27:53+00:00,False,Protoss,Terran,4093,12,&lt;Hasu&gt;<sp/>RunGen,Ever Dream LE,1582
-243,2020-04-27 12:02:46+00:00,False,Protoss,Terran,3959,108,Schmaunzer,Nightshade LE,611
-244,2020-03-02 13:45:55+00:00,True,Protoss,Protoss,4130,-36,WizZy,Simulacrum LE,1177
-245,2020-03-14 15:34:48+00:00,True,Protoss,Terran,4014,95,&lt;SCTR&gt;<sp/>LimeTime,Zen LE,785
-246,2020-02-15 13:41:00+00:00,False,Protoss,Zerg,4063,21,llllllllllll,Nightshade LE,1826
-247,2020-01-31 12:42:59+00:00,False,Protoss,Zerg,4031,-44,&lt;adR&gt;<sp/>rdmZoo,Simulacrum LE,454
-248,2020-06-01 11:53:17+00:00,False,Protoss,Zerg,4094,-129,iga,Nightshade LE,687
-249,2019-11-18 16:08:11+00:00,False,Protoss,Zerg,3911,-55,trouth,Ephemeron LE,529
-250,2020-03-18 12:41:44+00:00,True,Protoss,Protoss,4020,45,Apollo,Zen LE,459
-251,2020-02-18 19:24:22+00:00,True,Protoss,Zerg,4047,-290,ajb,Nightshade LE,719
-252,2019-12-24 18:36:06+00:00,True,Protoss,Zerg,3872,8,Vakhtang,Eternal Empire LE,771
-253,2020-03-01 20:09:47+00:00,True,Protoss,Zerg,4066,67,FckVwls,Simulacrum LE,1137
-254,2019-11-05 18:35:35+00:00,True,Protoss,Zerg,3752,66,Fleetz,World of Sleepers LE,777
-255,2019-12-21 16:46:23+00:00,True,Protoss,Terran,3918,-49,Xenocide,Simulacrum LE,826
-256,2020-03-14 15:13:34+00:00,True,Protoss,Protoss,3970,-95,adrianjakuba,Ever Dream LE,276
-257,2020-03-04 17:39:40+00:00,False,Protoss,Zerg,4132,56,Leaf,Simulacrum LE,923
-258,2020-06-09 16:57:17+00:00,True,Protoss,Protoss,0,0,A.I. 1 (Elite),Golden Wall LE,444
-259,2020-04-23 15:40:25+00:00,False,Protoss,Zerg,0,0,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,385
-260,2020-02-09 20:19:03+00:00,False,Protoss,Zerg,4004,45,BlackSmith,Ephemeron LE,798
-261,2020-04-17 19:15:54+00:00,True,Protoss,Terran,4001,39,Vanquish,Simulacrum LE,346
-262,2020-05-11 09:23:27+00:00,False,Protoss,Zerg,4088,-137,DonkeyMonkey,Zen LE,605
-263,2019-12-03 18:33:42+00:00,False,Protoss,Protoss,4028,-27,&lt;Furri&gt;<sp/>PrinceOfIEM,World of Sleepers LE,476
-264,2020-02-21 19:32:38+00:00,True,Protoss,Terran,4071,50,Sentinel,Simulacrum LE,746
-265,2020-01-04 19:04:15+00:00,True,Protoss,Terran,4009,-29,Rêgo,Nightshade LE,935
-266,2020-05-07 09:30:41+00:00,True,Protoss,Zerg,4042,34,&lt;BRSKR&gt;<sp/>Hexe,Golden Wall LE,985
-267,2020-04-19 12:01:37+00:00,True,Protoss,Zerg,0,0,shadowofmich,Simulacrum LE,751
-268,2020-05-11 09:41:36+00:00,False,Protoss,Terran,4051,107,ElBarto,Simulacrum LE,216
-269,2020-05-27 09:57:09+00:00,True,Protoss,Zerg,0,0,A.I. 1 (Elite),Deathaura LE,601
-270,2020-03-10 19:22:15+00:00,False,Protoss,Protoss,4053,-46,&lt;FaDr&gt;<sp/>BURNIE,Ephemeron LE,372
-271,2020-02-21 17:20:16+00:00,True,Protoss,Terran,4050,-94,Scythe,Ephemeron LE,775
-272,2019-11-02 18:05:44+00:00,False,Protoss,Zerg,0,0,A.I. 1 (Very Easy),Ephemeron LE,23
-273,2019-12-12 19:53:53+00:00,False,Protoss,Zerg,4001,-36,Xaenor,Nightshade LE,650
-274,2020-02-05 21:02:28+00:00,False,Protoss,Zerg,3989,89,MorroLord,Nightshade LE,216
-275,2020-02-11 18:03:23+00:00,True,Protoss,Protoss,4064,98,ZZtopGun,Ephemeron LE,643
-276,2019-10-31 18:41:02+00:00,True,Zerg,Protoss,2982,-5,Anarazel,World of Sleepers LE,863
-277,2020-04-17 20:10:15+00:00,False,Protoss,Terran,4062,12,Etharis,Purity and Industry LE,792
-278,2020-02-29 15:49:56+00:00,False,Protoss,Protoss,4085,-90,&lt;Irri&gt;<sp/>Irrichi,Ephemeron LE,400
-279,2020-03-22 11:58:56+00:00,False,Protoss,Terran,4066,19,&lt;Hasu&gt;<sp/>RunGen,Ever Dream LE,935
-280,2019-09-25 16:36:01+00:00,True,Protoss,Terran,-36400,-39915,HeadAge,Thunderbird LE,910
-281,2019-12-12 21:03:25+00:00,False,Protoss,Protoss,4001,57,&lt;snajpu&gt;<sp/>Auddi,Nightshade LE,619
-282,2020-05-02 18:46:10+00:00,True,Protoss,Zerg,-36400,-36400,A.I. 1 (Easy),Eternal Empire LE,464
-283,2020-05-12 17:59:35+00:00,True,Protoss,Zerg,4005,-11,BuRneR,Nightshade LE,1260
-284,2019-12-18 16:35:46+00:00,False,Protoss,Terran,3957,-109,&lt;IndyK&gt;<sp/>HaPe,Eternal Empire LE,235
-285,2020-05-29 11:34:43+00:00,True,Protoss,Protoss,0,0,A.I. 1 (Elite),Eternal Empire LE,409
-286,2019-11-26 19:32:23+00:00,True,Protoss,Terran,3944,136,Romio,Triton LE,685
-287,2019-12-22 21:26:35+00:00,True,Protoss,Terran,3877,44,Nyxeu,Eternal Empire LE,895
-288,2020-06-04 19:03:54+00:00,False,Protoss,Terran,4203,21,JOOPSTAR,Simulacrum LE,332
-289,2019-11-01 14:22:03+00:00,True,Zerg,Terran,3052,-104,&lt;ZЕRGML&gt;<sp/>Федя,Triton LE,739
-290,2019-11-28 19:09:44+00:00,True,Protoss,Protoss,3940,86,&lt;vGL&gt;<sp/>Celestial,World of Sleepers LE,541
-291,2020-05-03 20:43:35+00:00,False,Protoss,Zerg,3966,-22,Mich,Purity and Industry LE,500
-292,2020-04-27 12:24:52+00:00,False,Protoss,Zerg,3935,46,Ise,Nightshade LE,1218
-293,2020-05-04 13:02:05+00:00,True,Protoss,Protoss,3967,22,Piiras,Simulacrum LE,199
-294,2019-12-12 19:28:57+00:00,False,Protoss,Terran,4041,-90,NazelHut,Simulacrum LE,317
-295,2020-04-22 20:30:29+00:00,False,Protoss,Protoss,4022,1,puLse,Golden Wall LE,305
-296,2020-02-15 12:57:31+00:00,False,Protoss,Zerg,4083,-52,&lt;FxL&gt;<sp/>bojan,Ephemeron LE,751
-297,2020-05-25 11:59:22+00:00,False,Protoss,Zerg,0,0,TGE,Golden Wall LE,1251
-298,2019-10-29 11:14:53+00:00,True,Protoss,Protoss,3871,890,YellowCoke,Triton LE,1
-299,2020-03-02 10:06:27+00:00,True,Protoss,Protoss,4088,69,TGNP,Simulacrum LE,696
-300,2020-02-13 19:26:27+00:00,True,Protoss,Terran,4085,90,HeroMarauder,Nightshade LE,777
-301,2019-11-12 09:42:59+00:00,True,Protoss,Protoss,3847,-41,&lt;UATeam&gt;<sp/>click,Acropolis LE,723
-302,2019-10-22 12:19:39+00:00,False,Protoss,Zerg,3862,-102,Zergorix,Acropolis LE,891
-303,2019-12-24 13:53:48+00:00,True,Protoss,Zerg,0,0,A.I. 1 (Elite),Ephemeron LE,764
-304,2020-04-18 20:45:46+00:00,True,Protoss,Terran,4022,-87,&lt;RBP3&gt;<sp/>Steal,Purity and Industry LE,794
-305,2020-03-04 17:52:41+00:00,False,Protoss,Terran,4109,-133,helloRJ,Ephemeron LE,751
-306,2019-12-24 11:33:55+00:00,True,Protoss,Protoss,3847,-119,ARCMAN,Simulacrum LE,971
-307,2020-03-22 12:03:13+00:00,False,Protoss,Terran,4044,41,OOOOOOOOOOOO,Nightshade LE,232
-308,2020-04-27 11:04:39+00:00,False,Protoss,Protoss,3977,-25,Mitchowyn,Purity and Industry LE,369
-309,2019-12-20 19:06:55+00:00,False,Protoss,Zerg,3959,-4,&lt;TAW&gt;<sp/>Pote,World of Sleepers LE,453
-310,2020-02-21 17:06:44+00:00,True,Protoss,Zerg,4029,20,&lt;0301&gt;<sp/>kookooseen,Ephemeron LE,1072
-311,2020-02-26 18:13:51+00:00,True,Protoss,Terran,4091,-45,BlackAnubis,World of Sleepers LE,945
-312,2020-04-15 14:28:40+00:00,True,Protoss,Protoss,4022,18,MrBeck,Purity and Industry LE,574
-313,2020-04-28 12:40:14+00:00,True,Protoss,Zerg,3872,-1163,&lt;Mkers&gt;<sp/>Doc,Ever Dream LE,1376
-314,2020-05-25 11:33:51+00:00,True,Protoss,Zerg,0,0,TGE,Golden Wall LE,857
-315,2020-04-15 19:20:27+00:00,True,Protoss,Terran,0,0,&lt;TGCrew&gt;<sp/>Paloma,Ever Dream LE,782
-316,2019-10-29 11:42:15+00:00,False,Protoss,Terran,3836,-119,llllllllllll,Triton LE,758
-317,2019-11-02 20:15:14+00:00,True,Protoss,Terran,3684,58,lllllll,World of Sleepers LE,470
-318,2020-05-01 12:12:21+00:00,False,Protoss,Protoss,3945,40,xyzxyzxyz,Simulacrum LE,754
-319,2019-12-12 18:48:15+00:00,False,Protoss,Zerg,4061,-83,&lt;Nutri&gt;<sp/>Highscribe,Nightshade LE,733
-320,2019-12-28 14:07:58+00:00,False,Zerg,Zerg,3118,4,Sferum,Eternal Empire LE,222
-321,2020-04-15 19:41:39+00:00,False,Protoss,Terran,0,0,&lt;TGCrew&gt;<sp/>Paloma,Simulacrum LE,619
-322,2020-06-01 11:40:30+00:00,False,Protoss,Zerg,4112,-141,Minoda,Eternal Empire LE,570
-323,2020-05-03 20:33:12+00:00,True,Protoss,Zerg,3942,-97,&lt;FSeS&gt;<sp/>Wizzlô,Golden Wall LE,1369
-324,2019-09-12 10:42:41+00:00,True,Protoss,Terran,-36400,-38579,ujptm,Thunderbird LE,729
-325,2019-10-08 19:33:28+00:00,False,Protoss,Protoss,3893,-53,Wavelength,Ephemeron LE,254
-326,2020-03-14 16:31:42+00:00,False,Protoss,Zerg,4013,-80,hellyeah,Purity and Industry LE,746
-327,2019-12-12 20:52:10+00:00,True,Protoss,Protoss,3980,15,&lt;snajpu&gt;<sp/>Auddi,Simulacrum LE,356
-328,2019-11-12 10:06:52+00:00,True,Protoss,Terran,3890,-72,Paulie,World of Sleepers LE,1005
-329,2019-11-01 13:42:38+00:00,False,Protoss,Protoss,3696,65,&lt;PiGPan&gt;<sp/>Garethax,Acropolis LE,198
-330,2019-11-05 18:43:20+00:00,False,Protoss,Protoss,3774,-53,&lt;XsR&gt;<sp/>Ajotaele,Ephemeron LE,426
-331,2019-09-24 16:26:09+00:00,True,Zerg,Terran,-36400,-38939,Ayals,Thunderbird LE,479
-332,2020-06-03 17:54:42+00:00,True,Protoss,Terran,4133,-27,Etharis,Golden Wall LE,3
-333,2020-03-14 16:18:04+00:00,False,Protoss,Terran,4033,-58,&lt;PLA2N&gt;<sp/>ZloyVakarian,Nightshade LE,374
-334,2020-05-02 19:06:35+00:00,False,Protoss,Zerg,3966,7,Pokimon,Ever Dream LE,647
-335,2020-05-05 17:32:14+00:00,True,Protoss,Zerg,3988,119,&lt;VKT&gt;<sp/>Rørtangen,Simulacrum LE,620
-336,2020-04-30 11:20:00+00:00,True,Protoss,Zerg,3937,35,&lt;RIIP&gt;<sp/>Airea,Purity and Industry LE,1381
-337,2020-05-25 11:18:22+00:00,True,Protoss,Zerg,0,0,TGE,Nightshade LE,813
-338,2020-05-02 19:31:03+00:00,True,Zerg,Zerg,3117,-2,doomsdayza,Simulacrum LE,568
-339,2020-03-02 09:52:39+00:00,False,Protoss,Terran,4105,-180,IIIIIIIIIIII,Nightshade LE,786
-340,2020-04-01 06:54:32+00:00,True,Protoss,Zerg,4000,-23,&lt;TRSO&gt;<sp/>THERIPPER,Simulacrum LE,950
-341,2019-12-23 16:23:00+00:00,True,Protoss,Zerg,3897,3,IntrinsiCat,Eternal Empire LE,870
-342,2020-05-29 17:58:42+00:00,True,Protoss,Zerg,4072,32,Sclera,Eternal Empire LE,1724
-343,2019-12-22 21:11:02+00:00,False,Protoss,Protoss,3897,-51,DeepMind,Nightshade LE,159
-344,2020-02-17 17:47:46+00:00,False,Protoss,Terran,0,0,&lt;BnetFR&gt;<sp/>NeWHoriZonS,Simulacrum LE,776
-345,2019-12-09 20:28:00+00:00,False,Protoss,Zerg,4032,-129,PeterLax,Simulacrum LE,557
-346,2019-10-10 07:55:19+00:00,True,Protoss,Zerg,3760,-56,&lt;PROOO&gt;<sp/>Jesperpro,Thunderbird LE,801
-347,2020-01-15 16:01:40+00:00,False,Protoss,Protoss,3969,-68,&lt;aW&gt;<sp/>Jeatall,Nightshade LE,204
-348,2019-10-04 11:08:46+00:00,True,Zerg,Protoss,-36400,-39812,NikkooO,Disco Bloodbath LE,577
-349,2019-09-26 17:21:45+00:00,True,Zerg,Terran,-36400,-39738,&lt;oooboy&gt;<sp/>Ojtech,Acropolis LE,945
-350,2020-02-10 19:08:40+00:00,True,Protoss,Protoss,3981,102,Kachu,Ephemeron LE,305
-351,2020-05-01 11:39:32+00:00,False,Protoss,Zerg,3988,36,Samaya,Ever Dream LE,307
-352,2020-02-18 19:11:38+00:00,True,Protoss,Zerg,4024,-47,Hello,Simulacrum LE,887
-353,2019-10-21 11:46:27+00:00,False,Zerg,Protoss,3185,63,AcahCruv,Thunderbird LE,620
-354,2020-04-23 16:22:18+00:00,True,Protoss,Zerg,0,0,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,858
-355,2019-11-02 20:06:36+00:00,True,Protoss,Terran,3655,8,lllllll,Disco Bloodbath LE,797
-356,2020-03-14 20:23:13+00:00,True,Protoss,Terran,4017,-28,Ben,Purity and Industry LE,734
-357,2019-12-28 14:03:26+00:00,True,Zerg,Terran,3089,51,SMCWWMarF,Simulacrum LE,636
-358,2020-04-19 11:26:52+00:00,True,Protoss,Zerg,0,0,shadowofmich,Simulacrum LE,658
-359,2020-05-15 20:33:15+00:00,True,Protoss,Zerg,0,0,A.I. 1 (Elite),Zen LE,574
-360,2020-04-23 15:56:17+00:00,True,Protoss,Zerg,0,0,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,895
-361,2019-12-21 14:10:12+00:00,False,Protoss,Terran,3915,-92,xYn,Simulacrum LE,492
-362,2019-11-01 13:31:50+00:00,False,Zerg,Terran,3145,-8,qwe,Acropolis LE,727
-363,2020-02-26 18:27:28+00:00,True,Protoss,Terran,4114,-99,&lt;BornG&gt;<sp/>LucidityDark,World of Sleepers LE,770
-364,2019-12-28 21:06:48+00:00,True,Protoss,Zerg,3980,-260,contremaitre,Nightshade LE,478
-365,2020-03-05 21:18:52+00:00,False,Protoss,Protoss,4091,74,Cyborg,Ephemeron LE,782
-366,2019-11-18 17:48:00+00:00,True,Protoss,Terran,3889,-18,&lt;TheDOH&gt;<sp/>secretspace,World of Sleepers LE,879
-367,2020-01-05 14:47:32+00:00,True,Protoss,Terran,4019,-17,Sanedude,Nightshade LE,405
-368,2019-11-04 20:40:48+00:00,True,Protoss,Terran,3799,-67,&lt;FreeHK&gt;<sp/>jellun,Acropolis LE,455
-369,2020-03-02 09:38:32+00:00,True,Protoss,Zerg,4086,82,Piliskner,Simulacrum LE,945
-370,2020-03-12 18:55:52+00:00,False,Protoss,Protoss,4030,-7,ORIGYN,Golden Wall LE,477
-371,2019-12-03 18:55:23+00:00,True,Protoss,Terran,4007,82,&lt;IBeAŚI&gt;<sp/>Bummsjordy,Eternal Empire LE,328
-372,2019-09-25 16:49:17+00:00,True,Zerg,Protoss,-36400,0,grishaadf,Acropolis LE,473
-373,2020-05-07 10:13:37+00:00,True,Protoss,Terran,4086,14,Yeezus,Golden Wall LE,1595
-374,2019-12-02 20:09:55+00:00,True,Protoss,Terran,4006,-10,kalarazar,Nightshade LE,1326
-375,2020-02-09 20:04:14+00:00,False,Protoss,Zerg,4029,-25,Grandclicker,World of Sleepers LE,564
-376,2019-09-12 10:53:37+00:00,True,Protoss,Terran,-36400,-38935,&lt;klko&gt;<sp/>marauder,World of Sleepers LE,522
-377,2019-11-01 11:30:59+00:00,True,Zerg,Terran,3144,16,AUzg,Acropolis LE,1076
-378,2019-12-12 21:16:53+00:00,False,Protoss,Protoss,3978,-191,Vidra,Nightshade LE,765
-379,2020-04-30 11:33:13+00:00,True,Protoss,Zerg,3957,-131,KillemAll,Nightshade LE,725
-380,2019-12-23 16:51:19+00:00,True,Protoss,Terran,3873,87,Listig,Nightshade LE,1132
-381,2019-12-22 21:04:09+00:00,False,Protoss,Terran,3941,61,Jungla,Eternal Empire LE,472
-382,2020-04-15 15:03:08+00:00,False,Protoss,Zerg,4018,-135,Tomus,Simulacrum LE,603
-383,2020-04-23 15:33:05+00:00,False,Protoss,Zerg,0,0,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,66
-384,2020-02-14 12:24:59+00:00,False,Protoss,Zerg,4123,25,Haze,World of Sleepers LE,761
-385,2019-10-31 18:55:16+00:00,False,Protoss,Zerg,3766,10,Granaatappel,Acropolis LE,777
-386,2020-05-26 09:46:32+00:00,False,Protoss,Protoss,4024,-50,MKPrime,Zen LE,646
-387,2019-11-26 19:11:43+00:00,True,Protoss,Zerg,3899,-952,SkyFlare,World of Sleepers LE,66
-388,2020-05-12 18:11:01+00:00,False,Protoss,Zerg,4027,-99,Лох,Simulacrum LE,545
-389,2019-12-20 18:17:10+00:00,False,Protoss,Protoss,3957,0,&lt;ƮesXG&gt;<sp/>Rocky,World of Sleepers LE,257
-390,2020-04-22 20:24:41+00:00,False,Protoss,Protoss,4045,47,puLse,Golden Wall LE,534
-391,2019-12-27 20:24:27+00:00,False,Protoss,Zerg,3933,-100,HiveMind,World of Sleepers LE,262
-392,2019-11-26 19:04:47+00:00,False,Protoss,Protoss,3905,-691,Doomweed,Acropolis LE,224
-393,2020-05-12 17:37:31+00:00,False,Protoss,Zerg,4026,-14,Tiger,Ever Dream LE,433
-394,2019-11-25 17:23:07+00:00,True,Zerg,Protoss,3015,47,&lt;b0O0n&gt;<sp/>DrLove,Disco Bloodbath LE,935
-395,2019-11-18 15:44:35+00:00,False,Protoss,Zerg,3913,116,&lt;lLiTl&gt;<sp/>Eniman,Triton LE,278
-396,2020-05-30 21:10:17+00:00,True,Protoss,Terran,4089,-34,Onkelelak,Eternal Empire LE,996
-397,2019-10-09 19:06:50+00:00,False,Zerg,Protoss,3125,-11,Justify,Winter's Gate LE,137
-398,2020-03-09 11:22:11+00:00,True,Protoss,Zerg,4033,32,Vorp,World of Sleepers LE,1084
-399,2019-09-11 15:35:39+00:00,True,Zerg,Zerg,-36400,-38905,OtecAnisim,Disco Bloodbath LE,682
-400,2020-02-06 20:48:26+00:00,True,Protoss,Protoss,3988,26,MsDragonFly,Nightshade LE,640
-401,2020-05-26 09:13:43+00:00,True,Protoss,Terran,4026,45,Marvin,Zen LE,421
-402,2020-01-04 19:19:31+00:00,False,Protoss,Terran,4057,-32,Tsumi,Eternal Empire LE,714
-403,2019-11-29 18:14:11+00:00,False,Protoss,Zerg,3959,-39,zzTp,World of Sleepers LE,384
-404,2019-11-07 18:09:53+00:00,False,Zerg,Zerg,3062,-6,FABBZH,Acropolis LE,429
-405,2019-10-14 19:15:57+00:00,False,Protoss,Protoss,3878,17,Supermaru,Triton LE,240
-406,2019-12-02 19:29:02+00:00,True,Protoss,Terran,3961,-107,&lt;IWtD&gt;<sp/>DiabloFeTo,Simulacrum LE,575
-407,2019-12-10 19:05:25+00:00,True,Protoss,Zerg,4017,-108,NSƒFaxo,Eternal Empire LE,755
-408,2019-10-29 09:32:19+00:00,True,Protoss,Zerg,3821,-73,Tomaso,World of Sleepers LE,684
-409,2020-05-08 11:34:03+00:00,True,Protoss,Zerg,4127,109,Ergopro,Nightshade LE,1157
-410,2020-04-23 15:13:24+00:00,True,Protoss,Zerg,0,0,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,470
-411,2019-09-12 16:28:28+00:00,True,Protoss,Terran,-36400,-39229,Toidak,Thunderbird LE,515
-412,2019-12-02 19:42:48+00:00,True,Protoss,Terran,3985,25,&lt;OnkelS&gt;<sp/>Prolow,Simulacrum LE,685
-413,2020-04-28 12:16:11+00:00,False,Protoss,Zerg,3912,-133,DupaDuupa,Simulacrum LE,728
-414,2020-04-30 18:14:21+00:00,False,Protoss,Terran,3983,62,FrosT,Purity and Industry LE,233
-415,2020-02-21 16:46:06+00:00,False,Protoss,Terran,4048,-63,razor,Ephemeron LE,514
-416,2019-12-24 19:08:58+00:00,True,Protoss,Terran,3914,74,PPO,World of Sleepers LE,920
-417,2020-01-05 14:18:07+00:00,True,Protoss,Terran,4019,14,delmak,Eternal Empire LE,867
-418,2019-12-20 18:59:06+00:00,True,Protoss,Terran,3939,53,CapSto,Eternal Empire LE,338
-419,2020-05-11 16:28:32+00:00,True,Protoss,Zerg,0,0,TGE,Nightshade LE,1184
-420,2019-11-18 17:32:43+00:00,False,Protoss,Protoss,3910,-10,Raver,Acropolis LE,341
-421,2019-11-02 17:46:00+00:00,True,Protoss,Zerg,3691,85,&lt;Aǂmove&gt;<sp/>AmoveZerg,Disco Bloodbath LE,2
-422,2019-12-18 16:53:06+00:00,True,Protoss,Terran,3938,110,FrozenZerg,Simulacrum LE,960
-423,2019-10-14 19:10:22+00:00,True,Zerg,Protoss,2956,0,IIIIIIIIIIII,Thunderbird LE,843
-424,2019-12-22 21:07:48+00:00,False,Protoss,Protoss,3918,-9,DeepMind,World of Sleepers LE,175
-425,2020-05-30 20:50:13+00:00,True,Protoss,Zerg,4071,122,Hellfighter,Golden Wall LE,718
-426,2020-02-17 17:31:43+00:00,False,Protoss,Terran,0,0,&lt;BnetFR&gt;<sp/>NeWHoriZonS,Simulacrum LE,684
-427,2019-10-14 19:45:44+00:00,True,Zerg,Terran,3039,-35,RoBoT,Acropolis LE,650
-428,2019-11-29 18:07:04+00:00,False,Protoss,Zerg,3981,5,zzTp,Nightshade LE,468
-429,2019-09-26 10:06:38+00:00,True,Zerg,Zerg,-36400,-39401,&lt;SAZZ&gt;<sp/>LINUSWES,Acropolis LE,361
-430,2020-04-23 16:04:26+00:00,False,Protoss,Zerg,0,0,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,384
-431,2019-10-06 12:23:56+00:00,True,Protoss,Protoss,3751,25,MJM,Acropolis LE,2
-432,2020-05-27 10:56:00+00:00,True,Protoss,Terran,4030,-73,CleanSweep,Simulacrum LE,719
-433,2020-02-17 16:31:23+00:00,False,Protoss,Terran,4041,33,&lt;lLiTl&gt;<sp/>Quickman,Simulacrum LE,804
-434,2020-02-13 18:34:05+00:00,False,Protoss,Terran,4102,-136,&lt;BnetFR&gt;<sp/>NeWHoriZonS,Ephemeron LE,761
-435,2019-11-04 20:53:20+00:00,False,Protoss,Terran,3800,-83,&lt;MiClan&gt;<sp/>MiSHANYA,Disco Bloodbath LE,396
-436,2020-05-04 12:43:06+00:00,True,Protoss,Terran,3926,95,StaMinA,Golden Wall LE,784
-437,2020-02-02 17:15:06+00:00,False,Protoss,Zerg,4012,-80,&lt;0mg&gt;<sp/>Sroljo,World of Sleepers LE,264
-438,2020-04-19 11:48:32+00:00,True,Protoss,Zerg,0,0,shadowofmich,Simulacrum LE,297
-439,2020-04-30 18:34:01+00:00,True,Protoss,Terran,3964,-91,&lt;BRs&gt;<sp/>GoodFellas,Nightshade LE,1040
+,replay_file,time_played_at,win,race,enemy_race,mmr,enemy_mmr,enemy_nickame,map_name,duration,mmr_diff
+0,/home/dominik/Links/SC2Reps/Nightshade LE (60).SC2Replay,2020-05-27 10:32:29+00:00,True,Protoss,Terran,4004.0,4173.0,giletjaune,Nightshade LE,601,-169.0
+1,/home/dominik/Links/SC2Reps/Eternal Empire LE (39).SC2Replay,2020-06-09 17:11:15+00:00,False,Protoss,Zerg,4186.0,4147.0,djakette,Eternal Empire LE,420,39.0
+2,/home/dominik/Links/SC2Reps/Ephemeron LE (32).SC2Replay,2020-02-02 17:27:27+00:00,True,Protoss,Terran,3971.0,3913.0,Syocto,Ephemeron LE,10,58.0
+3,/home/dominik/Links/SC2Reps/Simulacrum LE (11).SC2Replay,2019-12-20 18:53:00+00:00,True,Zerg,Terran,2984.0,3090.0,Jason,Simulacrum LE,569,-106.0
+4,/home/dominik/Links/SC2Reps/World of Sleepers LE (26) paused and guy left.SC2Replay,2019-11-26 19:11:43+00:00,True,Protoss,Zerg,3899.0,4851.0,SkyFlare,World of Sleepers LE,66,-952.0
+5,/home/dominik/Links/SC2Reps/Nightshade LE (3).SC2Replay,2019-12-09 20:36:21+00:00,True,Protoss,Zerg,4015.0,4024.0,&lt;OGCOСK&gt;<sp/>ShushYo,Nightshade LE,454,-9.0
+6,/home/dominik/Links/SC2Reps/Deathaura LE (2).SC2Replay,2020-06-13 18:12:03+00:00,False,Protoss,Zerg,4081.0,4047.0,&lt;MAYEK&gt;<sp/>gabtro,Deathaura LE,786,34.0
+7,/home/dominik/Links/SC2Reps/Acropolis LE (14).SC2Replay,2019-10-31 18:26:16+00:00,False,Zerg,Zerg,3042.0,3078.0,Rwzzz,Acropolis LE,218,-36.0
+8,/home/dominik/Links/SC2Reps/World of Sleepers LE (46).SC2Replay,2020-01-05 20:34:11+00:00,False,Protoss,Protoss,3992.0,4014.0,&lt;iksD&gt;<sp/>OzjaszGoldbe,World of Sleepers LE,110,-22.0
+9,/home/dominik/Links/SC2Reps/Ephemeron LE (28).SC2Replay,2020-01-06 18:55:58+00:00,False,Terran,Protoss,,,&lt;Blacer&gt;<sp/>Hakerica,Ephemeron LE,765,
+10,/home/dominik/Links/SC2Reps/World of Sleepers LE (4).SC2Replay,2019-10-06 12:36:36+00:00,True,Protoss,Protoss,3826.0,3748.0,vasea,World of Sleepers LE,743,78.0
+11,/home/dominik/Links/SC2Reps/Zen LE (3).SC2Replay,2020-04-14 08:05:27+00:00,False,Protoss,Zerg,,,A.I. 1 (Very Easy),Zen LE,6,
+12,/home/dominik/Links/SC2Reps/Ever Dream LE (8).SC2Replay,2020-04-23 15:24:24+00:00,True,Protoss,Zerg,,,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,582,
+13,/home/dominik/Links/SC2Reps/Ice and Chrome LE (37).SC2Replay,2020-08-04 16:29:33+00:00,True,Protoss,Protoss,4100.0,4240.0,&lt;FRZS&gt;<sp/>Troizza,Ice and Chrome LE,364,-140.0
+14,/home/dominik/Links/SC2Reps/Simulacrum LE (14).SC2Replay,2019-12-21 14:00:35+00:00,False,Protoss,Zerg,3937.0,3757.0,RXX,Simulacrum LE,299,180.0
+15,/home/dominik/Links/SC2Reps/Submarine LE (14).SC2Replay,2020-07-06 18:37:32+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,226,
+16,/home/dominik/Links/SC2Reps/Ever Dream LE (6).SC2Replay,2020-04-15 19:29:20+00:00,False,Protoss,Terran,,,&lt;TGCrew&gt;<sp/>Paloma,Ever Dream LE,532,
+17,/home/dominik/Links/SC2Reps/World of Sleepers LE (42).SC2Replay,2019-12-24 20:35:20+00:00,True,Zerg,Protoss,3057.0,3035.0,IAMFUNNYBOT,World of Sleepers LE,1456,22.0
+18,/home/dominik/Links/SC2Reps/Zen LE (7).SC2Replay,2020-04-27 11:15:08+00:00,False,Protoss,Zerg,3980.0,3883.0,DupaDuupa,Zen LE,455,97.0
+19,/home/dominik/Links/SC2Reps/Eternal Empire LE (10).SC2Replay,2019-12-12 19:42:46+00:00,False,Protoss,Terran,4022.0,4407.0,cloud,Eternal Empire LE,398,-385.0
+20,/home/dominik/Links/SC2Reps/Nightshade LE (25).SC2Replay,2020-01-19 18:32:41+00:00,True,Protoss,Terran,4010.0,3997.0,MuKK,Nightshade LE,714,13.0
+21,/home/dominik/Links/SC2Reps/Ephemeron LE (33).SC2Replay,2020-02-02 17:48:55+00:00,True,Protoss,Zerg,3970.0,4034.0,valera,Ephemeron LE,403,-64.0
+22,/home/dominik/Links/SC2Reps/World of Sleepers LE (27).SC2Replay,2019-11-26 19:20:15+00:00,True,Protoss,Terran,3924.0,3941.0,Chief,World of Sleepers LE,463,-17.0
+23,/home/dominik/Links/SC2Reps/Submarine LE (25).SC2Replay,2020-07-16 15:26:33+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,468,
+24,/home/dominik/Links/SC2Reps/World of Sleepers LE (3).SC2Replay,2019-10-05 09:12:10+00:00,True,Protoss,Zerg,-36400.0,3674.0,&lt;TLBK&gt;<sp/>Nightly,World of Sleepers LE,755,-40074.0
+25,/home/dominik/Links/SC2Reps/Acropolis LE (9).SC2Replay,2019-10-21 11:14:30+00:00,True,Protoss,Zerg,3819.0,3907.0,&lt;IDLK&gt;<sp/>jasben,Acropolis LE,590,-88.0
+26,/home/dominik/Links/SC2Reps/Submarine LE (15).SC2Replay,2020-07-08 17:12:47+00:00,True,Protoss,Terran,4087.0,4125.0,MathewGg,Submarine LE,656,-38.0
+27,/home/dominik/Links/SC2Reps/Triton LE (16).SC2Replay,2019-11-17 09:52:24+00:00,False,Zerg,Protoss,3054.0,3062.0,Unity,Triton LE,592,-8.0
+28,/home/dominik/Links/SC2Reps/Nightshade LE (36).SC2Replay,2020-02-29 15:40:54+00:00,False,Protoss,Zerg,4104.0,4193.0,Othello,Nightshade LE,635,-89.0
+29,/home/dominik/Links/SC2Reps/Submarine LE (26).SC2Replay,2020-07-16 15:27:24+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,38,
+30,/home/dominik/Links/SC2Reps/Triton LE (11).SC2Replay,2019-11-01 13:38:34+00:00,False,Zerg,Terran,3096.0,3156.0,Gladiator,Triton LE,373,-60.0
+31,/home/dominik/Links/SC2Reps/Nightshade LE (31).SC2Replay,2020-02-10 19:37:26+00:00,True,Protoss,Zerg,4023.0,4032.0,&lt;biglol&gt;<sp/>bany,Nightshade LE,959,-9.0
+32,/home/dominik/Links/SC2Reps/Nightshade LE (14).SC2Replay,2019-12-27 20:40:39+00:00,True,Protoss,Zerg,3914.0,3914.0,Racin,Nightshade LE,911,0.0
+33,/home/dominik/Links/SC2Reps/Triton LE (2).SC2Replay,2019-09-14 07:10:24+00:00,True,Protoss,Terran,-36400.0,3303.0,Gulgorf,Triton LE,948,-39703.0
+34,/home/dominik/Links/SC2Reps/Ephemeron LE (18).SC2Replay,2019-11-18 16:17:57+00:00,True,Protoss,Protoss,3891.0,3881.0,OlympusRoyal,Ephemeron LE,540,10.0
+35,/home/dominik/Links/SC2Reps/Ice and Chrome LE (15).SC2Replay,2020-07-03 20:13:01+00:00,True,Protoss,Terran,4107.0,3957.0,Kuben,Ice and Chrome LE,713,150.0
+36,/home/dominik/Links/SC2Reps/Ephemeron LE.SC2Replay,2019-09-13 20:52:33+00:00,True,Protoss,Terran,-36400.0,2978.0,oldmannap,Ephemeron LE,667,-39378.0
+37,/home/dominik/Links/SC2Reps/Nightshade LE (24).SC2Replay,2020-01-16 20:58:17+00:00,True,Protoss,Terran,3931.0,3845.0,Exit,Nightshade LE,994,86.0
+38,/home/dominik/Links/SC2Reps/Ever Dream LE (3)_pvp_need_warp_prism.SC2Replay,2020-03-13 07:52:51+00:00,False,Protoss,Protoss,3984.0,4240.0,&lt;Dobro&gt;<sp/>KINE,Ever Dream LE,936,-256.0
+39,/home/dominik/Links/SC2Reps/Ephemeron LE (23).SC2Replay,2019-11-20 07:59:04+00:00,False,Protoss,Zerg,3969.0,3988.0,BuRneR,Ephemeron LE,453,-19.0
+40,/home/dominik/Links/SC2Reps/Simulacrum LE (63).SC2Replay,2020-04-27 11:29:31+00:00,True,Protoss,Terran,3955.0,4123.0,&lt;BARJO&gt;<sp/>JDH,Simulacrum LE,843,-168.0
+41,/home/dominik/Links/SC2Reps/World of Sleepers LE (13).SC2Replay,2019-11-02 20:29:06+00:00,True,Protoss,Terran,3711.0,3736.0,&lt;PiGPan&gt;<sp/>Noose,World of Sleepers LE,796,-25.0
+42,/home/dominik/Links/SC2Reps/Ice and Chrome LE (23).SC2Replay,2020-07-12 19:40:32+00:00,False,Protoss,Zerg,4094.0,4258.0,Hallucinogen,Ice and Chrome LE,704,-164.0
+43,/home/dominik/Links/SC2Reps/Triton LE (3).SC2Replay,2019-09-23 16:05:15+00:00,True,Protoss,Zerg,-36400.0,3335.0,leChrist,Triton LE,842,-39735.0
+44,/home/dominik/Links/SC2Reps/Submarine LE (21).SC2Replay,2020-07-16 14:49:51+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,492,
+45,/home/dominik/Links/SC2Reps/Ephemeron LE (41).SC2Replay,2020-02-13 19:45:12+00:00,True,Protoss,Terran,4104.0,4225.0,ОТМОРОЗОК,Ephemeron LE,976,-121.0
+46,/home/dominik/Links/SC2Reps/Ever Dream LE (17).SC2Replay,2020-05-01 13:09:10+00:00,True,Protoss,Protoss,3942.0,4082.0,&lt;IBeAŚI&gt;<sp/>Epiku,Ever Dream LE,711,-140.0
+47,/home/dominik/Links/SC2Reps/Ephemeron LE (7).SC2Replay,2019-10-30 06:51:48+00:00,True,Protoss,Protoss,3881.0,-36400.0,&lt;WPGG&gt;<sp/>Destructor,Ephemeron LE,18,40281.0
+48,/home/dominik/Links/SC2Reps/World of Sleepers LE (50).SC2Replay,2020-02-13 18:20:49+00:00,True,Protoss,Protoss,4083.0,4002.0,Salomoon,World of Sleepers LE,590,81.0
+49,/home/dominik/Links/SC2Reps/Ever Dream LE (44).SC2Replay,2020-08-01 15:52:47+00:00,True,Protoss,Zerg,,,Carrots,Ever Dream LE,312,
+50,/home/dominik/Links/SC2Reps/World of Sleepers LE (17).SC2Replay,2019-11-05 18:58:24+00:00,True,Protoss,Zerg,3776.0,3752.0,smthFISHYcmg,World of Sleepers LE,546,24.0
+51,/home/dominik/Links/SC2Reps/Pillars of Gold LE (2).SC2Replay,2020-06-15 20:39:42+00:00,False,Protoss,Terran,4122.0,4021.0,FroZeN,Pillars of Gold LE,751,101.0
+52,/home/dominik/Links/SC2Reps/Ephemeron LE (4).SC2Replay,2019-10-12 14:27:06+00:00,True,Zerg,Protoss,2866.0,2887.0,PycckuuXAKEP,Ephemeron LE,502,-21.0
+53,/home/dominik/Links/SC2Reps/Deathaura LE (4).SC2Replay,2020-06-15 20:25:19+00:00,True,Protoss,Protoss,4103.0,4026.0,&lt;RIPIP&gt;<sp/>Crumbelade,Deathaura LE,864,77.0
+54,/home/dominik/Links/SC2Reps/World of Sleepers LE (33).SC2Replay,2019-12-03 19:10:16+00:00,False,Protoss,Protoss,4026.0,4104.0,Orian,World of Sleepers LE,817,-78.0
+55,/home/dominik/Links/SC2Reps/Deathaura LE (27).SC2Replay,2020-07-18 19:16:03+00:00,False,Protoss,Terran,4016.0,3681.0,kNo,Deathaura LE,514,335.0
+56,/home/dominik/Links/SC2Reps/Deathaura LE (6).SC2Replay,2020-06-19 10:59:39+00:00,False,Protoss,Terran,4119.0,4033.0,davinchi,Deathaura LE,559,86.0
+57,/home/dominik/Links/SC2Reps/Ever Dream LE (28).SC2Replay,2020-06-03 18:34:39+00:00,True,Protoss,Zerg,4180.0,4304.0,feetlover,Ever Dream LE,763,-124.0
+58,/home/dominik/Links/SC2Reps/Ephemeron LE (16).SC2Replay,2019-11-18 15:58:52+00:00,True,Protoss,Zerg,3893.0,3790.0,влад,Ephemeron LE,845,103.0
+59,/home/dominik/Links/SC2Reps/Zen LE (9).SC2Replay,2020-05-02 19:20:36+00:00,True,Protoss,Protoss,3944.0,3998.0,mozgj,Zen LE,823,-54.0
+60,/home/dominik/Links/SC2Reps/Ephemeron LE (21).SC2Replay,2019-11-19 19:10:36+00:00,False,Protoss,Protoss,3947.0,4009.0,&lt;TDDA&gt;<sp/>EMM,Ephemeron LE,219,-62.0
+61,/home/dominik/Links/SC2Reps/Ice and Chrome LE (31).SC2Replay,2020-07-25 19:01:35+00:00,True,Protoss,Terran,4039.0,3971.0,Bolo,Ice and Chrome LE,959,68.0
+62,/home/dominik/Links/SC2Reps/Acropolis LE (10).SC2Replay,2019-10-22 12:04:14+00:00,False,Protoss,Zerg,3885.0,4350.0,&lt;МД86&gt;<sp/>Moldovanin,Acropolis LE,187,-465.0
+63,/home/dominik/Links/SC2Reps/Simulacrum LE (57).SC2Replay,2020-04-19 11:34:20+00:00,False,Protoss,Zerg,,,shadowofmich,Simulacrum LE,382,
+64,/home/dominik/Links/SC2Reps/Simulacrum LE (45).SC2Replay,2020-03-30 15:48:04+00:00,False,Protoss,Zerg,4001.0,3997.0,Bee,Simulacrum LE,616,4.0
+65,/home/dominik/Links/SC2Reps/Ephemeron LE (11).SC2Replay,2019-11-04 20:46:24+00:00,False,Protoss,Zerg,3825.0,3847.0,North,Ephemeron LE,311,-22.0
+66,/home/dominik/Links/SC2Reps/Ephemeron LE (45).SC2Replay,2020-02-18 18:56:03+00:00,True,Protoss,Zerg,4000.0,4095.0,Hello,Ephemeron LE,849,-95.0
+67,/home/dominik/Links/SC2Reps/Acropolis LE (6).SC2Replay,2019-10-09 19:03:59+00:00,True,Zerg,Terran,2960.0,2981.0,KerMiTe,Acropolis LE,538,-21.0
+68,/home/dominik/Links/SC2Reps/World of Sleepers LE (35).SC2Replay,2019-12-05 19:43:40+00:00,True,Protoss,Terran,4028.0,4001.0,Niinja,World of Sleepers LE,1308,27.0
+69,/home/dominik/Links/SC2Reps/Zen LE (11).SC2Replay,2020-05-08 11:14:30+00:00,True,Protoss,Protoss,4107.0,4047.0,&lt;tXs&gt;<sp/>TheBloke,Zen LE,992,60.0
+70,/home/dominik/Links/SC2Reps/World of Sleepers LE (21).SC2Replay,2019-11-18 15:35:35+00:00,True,Zerg,Protoss,3014.0,3023.0,&lt;DayJ&gt;<sp/>Fuzzy,World of Sleepers LE,640,-9.0
+71,/home/dominik/Links/SC2Reps/Eternal Empire LE (7).SC2Replay,2019-12-11 20:04:00+00:00,False,Protoss,Protoss,4042.0,4028.0,&lt;PiGPan&gt;<sp/>TNTea,Eternal Empire LE,552,14.0
+72,/home/dominik/Links/SC2Reps/World of Sleepers LE (36).SC2Replay,2019-12-12 19:02:09+00:00,True,Protoss,Zerg,4042.0,4029.0,contremaitre,World of Sleepers LE,772,13.0
+73,/home/dominik/Links/SC2Reps/Simulacrum LE (10).SC2Replay,2019-12-20 18:42:21+00:00,False,Protoss,Zerg,3955.0,4160.0,Nyx,Simulacrum LE,329,-205.0
+74,/home/dominik/Links/SC2Reps/Simulacrum LE (20).SC2Replay,2019-12-28 20:58:25+00:00,True,Protoss,Terran,3959.0,3937.0,rOoSter,Simulacrum LE,76,22.0
+75,/home/dominik/Links/SC2Reps/Ephemeron LE (13).SC2Replay,2019-11-05 18:48:41+00:00,True,Protoss,Protoss,3752.0,3771.0,&lt;dumbfu&gt;<sp/>cheesus,Ephemeron LE,259,-19.0
+76,/home/dominik/Links/SC2Reps/Ephemeron LE (44).SC2Replay,2020-02-18 18:41:05+00:00,False,Protoss,Zerg,4019.0,4108.0,Canfup,Ephemeron LE,671,-89.0
+77,/home/dominik/Links/SC2Reps/Deathaura LE (23).SC2Replay,2020-07-13 08:49:06+00:00,False,Protoss,Protoss,4099.0,3963.0,GetLucky,Deathaura LE,548,136.0
+78,/home/dominik/Links/SC2Reps/Deathaura LE (20).SC2Replay,2020-07-09 16:22:20+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,536,
+79,/home/dominik/Links/SC2Reps/Eternal Empire LE (37).SC2Replay,2020-06-02 18:56:11+00:00,True,Protoss,Zerg,4097.0,4028.0,&lt;IndyK&gt;<sp/>Wawszyn,Eternal Empire LE,874,69.0
+80,/home/dominik/Links/SC2Reps/World of Sleepers LE (23).SC2Replay,2019-11-19 19:02:22+00:00,True,Protoss,Terran,3954.0,3570.0,&lt;EESC&gt;<sp/>penduloSFX,World of Sleepers LE,1003,384.0
+81,/home/dominik/Links/SC2Reps/Acropolis LE (20).SC2Replay,2019-11-03 11:18:56+00:00,True,Protoss,Terran,3740.0,3784.0,&lt;DaGOAT&gt;<sp/>Sinus,Acropolis LE,352,-44.0
+82,/home/dominik/Links/SC2Reps/Ever Dream LE (23).SC2Replay,2020-05-15 20:56:24+00:00,True,Protoss,Protoss,4006.0,3960.0,TerenceSkill,Ever Dream LE,745,46.0
+83,/home/dominik/Links/SC2Reps/Nightshade LE (38).SC2Replay,2020-03-04 17:23:14+00:00,False,Protoss,Zerg,4153.0,4183.0,MothMonkey,Nightshade LE,385,-30.0
+84,/home/dominik/Links/SC2Reps/Triton LE (6).SC2Replay,2019-10-29 09:14:41+00:00,True,Protoss,Protoss,3881.0,-36400.0,teror,Triton LE,455,40281.0
+85,/home/dominik/Links/SC2Reps/Acropolis LE (13).SC2Replay,2019-10-31 18:19:19+00:00,False,Zerg,Protoss,3109.0,3109.0,minbear,Acropolis LE,115,0.0
+86,/home/dominik/Links/SC2Reps/Ice and Chrome LE (20).SC2Replay,2020-07-09 16:33:34+00:00,True,Protoss,Terran,,,A.I. 1 (Elite),Ice and Chrome LE,610,
+87,/home/dominik/Links/SC2Reps/Deathaura LE (39).SC2Replay,2020-07-31 14:45:00+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,535,
+88,/home/dominik/Links/SC2Reps/Ephemeron LE (22).SC2Replay,2019-11-19 19:33:09+00:00,True,Protoss,Zerg,3950.0,3859.0,YvanDuRêve,Ephemeron LE,1173,91.0
+89,/home/dominik/Links/SC2Reps/Simulacrum LE (55).SC2Replay,2020-04-19 11:14:04+00:00,True,Protoss,Zerg,,,shadowofmich,Simulacrum LE,646,
+90,/home/dominik/Links/SC2Reps/Golden Wall LE (6).SC2Replay,2020-04-17 20:26:10+00:00,False,Protoss,Protoss,4062.0,4093.0,&lt;HBGS&gt;<sp/>ShoWTimE,Golden Wall LE,297,-31.0
+91,/home/dominik/Links/SC2Reps/Simulacrum LE (52).SC2Replay,2020-04-17 20:20:05+00:00,True,Protoss,Terran,4040.0,4080.0,&lt;Peeps&gt;<sp/>ReNoVation,Simulacrum LE,443,-40.0
+92,/home/dominik/Links/SC2Reps/Simulacrum LE (24).SC2Replay,2020-01-19 18:19:18+00:00,True,Protoss,Terran,3989.0,3979.0,&lt;Dytred&gt;<sp/>EmpiRE,Simulacrum LE,879,10.0
+93,/home/dominik/Links/SC2Reps/Ever Dream LE (16).SC2Replay,2020-05-01 12:37:24+00:00,True,Protoss,Zerg,3923.0,3770.0,&lt;HsDL&gt;<sp/>Zero,Ever Dream LE,805,153.0
+94,/home/dominik/Links/SC2Reps/Golden Wall LE (4).SC2Replay,2020-03-18 12:57:49+00:00,True,Protoss,Terran,4040.0,4189.0,&lt;noIMBA&gt;<sp/>Facehugger,Golden Wall LE,865,-149.0
+95,/home/dominik/Links/SC2Reps/Winter's Gate LE (3).SC2Replay,2019-10-11 09:19:52+00:00,True,Zerg,Terran,2952.0,-36400.0,indy,Winter's Gate LE,696,39352.0
+96,/home/dominik/Links/SC2Reps/Nightshade LE (43).SC2Replay,2020-03-29 20:40:34+00:00,False,Protoss,Protoss,4022.0,4040.0,&lt;SCBoys&gt;<sp/>CiRkuS,Nightshade LE,867,-18.0
+97,/home/dominik/Links/SC2Reps/Submarine LE (23).SC2Replay,2020-07-16 15:18:01+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,18,
+98,/home/dominik/Links/SC2Reps/Ice and Chrome LE (32).SC2Replay,2020-07-29 17:27:32+00:00,False,Protoss,Zerg,4091.0,4072.0,Bartholomaus,Ice and Chrome LE,271,19.0
+99,/home/dominik/Links/SC2Reps/Ice and Chrome LE (9).SC2Replay,2020-06-29 07:54:13+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,506,
+100,/home/dominik/Links/SC2Reps/Ephemeron LE (38).SC2Replay,2020-02-10 19:20:59+00:00,True,Protoss,Protoss,3999.0,4072.0,Pablink,Ephemeron LE,692,-73.0
+101,/home/dominik/Links/SC2Reps/Eternal Empire LE (38).SC2Replay,2020-06-09 17:03:47+00:00,False,Protoss,Protoss,4208.0,4194.0,Ziiim,Eternal Empire LE,360,14.0
+102,/home/dominik/Links/SC2Reps/Triton LE (14).SC2Replay,2019-11-02 17:55:38+00:00,False,Protoss,Zerg,3688.0,3626.0,Pleydellia,Triton LE,162,62.0
+103,/home/dominik/Links/SC2Reps/Ephemeron LE (43).SC2Replay,2020-02-17 17:15:49+00:00,True,Protoss,Terran,3997.0,4152.0,Stilgar,Ephemeron LE,1410,-155.0
+104,/home/dominik/Links/SC2Reps/Simulacrum LE (43).SC2Replay,2020-03-14 15:18:34+00:00,True,Protoss,Terran,3993.0,3975.0,ODISEO,Simulacrum LE,220,18.0
+105,/home/dominik/Links/SC2Reps/Pillars of Gold LE (6).SC2Replay,2020-06-23 12:13:01+00:00,False,Protoss,Zerg,,,shadowofmich,Pillars of Gold LE,736,
+106,/home/dominik/Links/SC2Reps/Submarine LE (6).SC2Replay,2020-06-25 19:58:36+00:00,True,Protoss,Zerg,4049.0,4063.0,&lt;1POL&gt;<sp/>BaKsORO,Submarine LE,785,-14.0
+107,/home/dominik/Links/SC2Reps/Deathaura LE (11).SC2Replay,2020-07-06 18:51:04+00:00,True,Protoss,Zerg,,,Carrots,Deathaura LE,507,
+108,"/home/dominik/Links/SC2Reps/Ice and Chrome LE (15) countered cannon rush, blink countered voids.SC2Replay",2020-07-02 19:17:59+00:00,True,Protoss,Protoss,4106.0,4090.0,iloveyou,Ice and Chrome LE,440,16.0
+109,/home/dominik/Links/SC2Reps/Ice and Chrome LE (33).SC2Replay,2020-07-29 17:41:05+00:00,False,Protoss,Protoss,4069.0,3935.0,SuperBurno,Ice and Chrome LE,777,134.0
+110,/home/dominik/Links/SC2Reps/Zen LE (16) (vs ai stats pvz).SC2Replay,2020-05-15 20:43:42+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Zen LE,579,
+111,/home/dominik/Links/SC2Reps/Nightshade LE (22).SC2Replay,2020-01-13 20:56:14+00:00,False,Protoss,Terran,3968.0,4000.0,SUPERsKILLER,Nightshade LE,825,-32.0
+112,/home/dominik/Links/SC2Reps/Ever Dream LE (25).SC2Replay,2020-05-29 12:17:30+00:00,True,Protoss,Terran,4054.0,3929.0,&lt;SeoYN&gt;<sp/>General,Ever Dream LE,2385,125.0
+113,/home/dominik/Links/SC2Reps/Submarine LE (12).SC2Replay,2020-07-06 11:46:51+00:00,True,Protoss,Protoss,4096.0,3884.0,Satori,Submarine LE,411,212.0
+114,/home/dominik/Links/SC2Reps/Nightshade LE (44).SC2Replay,2020-04-20 11:40:13+00:00,True,Protoss,Terran,4047.0,4019.0,Kilkenny,Nightshade LE,788,28.0
+115,/home/dominik/Links/SC2Reps/Ephemeron LE (14).SC2Replay,2019-11-07 18:24:02+00:00,True,Zerg,Protoss,3019.0,2890.0,Icecöld,Ephemeron LE,830,129.0
+116,/home/dominik/Links/SC2Reps/Ephemeron LE (55).SC2Replay,2020-03-09 10:57:07+00:00,False,Protoss,Terran,4068.0,-36400.0,мясник,Ephemeron LE,718,40468.0
+117,/home/dominik/Links/SC2Reps/Submarine LE (3).SC2Replay,2020-06-13 18:54:06+00:00,True,Protoss,Terran,4103.0,4038.0,zodiaK,Submarine LE,972,65.0
+118,/home/dominik/Links/SC2Reps/Ever Dream LE (4).SC2Replay,2020-04-15 14:50:51+00:00,False,Protoss,Zerg,4043.0,3939.0,Anrik,Ever Dream LE,447,104.0
+119,/home/dominik/Links/SC2Reps/Ephemeron LE (9).SC2Replay,2019-11-01 09:15:52+00:00,False,Protoss,Zerg,3729.0,3871.0,Ghalib,Ephemeron LE,552,-142.0
+120,/home/dominik/Links/SC2Reps/Ever Dream LE (43).SC2Replay,2020-07-29 18:17:54+00:00,True,Protoss,Zerg,4000.0,4586.0,&lt;12p&gt;<sp/>Unnamedhero,Ever Dream LE,831,-586.0
+121,/home/dominik/Links/SC2Reps/Golden Wall LE (11).SC2Replay,2020-05-01 12:42:40+00:00,True,Protoss,Protoss,3944.0,3940.0,Cptred,Golden Wall LE,278,4.0
+122,/home/dominik/Links/SC2Reps/Simulacrum LE (22).SC2Replay,2020-01-14 17:17:37+00:00,True,Protoss,Protoss,3948.0,3936.0,TerenceSkill,Simulacrum LE,1171,12.0
+123,/home/dominik/Links/SC2Reps/Deathaura LE (13).SC2Replay,2020-07-06 19:19:28+00:00,True,Protoss,Zerg,,,Carrots,Deathaura LE,583,
+124,/home/dominik/Links/SC2Reps/Nightshade LE (41).SC2Replay,2020-03-18 12:33:17+00:00,False,Protoss,Protoss,4040.0,4101.0,ManeWicht,Nightshade LE,131,-61.0
+125,/home/dominik/Links/SC2Reps/Ephemeron LE (34).SC2Replay,2020-02-02 18:09:05+00:00,True,Protoss,Zerg,3993.0,3889.0,Jetix,Ephemeron LE,1178,104.0
+126,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (14).SC2Replay,2019-11-25 17:53:56+00:00,False,Protoss,Protoss,3949.0,3935.0,Crombo,Disco Bloodbath LE,830,14.0
+127,/home/dominik/Links/SC2Reps/Nightshade LE (9).SC2Replay,2019-12-21 16:32:08+00:00,True,Zerg,Zerg,3023.0,3026.0,Undead,Nightshade LE,725,-3.0
+128,/home/dominik/Links/SC2Reps/Simulacrum LE.SC2Replay,2019-11-29 18:31:35+00:00,True,Protoss,Terran,3939.0,3953.0,&lt;ERHELM&gt;<sp/>Erik,Simulacrum LE,1015,-14.0
+129,/home/dominik/Links/SC2Reps/World of Sleepers LE (8).SC2Replay,2019-10-29 18:34:48+00:00,True,Protoss,Zerg,3728.0,3744.0,&lt;Dobro&gt;<sp/>пиражок,World of Sleepers LE,911,-16.0
+130,/home/dominik/Links/SC2Reps/Simulacrum LE (53).SC2Replay,2020-04-18 20:30:57+00:00,False,Protoss,Terran,4042.0,4146.0,Alyaska,Simulacrum LE,651,-104.0
+131,/home/dominik/Links/SC2Reps/Submarine LE (7).SC2Replay,2020-07-01 08:45:58+00:00,True,Protoss,Terran,4062.0,4064.0,wickedsick,Submarine LE,673,-2.0
+132,/home/dominik/Links/SC2Reps/Simulacrum LE (38).SC2Replay,2020-03-02 13:26:04+00:00,True,Protoss,Protoss,4106.0,4190.0,WizZy,Simulacrum LE,390,-84.0
+133,/home/dominik/Links/SC2Reps/Thunderbird LE (9).SC2Replay,2019-10-29 11:20:33+00:00,False,Protoss,Protoss,3915.0,3932.0,abelian,Thunderbird LE,320,-17.0
+134,/home/dominik/Links/SC2Reps/Ice and Chrome LE (24).SC2Replay,2020-07-12 19:51:33+00:00,True,Protoss,Protoss,4078.0,4036.0,Stefan,Ice and Chrome LE,604,42.0
+135,/home/dominik/Links/SC2Reps/Eternal Empire LE.SC2Replay,2019-11-28 19:00:27+00:00,False,Protoss,Terran,3962.0,3942.0,&lt;SILeSp&gt;<sp/>Galactus,Eternal Empire LE,307,20.0
+136,/home/dominik/Links/SC2Reps/Eternal Empire LE (8).SC2Replay,2019-12-11 20:23:18+00:00,True,Protoss,Terran,4020.0,4012.0,Legionaru,Eternal Empire LE,1090,8.0
+137,/home/dominik/Links/SC2Reps/World of Sleepers LE (6).SC2Replay,2019-10-22 11:42:30+00:00,True,Protoss,Protoss,3840.0,3757.0,NiGHTKiNG,World of Sleepers LE,453,83.0
+138,/home/dominik/Links/SC2Reps/Simulacrum LE (27).SC2Replay,2020-02-11 17:52:08+00:00,True,Protoss,Protoss,4045.0,3986.0,ZZtopGun,Simulacrum LE,441,59.0
+139,/home/dominik/Links/SC2Reps/Zen LE (10).SC2Replay,2020-05-07 09:42:21+00:00,True,Protoss,Terran,4062.0,4119.0,Yeezus,Zen LE,665,-57.0
+140,/home/dominik/Links/SC2Reps/Ever Dream LE (40) did not gate boom vs 51 drone all in.SC2Replay,2020-07-21 19:33:32+00:00,False,Protoss,Zerg,4002.0,4042.0,&lt;WaCKi&gt;<sp/>krzychacz,Ever Dream LE,544,-40.0
+141,/home/dominik/Links/SC2Reps/Eternal Empire LE (2).SC2Replay,2019-11-29 18:36:51+00:00,False,Zerg,Zerg,3050.0,3083.0,Kesko,Eternal Empire LE,267,-33.0
+142,/home/dominik/Links/SC2Reps/Nightshade LE (21).SC2Replay,2020-01-13 20:21:41+00:00,True,Protoss,Zerg,3995.0,3915.0,&lt;TARAGO&gt;<sp/>Revenge,Nightshade LE,1033,80.0
+143,/home/dominik/Links/SC2Reps/World of Sleepers LE (18).SC2Replay,2019-11-08 09:33:36+00:00,True,Protoss,Zerg,3821.0,3922.0,Zend,World of Sleepers LE,944,-101.0
+144,/home/dominik/Links/SC2Reps/Simulacrum LE (41).SC2Replay,2020-03-10 19:40:43+00:00,True,Protoss,Zerg,4032.0,4050.0,Drakezul,Simulacrum LE,1077,-18.0
+145,/home/dominik/Links/SC2Reps/Ever Dream LE (19).SC2Replay,2020-05-04 12:58:09+00:00,True,Protoss,Terran,3945.0,3952.0,Doghum,Ever Dream LE,869,-7.0
+146,/home/dominik/Links/SC2Reps/Ephemeron LE (30).SC2Replay,2020-01-18 19:38:03+00:00,True,Protoss,Zerg,3950.0,3980.0,&lt;SWWT&gt;<sp/>Epic,Ephemeron LE,719,-30.0
+147,/home/dominik/Links/SC2Reps/Simulacrum LE (8).SC2Replay,2019-12-14 10:50:21+00:00,True,Protoss,Terran,3933.0,4018.0,&lt;Div303&gt;<sp/>Dupsko,Simulacrum LE,930,-85.0
+148,/home/dominik/Links/SC2Reps/Ephemeron LE (5).SC2Replay,2019-10-20 16:35:03+00:00,True,Zerg,Zerg,3119.0,3079.0,greg,Ephemeron LE,613,40.0
+149,/home/dominik/Links/SC2Reps/Nightshade LE (30).SC2Replay,2020-02-06 21:02:53+00:00,True,Protoss,Terran,4009.0,3955.0,KJP,Nightshade LE,853,54.0
+150,/home/dominik/Links/SC2Reps/Ever Dream LE (33).SC2Replay,2020-07-02 19:08:54+00:00,True,Protoss,Zerg,4084.0,4114.0,XenoSlimE,Ever Dream LE,828,-30.0
+151,/home/dominik/Links/SC2Reps/Simulacrum LE (13).SC2Replay,2019-12-21 13:30:37+00:00,False,Protoss,Protoss,3957.0,3956.0,Albus,Simulacrum LE,426,1.0
+152,/home/dominik/Links/SC2Reps/Deathaura LE (29).SC2Replay,2020-07-19 10:47:27+00:00,True,Protoss,Terran,3980.0,3987.0,KVS,Deathaura LE,1291,-7.0
+153,/home/dominik/Links/SC2Reps/Ice and Chrome LE (25).SC2Replay,2020-07-13 09:27:27+00:00,False,Protoss,Protoss,4101.0,4270.0,&lt;LV&gt;<sp/>zichus,Ice and Chrome LE,1073,-169.0
+154,/home/dominik/Links/SC2Reps/Eternal Empire LE (5).SC2Replay,2019-12-09 20:39:03+00:00,False,Protoss,Protoss,4036.0,4108.0,Heradrass,Eternal Empire LE,122,-72.0
+155,/home/dominik/Links/SC2Reps/Eternal Empire LE (9).SC2Replay,2019-12-12 18:10:58+00:00,True,Protoss,Zerg,4041.0,3992.0,Ciprian,Eternal Empire LE,955,49.0
+156,/home/dominik/Links/SC2Reps/Deathaura LE (38).SC2Replay,2020-07-31 14:37:25+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,193,
+157,/home/dominik/Links/SC2Reps/World of Sleepers LE (5).SC2Replay,2019-10-08 19:28:16+00:00,True,Zerg,Zerg,2800.0,2751.0,FullmetalRak,World of Sleepers LE,546,49.0
+158,/home/dominik/Links/SC2Reps/Pillars of Gold LE (8).SC2Replay,2020-06-23 12:36:39+00:00,False,Protoss,Zerg,,,shadowofmich,Pillars of Gold LE,671,
+159,/home/dominik/Links/SC2Reps/Zen LE (12).SC2Replay,2020-05-10 19:29:37+00:00,False,Protoss,Terran,4109.0,4127.0,&lt;2G1M&gt;<sp/>Mime,Zen LE,999,-18.0
+160,/home/dominik/Links/SC2Reps/Simulacrum LE (7).SC2Replay,2019-12-12 21:29:56+00:00,False,Protoss,Protoss,3957.0,3882.0,Noobofsc,Simulacrum LE,709,75.0
+161,/home/dominik/Links/SC2Reps/Eternal Empire LE (14).SC2Replay,2019-12-21 13:54:33+00:00,False,Protoss,Terran,3959.0,3953.0,tiwai,Eternal Empire LE,730,6.0
+162,/home/dominik/Links/SC2Reps/Simulacrum LE (12).SC2Replay,2019-12-20 19:21:46+00:00,True,Protoss,Terran,3937.0,3875.0,Neydark,Simulacrum LE,862,62.0
+163,/home/dominik/Links/SC2Reps/Zen LE (17).SC2Replay,2020-05-26 09:34:07+00:00,False,Protoss,Protoss,4046.0,4040.0,kerokero,Zen LE,1136,6.0
+164,/home/dominik/Links/SC2Reps/Eternal Empire LE (29).SC2Replay,2020-01-05 20:30:44+00:00,False,Protoss,Terran,4015.0,3988.0,oppresticles,Eternal Empire LE,405,27.0
+165,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (3).SC2Replay,2019-10-29 18:17:37+00:00,False,Protoss,Zerg,3802.0,3912.0,beh,Disco Bloodbath LE,288,-110.0
+166,/home/dominik/Links/SC2Reps/Simulacrum LE (72).SC2Replay,2020-05-10 18:56:45+00:00,False,Protoss,Terran,4145.0,4427.0,Törttö,Simulacrum LE,1009,-282.0
+167,/home/dominik/Links/SC2Reps/Golden Wall LE (27).SC2Replay,2020-07-08 17:01:32+00:00,False,Protoss,Protoss,4111.0,3976.0,Hidalgo,Golden Wall LE,828,135.0
+168,/home/dominik/Links/SC2Reps/Nightshade LE (5).SC2Replay,2019-12-12 19:21:45+00:00,False,Protoss,Protoss,4063.0,4051.0,Fraze,Nightshade LE,1163,12.0
+169,/home/dominik/Links/SC2Reps/Ephemeron LE (6).SC2Replay,2019-10-22 11:34:42+00:00,False,Protoss,Protoss,3881.0,4066.0,&lt;НТТ&gt;<sp/>SPQR,Ephemeron LE,209,-185.0
+170,/home/dominik/Links/SC2Reps/Ephemeron LE (3).SC2Replay,2019-10-12 14:14:32+00:00,False,Zerg,Protoss,3053.0,3060.0,&lt;LSDW&gt;<sp/>kaboum,Ephemeron LE,497,-7.0
+171,/home/dominik/Links/SC2Reps/Eternal Empire LE (41).SC2Replay,2020-06-10 11:27:56+00:00,False,Protoss,Terran,4125.0,4000.0,Oink,Eternal Empire LE,211,125.0
+172,/home/dominik/Links/SC2Reps/Golden Wall LE (12).SC2Replay,2020-05-02 14:40:15+00:00,False,Protoss,Zerg,3968.0,3921.0,&lt;IndyK&gt;<sp/>Wawszyn,Golden Wall LE,401,47.0
+173,/home/dominik/Links/SC2Reps/World of Sleepers LE (19).SC2Replay,2019-11-12 09:49:52+00:00,True,Protoss,Terran,3870.0,3900.0,midhigh,World of Sleepers LE,363,-30.0
+174,/home/dominik/Links/SC2Reps/Deathaura LE (21).SC2Replay,2020-07-09 17:44:24+00:00,True,Protoss,Protoss,,,A.I. 1 (Elite),Deathaura LE,635,
+175,/home/dominik/Links/SC2Reps/World of Sleepers LE (14).SC2Replay,2019-11-04 20:57:05+00:00,False,Protoss,Protoss,3777.0,3761.0,IIIIIIIIIIII,World of Sleepers LE,182,16.0
+176,/home/dominik/Links/SC2Reps/Deathaura LE (26).SC2Replay,2020-07-18 18:23:02+00:00,True,Protoss,Zerg,,,A.I. 1 (Easy),Deathaura LE,521,
+177,/home/dominik/Links/SC2Reps/World of Sleepers LE (2).SC2Replay,2019-09-24 16:17:17+00:00,True,Protoss,Zerg,-36400.0,4681.0,&lt;FxL&gt;<sp/>VokinLoksar,World of Sleepers LE,519,-41081.0
+178,/home/dominik/Links/SC2Reps/World of Sleepers LE (52).SC2Replay,2020-02-17 16:49:49+00:00,False,Protoss,Terran,4018.0,4011.0,&lt;lLiTl&gt;<sp/>Quickman,World of Sleepers LE,800,7.0
+179,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (6).SC2Replay,2019-11-02 17:45:05+00:00,True,Protoss,Protoss,3661.0,3631.0,KKroer,Disco Bloodbath LE,585,30.0
+180,/home/dominik/Links/SC2Reps/Golden Wall LE (25).SC2Replay,2020-07-04 17:04:47+00:00,True,Terran,Terran,-36400.0,,A.I. 1 (Medium),Golden Wall LE,504,
+181,/home/dominik/Links/SC2Reps/Acropolis LE (7).SC2Replay,2019-10-10 20:42:11+00:00,True,Protoss,Protoss,3827.0,3701.0,Pippuri,Acropolis LE,697,126.0
+182,/home/dominik/Links/SC2Reps/todo zvp ravager walk.SC2Replay,2020-05-03 20:09:30+00:00,False,Protoss,Zerg,3966.0,3888.0,RomaNo,Purity and Industry LE,270,78.0
+183,/home/dominik/Links/SC2Reps/Nightshade LE (53).SC2Replay,2020-05-02 14:53:55+00:00,True,Protoss,Terran,3945.0,3931.0,&lt;EZPTS&gt;<sp/>talisman,Nightshade LE,792,14.0
+184,/home/dominik/Links/SC2Reps/Ever Dream LE (27).SC2Replay,2020-06-02 18:39:35+00:00,True,Protoss,Protoss,4076.0,4059.0,IIIIIIIII,Ever Dream LE,722,17.0
+185,/home/dominik/Links/SC2Reps/Purity and Industry LE (9).SC2Replay,2020-04-30 10:56:43+00:00,True,Protoss,Zerg,3915.0,3924.0,&lt;RIIP&gt;<sp/>Airea,Purity and Industry LE,534,-9.0
+186,/home/dominik/Links/SC2Reps/Ephemeron LE (49).SC2Replay,2020-02-28 07:06:26+00:00,False,Protoss,Zerg,4117.0,4444.0,IIIIIIIIIIII,Ephemeron LE,256,-327.0
+187,/home/dominik/Links/SC2Reps/Submarine LE.SC2Replay,2020-06-10 11:35:16+00:00,False,Protoss,Protoss,4100.0,4188.0,&lt;UATeam&gt;<sp/>click,Submarine LE,343,-88.0
+188,/home/dominik/Links/SC2Reps/Ephemeron LE (51).SC2Replay,2020-02-29 15:22:31+00:00,True,Protoss,Zerg,4083.0,4060.0,StepO,Ephemeron LE,838,23.0
+189,"/home/dominik/Links/SC2Reps/Ice and Chrome LE (30) vs phoenix opener + stalkers, went mass archons off 4gate withupgrades.SC2Replay",2020-07-24 18:23:43+00:00,True,Protoss,Protoss,4040.0,4105.0,Hannibal,Ice and Chrome LE,619,-65.0
+190,/home/dominik/Links/SC2Reps/Golden Wall LE (5).SC2Replay,2020-03-31 12:27:18+00:00,True,Protoss,Terran,3979.0,4010.0,&lt;lLiTl&gt;<sp/>Rud,Golden Wall LE,1051,-31.0
+191,/home/dominik/Links/SC2Reps/Nightshade LE (63).SC2Replay,2020-06-04 19:18:46+00:00,True,Protoss,Zerg,4181.0,4370.0,&lt;AiRǂ&gt;<sp/>SuperNova,Nightshade LE,846,-189.0
+192,/home/dominik/Links/SC2Reps/Ice and Chrome LE (12).SC2Replay,2020-06-29 07:59:35+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,258,
+193,/home/dominik/Links/SC2Reps/Nightshade LE (13).SC2Replay,2019-12-24 18:53:21+00:00,True,Protoss,Zerg,3893.0,3843.0,Vakhtang,Nightshade LE,1004,50.0
+194,/home/dominik/Links/SC2Reps/Nightshade LE (49).SC2Replay,2020-04-28 13:05:12+00:00,True,Protoss,Protoss,3895.0,3856.0,AndrU,Nightshade LE,845,39.0
+195,/home/dominik/Links/SC2Reps/Ephemeron LE (31).SC2Replay,2020-01-31 12:54:05+00:00,False,Protoss,Zerg,4011.0,4115.0,Stick,Ephemeron LE,591,-104.0
+196,/home/dominik/Links/SC2Reps/World of Sleepers LE (25).SC2Replay,2019-11-26 18:58:28+00:00,False,Protoss,Zerg,3927.0,3908.0,прорвемся,World of Sleepers LE,321,19.0
+197,/home/dominik/Links/SC2Reps/Simulacrum LE (61).SC2Replay,2020-04-22 20:45:38+00:00,True,Protoss,Zerg,4001.0,3959.0,mSin,Simulacrum LE,704,42.0
+198,/home/dominik/Links/SC2Reps/Ephemeron LE (19).SC2Replay,2019-11-18 17:08:15+00:00,False,Protoss,Terran,3912.0,3823.0,InsighT,Ephemeron LE,44,89.0
+199,/home/dominik/Links/SC2Reps/Eternal Empire LE (28).SC2Replay,2020-01-05 14:40:17+00:00,False,Protoss,Protoss,4040.0,4043.0,&lt;PÂRłAH&gt;<sp/>SolusRex,Eternal Empire LE,297,-3.0
+200,/home/dominik/Links/SC2Reps/Golden Wall LE (24).SC2Replay,2020-07-04 16:35:39+00:00,False,Protoss,Protoss,4086.0,4096.0,Omulus,Golden Wall LE,229,-10.0
+201,/home/dominik/Links/SC2Reps/Submarine LE (27).SC2Replay,2020-07-16 15:36:16+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,517,
+202,/home/dominik/Links/SC2Reps/Ever Dream LE (20).SC2Replay,2020-05-10 19:12:24+00:00,False,Protoss,Terran,4131.0,4105.0,&lt;2G1M&gt;<sp/>Mime,Ever Dream LE,834,26.0
+203,/home/dominik/Links/SC2Reps/Ever Dream LE (40).SC2Replay,2020-07-23 18:37:39+00:00,True,Protoss,Terran,4000.0,4231.0,Colonist,Ever Dream LE,682,-231.0
+204,/home/dominik/Links/SC2Reps/Ephemeron LE (15).SC2Replay,2019-11-17 10:20:15+00:00,True,Protoss,Terran,3894.0,3798.0,MightyMurloc,Ephemeron LE,1313,96.0
+205,/home/dominik/Links/SC2Reps/Triton LE.SC2Replay,2019-09-11 15:22:43+00:00,True,Protoss,Terran,-36400.0,2806.0,winstrol,Triton LE,478,-39206.0
+206,/home/dominik/Links/SC2Reps/Deathaura LE (3).SC2Replay,2020-06-14 11:25:10+00:00,False,Protoss,Zerg,4123.0,4203.0,IIIIIIIIIIII,Deathaura LE,353,-80.0
+207,/home/dominik/Links/SC2Reps/Purity and Industry LE (3).SC2Replay,2020-03-24 16:59:08+00:00,True,Zerg,Protoss,3086.0,3078.0,Steelseer,Purity and Industry LE,611,8.0
+208,/home/dominik/Links/SC2Reps/Simulacrum LE (71).SC2Replay,2020-05-05 17:44:27+00:00,True,Protoss,Zerg,4005.0,3981.0,&lt;ƮesXG&gt;<sp/>Rymdkrigaren,Simulacrum LE,696,24.0
+209,/home/dominik/Links/SC2Reps/Submarine LE (22).SC2Replay,2020-07-16 15:17:31+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,14,
+210,/home/dominik/Links/SC2Reps/Ever Dream LE (30).SC2Replay,2020-06-25 19:44:49+00:00,False,Protoss,Zerg,4070.0,4107.0,March,Ever Dream LE,157,-37.0
+211,/home/dominik/Links/SC2Reps/Ephemeron LE (29).SC2Replay,2020-01-13 20:42:12+00:00,False,Protoss,Protoss,3989.0,4017.0,MadProbe,Ephemeron LE,149,-28.0
+212,/home/dominik/Links/SC2Reps/Deathaura LE (24).SC2Replay,2020-07-13 09:08:15+00:00,True,Protoss,Protoss,4073.0,4276.0,Mitchowyn,Deathaura LE,286,-203.0
+213,/home/dominik/Links/SC2Reps/Golden Wall LE (10).SC2Replay,2020-04-27 11:06:38+00:00,True,Protoss,Terran,3956.0,4033.0,Etharis,Golden Wall LE,22,-77.0
+214,/home/dominik/Links/SC2Reps/Simulacrum LE (23).SC2Replay,2020-01-19 18:04:18+00:00,True,Protoss,Terran,3969.0,3889.0,StifleR,Simulacrum LE,480,80.0
+215,/home/dominik/Links/SC2Reps/Deathaura LE (9).SC2Replay,2020-07-05 10:44:07+00:00,True,Protoss,Zerg,4065.0,3953.0,Karasuman,Deathaura LE,452,112.0
+216,"/home/dominik/Links/SC2Reps/Deathaura LE (31) vs random zerg, reacted with 6gate adeptsentry special taktiks.SC2Replay",2020-07-26 11:04:24+00:00,True,Protoss,Zerg,4043.0,4089.0,Nejolight,Deathaura LE,416,-46.0
+217,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (11).SC2Replay,2019-11-19 07:23:00+00:00,True,Protoss,Protoss,3934.0,3874.0,IIIIIIIIIIII,Disco Bloodbath LE,780,60.0
+218,/home/dominik/Links/SC2Reps/Nightshade LE (62).SC2Replay,2020-06-03 17:53:48+00:00,True,Protoss,Terran,4117.0,3946.0,&lt;DisES&gt;<sp/>Kamenashi,Nightshade LE,471,171.0
+219,/home/dominik/Links/SC2Reps/Simulacrum LE (62).SC2Replay,2020-04-24 18:14:15+00:00,False,Protoss,Zerg,4021.0,3985.0,Spider,Simulacrum LE,369,36.0
+220,/home/dominik/Links/SC2Reps/Ice and Chrome LE (17).SC2Replay,2020-07-04 16:31:24+00:00,False,Protoss,Zerg,4107.0,4144.0,&lt;IDLK&gt;<sp/>jasben,Ice and Chrome LE,146,-37.0
+221,/home/dominik/Links/SC2Reps/Deathaura LE (34).SC2Replay,2020-07-29 10:43:13+00:00,True,Protoss,Protoss,,,A.I. 1 (Easy),Deathaura LE,844,
+222,/home/dominik/Links/SC2Reps/Submarine LE (16).SC2Replay,2020-07-09 17:07:12+00:00,False,Protoss,Terran,4090.0,4225.0,Alexclusive,Submarine LE,745,-135.0
+223,/home/dominik/Links/SC2Reps/Ephemeron LE (50).SC2Replay,2020-02-29 15:07:01+00:00,False,Protoss,Terran,4100.0,4467.0,&lt;HBeS&gt;<sp/>LoziRa,Ephemeron LE,446,-367.0
+224,/home/dominik/Links/SC2Reps/Triton LE (20).SC2Replay,2019-11-20 08:19:24+00:00,False,Protoss,Zerg,3948.0,3885.0,&lt;CocoCo&gt;<sp/>Goty,Triton LE,1199,63.0
+225,"/home/dominik/Links/SC2Reps/Ever Dream LE (40) sentries rallied out of main, died to adepts.SC2Replay",2020-07-19 10:25:10+00:00,False,Protoss,Protoss,4006.0,3877.0,&lt;xCRO&gt;<sp/>NexuS,Ever Dream LE,296,129.0
+226,/home/dominik/Links/SC2Reps/Simulacrum LE (50).SC2Replay,2020-04-17 19:31:37+00:00,True,Protoss,Terran,4021.0,4030.0,Boban,Simulacrum LE,882,-9.0
+227,/home/dominik/Links/SC2Reps/Ice and Chrome LE (35).SC2Replay,2020-07-31 19:12:53+00:00,False,Protoss,Terran,4035.0,3943.0,david,Ice and Chrome LE,842,92.0
+228,/home/dominik/Links/SC2Reps/Ever Dream LE (24).SC2Replay,2020-05-27 10:21:13+00:00,True,Protoss,Terran,3985.0,3887.0,Froze,Ever Dream LE,461,98.0
+229,/home/dominik/Links/SC2Reps/Golden Wall LE (9).SC2Replay,2020-04-24 18:18:47+00:00,False,Protoss,Zerg,3999.0,3990.0,Spider,Golden Wall LE,218,9.0
+230,/home/dominik/Links/SC2Reps/Ever Dream LE (38).SC2Replay,2020-07-15 19:50:02+00:00,False,Protoss,Zerg,-36400.0,,A.I. 1 (Hard),Ever Dream LE,301,
+231,/home/dominik/Links/SC2Reps/Deathaura LE (7).SC2Replay,2020-07-01 08:34:14+00:00,True,Protoss,Terran,4046.0,3850.0,etwasAnderes,Deathaura LE,649,196.0
+232,/home/dominik/Links/SC2Reps/Submarine LE (8).SC2Replay,2020-07-04 16:55:08+00:00,True,Terran,Terran,-36400.0,,A.I. 1 (Easy),Submarine LE,450,
+233,/home/dominik/Links/SC2Reps/Submarine LE (17).SC2Replay,2020-07-15 17:43:11+00:00,False,Protoss,Terran,4081.0,4033.0,&lt;MeIina&gt;<sp/>UndeadGirl,Submarine LE,901,48.0
+234,/home/dominik/Links/SC2Reps/Ever Dream LE (29)_test.SC2Replay,2020-06-14 11:55:40+00:00,True,Protoss,Zerg,4080.0,4125.0,&lt;InBri&gt;<sp/>ImbAZerG,Ever Dream LE,812,-45.0
+235,/home/dominik/Links/SC2Reps/Ever Dream LE.SC2Replay,2020-03-12 19:06:49+00:00,False,Protoss,Protoss,4009.0,3905.0,Salomoon,Ever Dream LE,594,104.0
+236,/home/dominik/Links/SC2Reps/Deathaura LE (19).SC2Replay,2020-07-09 16:18:02+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,438,
+237,/home/dominik/Links/SC2Reps/Eternal Empire LE (30).SC2Replay,2020-01-05 20:39:37+00:00,True,Protoss,Protoss,3972.0,4028.0,lIlIlIIlIlIl,Eternal Empire LE,274,-56.0
+238,/home/dominik/Links/SC2Reps/Nightshade LE (19).SC2Replay,2020-01-05 14:55:15+00:00,True,Protoss,Terran,,,Sanedude,Nightshade LE,394,
+239,/home/dominik/Links/SC2Reps/Ever Dream LE (47).SC2Replay,2020-08-04 16:18:54+00:00,True,Protoss,Protoss,4077.0,4119.0,April,Ever Dream LE,938,-42.0
+240,/home/dominik/Links/SC2Reps/Eternal Empire LE (22).SC2Replay,2019-12-24 11:17:11+00:00,False,Protoss,Terran,3869.0,3863.0,&lt;isIMBA&gt;<sp/>naincraft,Eternal Empire LE,283,6.0
+241,/home/dominik/Links/SC2Reps/Nightshade LE (39).SC2Replay,2020-03-09 11:03:30+00:00,False,Protoss,Protoss,4050.0,4228.0,Noldo,Nightshade LE,225,-178.0
+242,/home/dominik/Links/SC2Reps/Simulacrum LE (21).SC2Replay,2020-01-05 20:23:43+00:00,False,Protoss,Zerg,4039.0,3936.0,&lt;ORRO&gt;<sp/>jul,Simulacrum LE,280,103.0
+243,/home/dominik/Links/SC2Reps/World of Sleepers LE (24).SC2Replay,2019-11-25 17:38:25+00:00,True,Protoss,Zerg,3925.0,4020.0,&lt;kOzY&gt;<sp/>Dave,World of Sleepers LE,891,-95.0
+244,/home/dominik/Links/SC2Reps/Simulacrum LE (54).SC2Replay,2020-04-19 10:59:16+00:00,False,Protoss,Zerg,,,shadowofmich,Simulacrum LE,522,
+245,/home/dominik/Links/SC2Reps/Eternal Empire LE (15).SC2Replay,2019-12-21 14:27:45+00:00,True,Protoss,Terran,3896.0,3911.0,Stefan,Eternal Empire LE,1009,-15.0
+246,/home/dominik/Links/SC2Reps/Ephemeron LE (35).SC2Replay,2020-02-05 21:05:33+00:00,True,Protoss,Protoss,3965.0,4011.0,Orian,Ephemeron LE,131,-46.0
+247,/home/dominik/Links/SC2Reps/Triton LE (17).SC2Replay,2019-11-17 09:58:11+00:00,False,Protoss,Protoss,3913.0,3992.0,TrashCanMan,Triton LE,212,-79.0
+248,/home/dominik/Links/SC2Reps/Nightshade LE (54).SC2Replay,2020-05-02 18:35:12+00:00,True,Protoss,Protoss,-36400.0,,A.I. 1 (Very Easy),Nightshade LE,386,
+249,/home/dominik/Links/SC2Reps/Zen LE (8).SC2Replay,2020-05-01 11:59:09+00:00,False,Protoss,Zerg,3965.0,4027.0,fireballkid,Zen LE,958,-62.0
+250,/home/dominik/Links/SC2Reps/Eternal Empire LE (21).SC2Replay,2019-12-23 16:30:33+00:00,False,Protoss,Protoss,3898.0,3782.0,æææ,Eternal Empire LE,17,116.0
+251,/home/dominik/Links/SC2Reps/Purity and Industry LE (6).SC2Replay,2020-04-18 20:05:07+00:00,False,Protoss,Zerg,4042.0,4071.0,MouseGGAXE,Purity and Industry LE,421,-29.0
+252,/home/dominik/Links/SC2Reps/Golden Wall LE (28).SC2Replay,2020-07-09 16:50:58+00:00,False,Protoss,Zerg,4109.0,4204.0,MIXRISH,Golden Wall LE,360,-95.0
+253,/home/dominik/Links/SC2Reps/Acropolis LE (25).SC2Replay,2019-11-18 18:03:36+00:00,True,Protoss,Zerg,3911.0,3961.0,Cosmobrother,Acropolis LE,909,-50.0
+254,/home/dominik/Links/SC2Reps/Zen LE (14).SC2Replay,2020-05-11 09:35:55+00:00,False,Protoss,Zerg,4070.0,4142.0,Elosai,Zen LE,696,-72.0
+255,/home/dominik/Links/SC2Reps/Ice and Chrome LE.SC2Replay,2020-06-10 11:18:56+00:00,False,Protoss,Protoss,4144.0,4185.0,Guinness,Ice and Chrome LE,299,-41.0
+256,/home/dominik/Links/SC2Reps/Simulacrum LE (34).SC2Replay,2020-02-27 21:17:28+00:00,False,Protoss,Terran,4139.0,4401.0,&lt;PlAr&gt;<sp/>Arcanewinds,Simulacrum LE,559,-262.0
+257,/home/dominik/Links/SC2Reps/Ever Dream LE (46).SC2Replay,2020-08-03 19:36:29+00:00,False,Protoss,Protoss,,,horsebanger,Ever Dream LE,931,
+258,/home/dominik/Links/SC2Reps/Eternal Empire LE (31).SC2Replay,2020-01-13 20:26:44+00:00,False,Protoss,Zerg,4014.0,3896.0,&lt;TARAGO&gt;<sp/>Revenge,Eternal Empire LE,243,118.0
+259,/home/dominik/Links/SC2Reps/Simulacrum LE (26).SC2Replay,2020-02-02 17:40:53+00:00,False,Protoss,Terran,3991.0,3995.0,VouS,Simulacrum LE,766,-4.0
+260,/home/dominik/Links/SC2Reps/Golden Wall LE (3).SC2Replay,2020-03-14 16:58:41+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Golden Wall LE,1014,
+261,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (4).SC2Replay,2019-10-31 19:07:25+00:00,False,Protoss,Terran,3730.0,3664.0,&lt;IndyK&gt;<sp/>Sven,Disco Bloodbath LE,381,66.0
+262,/home/dominik/Links/SC2Reps/Thunderbird LE (5).SC2Replay,2019-10-09 19:24:28+00:00,True,Zerg,Protoss,2855.0,2800.0,Decadance,Thunderbird LE,830,55.0
+263,/home/dominik/Links/SC2Reps/World of Sleepers LE (29).SC2Replay,2019-11-28 19:23:15+00:00,True,Protoss,Terran,3959.0,3956.0,Inquisition,World of Sleepers LE,721,3.0
+264,/home/dominik/Links/SC2Reps/Simulacrum LE (17).SC2Replay,2019-12-24 11:03:44+00:00,False,Protoss,Zerg,3892.0,3845.0,&lt;Wø&gt;<sp/>poichiche,Simulacrum LE,629,47.0
+265,/home/dominik/Links/SC2Reps/Nightshade LE (59).SC2Replay,2020-05-27 10:12:25+00:00,False,Protoss,Protoss,4004.0,4093.0,MasterZERG,Nightshade LE,578,-89.0
+266,/home/dominik/Links/SC2Reps/Deathaura LE (10).SC2Replay,2020-07-06 18:41:32+00:00,False,Protoss,Zerg,,,Carrots,Deathaura LE,118,
+267,/home/dominik/Links/SC2Reps/Triton LE (9).SC2Replay,2019-11-01 09:05:49+00:00,True,Protoss,Zerg,3691.0,3769.0,&lt;NerCC&gt;<sp/>speck,Triton LE,943,-78.0
+268,/home/dominik/Links/SC2Reps/World of Sleepers LE (11).SC2Replay,2019-11-01 11:53:00+00:00,False,Zerg,Terran,3196.0,3190.0,Wormzor,World of Sleepers LE,1280,6.0
+269,/home/dominik/Links/SC2Reps/Triton LE (13).SC2Replay,2019-11-02 17:51:37+00:00,False,Protoss,Zerg,3718.0,3685.0,Hazard,Triton LE,256,33.0
+270,/home/dominik/Links/SC2Reps/Nightshade LE (26).SC2Replay,2020-01-31 13:10:03+00:00,True,Protoss,Terran,3992.0,3928.0,&lt;GELSEN&gt;<sp/>Masaru,Nightshade LE,944,64.0
+271,/home/dominik/Links/SC2Reps/Pillars of Gold LE (5).SC2Replay,2020-06-23 11:59:40+00:00,False,Protoss,Zerg,,,shadowofmich,Pillars of Gold LE,568,
+272,/home/dominik/Links/SC2Reps/Ice and Chrome LE (29).SC2Replay,2020-07-18 19:04:09+00:00,False,Protoss,Terran,4039.0,4011.0,Hedoes,Ice and Chrome LE,202,28.0
+273,/home/dominik/Links/SC2Reps/Ice and Chrome LE (2).SC2Replay,2020-06-19 11:20:25+00:00,True,Protoss,Zerg,4095.0,4120.0,&lt;SEWP&gt;<sp/>ЛЕВ,Ice and Chrome LE,1186,-25.0
+274,/home/dominik/Links/SC2Reps/Ephemeron LE (20).SC2Replay,2019-11-19 19:05:56+00:00,False,Protoss,Protoss,3972.0,4359.0,Pudgey,Ephemeron LE,183,-387.0
+275,/home/dominik/Links/SC2Reps/Nightshade LE (27).SC2Replay,2020-02-02 17:26:32+00:00,False,Protoss,Zerg,3992.0,4006.0,djakette,Nightshade LE,595,-14.0
+276,/home/dominik/Links/SC2Reps/Zen LE (5).SC2Replay,2020-04-18 20:18:26+00:00,True,Protoss,Zerg,4021.0,4013.0,&lt;HsDL&gt;<sp/>Domius,Zen LE,749,8.0
+277,/home/dominik/Links/SC2Reps/Ever Dream LE (21).SC2Replay,2020-05-11 16:06:39+00:00,False,Protoss,Zerg,,,TGE,Ever Dream LE,935,
+278,/home/dominik/Links/SC2Reps/Golden Wall LE (26).SC2Replay,2020-07-04 17:12:55+00:00,True,Terran,Zerg,-36400.0,,A.I. 1 (Medium),Golden Wall LE,473,
+279,/home/dominik/Links/SC2Reps/Eternal Empire LE (26).SC2Replay,2020-01-05 14:03:19+00:00,False,Protoss,Zerg,4036.0,4196.0,&lt;Lowko&gt;<sp/>HardNeper,Eternal Empire LE,300,-160.0
+280,/home/dominik/Links/SC2Reps/Thunderbird LE (11).SC2Replay,2019-10-29 18:18:43+00:00,False,Protoss,Zerg,3767.0,3740.0,Hannibal,Thunderbird LE,10,27.0
+281,/home/dominik/Links/SC2Reps/Nightshade LE (15).SC2Replay,2019-12-27 21:24:06+00:00,True,Protoss,Terran,3936.0,3977.0,&lt;DemuCl&gt;<sp/>Jazzz,Nightshade LE,1277,-41.0
+282,/home/dominik/Links/SC2Reps/Simulacrum LE (68).SC2Replay,2020-05-03 20:53:32+00:00,False,Protoss,Protoss,3946.0,4025.0,Epicnoob,Simulacrum LE,535,-79.0
+283,/home/dominik/Links/SC2Reps/Eternal Empire LE (40).SC2Replay,2020-06-09 17:24:17+00:00,False,Protoss,Terran,4164.0,4232.0,StaMinA,Eternal Empire LE,758,-68.0
+284,/home/dominik/Links/SC2Reps/Triton LE (19).SC2Replay,2019-11-18 17:26:00+00:00,True,Protoss,Zerg,3888.0,3904.0,trouth,Triton LE,970,-16.0
+285,/home/dominik/Links/SC2Reps/Deathaura LE (41).SC2Replay,2020-07-31 14:57:33+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,665,
+286,/home/dominik/Links/SC2Reps/World of Sleepers LE (34).SC2Replay,2019-12-05 19:21:37+00:00,True,Protoss,Zerg,4007.0,3989.0,AlexMacedon,World of Sleepers LE,585,18.0
+287,/home/dominik/Links/SC2Reps/Triton LE (15).SC2Replay,2019-11-03 11:35:01+00:00,True,Protoss,Terran,3769.0,3856.0,&lt;LESeV&gt;<sp/>iceclaw,Triton LE,932,-87.0
+288,/home/dominik/Links/SC2Reps/Acropolis LE.SC2Replay,2019-09-17 19:00:36+00:00,True,Zerg,Protoss,-36400.0,2554.0,Aertemis,Acropolis LE,373,-38954.0
+289,/home/dominik/Links/SC2Reps/Zen LE (6).SC2Replay,2020-04-21 19:29:13+00:00,False,Protoss,Protoss,4067.0,4049.0,BsCMBANerd,Zen LE,131,18.0
+290,/home/dominik/Links/SC2Reps/Eternal Empire LE (42).SC2Replay,2020-07-15 20:00:06+00:00,True,Protoss,Terran,-36400.0,,A.I. 1 (Hard),Eternal Empire LE,280,
+291,/home/dominik/Links/SC2Reps/World of Sleepers LE (38).SC2Replay,2019-12-20 18:36:11+00:00,True,Protoss,Terran,3935.0,4181.0,utopike,World of Sleepers LE,1112,-246.0
+292,/home/dominik/Links/SC2Reps/Simulacrum LE (76).SC2Replay,2020-06-03 18:04:43+00:00,True,Protoss,Protoss,4156.0,4244.0,Liverpool,Simulacrum LE,529,-88.0
+293,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (10).SC2Replay,2019-11-06 21:43:25+00:00,True,Protoss,Zerg,3798.0,3803.0,ProtoZZavr,Disco Bloodbath LE,551,-5.0
+294,/home/dominik/Links/SC2Reps/Thunderbird LE (10).SC2Replay,2019-10-29 11:28:05+00:00,False,Protoss,Protoss,3873.0,3952.0,abelian,Thunderbird LE,383,-79.0
+295,/home/dominik/Links/SC2Reps/Simulacrum LE (44).SC2Replay,2020-03-14 20:10:15+00:00,True,Protoss,Terran,3994.0,4045.0,&lt;GROF&gt;<sp/>Shefarin,Simulacrum LE,923,-51.0
+296,/home/dominik/Links/SC2Reps/Pillars of Gold LE (3).SC2Replay,2020-06-15 21:10:48+00:00,True,Protoss,Terran,4098.0,4089.0,MathewGg,Pillars of Gold LE,831,9.0
+297,/home/dominik/Links/SC2Reps/Ice and Chrome LE (14).SC2Replay,2020-06-30 08:17:25+00:00,True,Protoss,Protoss,4025.0,3994.0,LaCruz,Ice and Chrome LE,806,31.0
+298,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (12).SC2Replay,2019-11-19 18:45:19+00:00,False,Zerg,Terran,3054.0,3040.0,MooseMan,Disco Bloodbath LE,807,14.0
+299,/home/dominik/Links/SC2Reps/Eternal Empire LE (13).SC2Replay,2019-12-21 13:41:55+00:00,True,Protoss,Terran,3936.0,3976.0,tiwai,Eternal Empire LE,611,-40.0
+300,/home/dominik/Links/SC2Reps/World of Sleepers LE (44).SC2Replay,2020-01-04 19:07:07+00:00,True,Protoss,Protoss,4031.0,4163.0,&lt;unƊeaƊ&gt;<sp/>òMégà,World of Sleepers LE,107,-132.0
+301,/home/dominik/Links/SC2Reps/World of Sleepers LE (45).SC2Replay,2020-01-05 15:02:49+00:00,False,Protoss,Protoss,4041.0,4078.0,Tomstar,World of Sleepers LE,293,-37.0
+302,/home/dominik/Links/SC2Reps/Nightshade LE (10).SC2Replay,2019-12-22 20:55:54+00:00,False,Protoss,Protoss,3965.0,3898.0,Bingo,Nightshade LE,182,67.0
+303,/home/dominik/Links/SC2Reps/Simulacrum LE (28).SC2Replay,2020-02-14 12:29:16+00:00,False,Protoss,Protoss,4101.0,4451.0,StormHead,Simulacrum LE,227,-350.0
+304,/home/dominik/Links/SC2Reps/Nightshade LE (35).SC2Replay,2020-02-20 20:24:49+00:00,False,Protoss,Terran,4067.0,3848.0,Badcomedian,Nightshade LE,625,219.0
+305,/home/dominik/Links/SC2Reps/Ice and Chrome LE (3).SC2Replay,2020-06-19 11:35:34+00:00,False,Protoss,Protoss,4094.0,3987.0,MrElusive,Ice and Chrome LE,63,107.0
+306,/home/dominik/Links/SC2Reps/Simulacrum LE (42).SC2Replay,2020-03-11 20:53:48+00:00,False,Protoss,Terran,4054.0,3973.0,StaryPijany,Simulacrum LE,531,81.0
+307,/home/dominik/Links/SC2Reps/Ever Dream LE (41).SC2Replay,2020-07-25 19:12:04+00:00,False,Protoss,Terran,4058.0,4303.0,&lt;PiGPan&gt;<sp/>AssumedSite,Ever Dream LE,469,-245.0
+308,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (5).SC2Replay,2019-11-01 14:28:00+00:00,False,Zerg,Zerg,3104.0,3140.0,&lt;THUT&gt;<sp/>Vladosik,Disco Bloodbath LE,262,-36.0
+309,/home/dominik/Links/SC2Reps/World of Sleepers LE (31).SC2Replay,2019-11-29 18:46:06+00:00,False,Zerg,Zerg,3015.0,2908.0,OVERMIND,World of Sleepers LE,528,107.0
+310,/home/dominik/Links/SC2Reps/Ephemeron LE (8).SC2Replay,2019-10-30 07:06:31+00:00,True,Protoss,Terran,3881.0,3492.0,Paulie,Ephemeron LE,548,389.0
+311,/home/dominik/Links/SC2Reps/Ice and Chrome LE (6).SC2Replay,2020-06-25 19:35:32+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,503,
+312,/home/dominik/Links/SC2Reps/Ice and Chrome LE (36).SC2Replay,2020-08-03 20:00:13+00:00,True,Protoss,Zerg,,,horsebanger,Ice and Chrome LE,666,
+313,/home/dominik/Links/SC2Reps/World of Sleepers LE (10).SC2Replay,2019-11-01 10:57:15+00:00,True,Zerg,Terran,3043.0,2917.0,Varrag,World of Sleepers LE,1153,126.0
+314,/home/dominik/Links/SC2Reps/Nightshade LE (45).SC2Replay,2020-04-27 11:42:24+00:00,False,Protoss,Zerg,3975.0,4199.0,&lt;NetGG&gt;<sp/>vladozerg,Nightshade LE,695,-224.0
+315,/home/dominik/Links/SC2Reps/Nightshade LE (52).SC2Replay,2020-05-01 12:54:20+00:00,False,Protoss,Protoss,3965.0,3899.0,Cptred,Nightshade LE,415,66.0
+316,/home/dominik/Links/SC2Reps/Purity and Industry LE (13).SC2Replay,2020-05-05 18:00:50+00:00,True,Protoss,Protoss,4026.0,3833.0,helldenn,Purity and Industry LE,873,193.0
+317,/home/dominik/Links/SC2Reps/Nightshade LE (20).SC2Replay,2020-01-05 15:09:49+00:00,True,Protoss,Protoss,4021.0,3928.0,Majcher,Nightshade LE,388,93.0
+318,/home/dominik/Links/SC2Reps/Triton LE (10).SC2Replay,2019-11-01 11:09:16+00:00,True,Zerg,Zerg,3092.0,3045.0,dabo,Triton LE,673,47.0
+319,/home/dominik/Links/SC2Reps/Eternal Empire LE (4).SC2Replay,2019-12-09 20:18:26+00:00,False,Protoss,Protoss,4049.0,4237.0,Delaam,Eternal Empire LE,307,-188.0
+320,/home/dominik/Links/SC2Reps/Simulacrum LE (66).SC2Replay,2020-05-02 18:28:26+00:00,True,Protoss,Zerg,-36400.0,,A.I. 1 (Very Easy),Simulacrum LE,369,
+321,/home/dominik/Links/SC2Reps/Ice and Chrome LE (27).SC2Replay,2020-07-15 20:03:25+00:00,True,Protoss,Protoss,-36400.0,,A.I. 1 (Hard),Ice and Chrome LE,175,
+322,/home/dominik/Links/SC2Reps/Acropolis LE (12).SC2Replay,2019-10-31 18:12:23+00:00,False,Protoss,Terran,3881.0,4642.0,Tyson,Acropolis LE,49,-761.0
+323,/home/dominik/Links/SC2Reps/Ever Dream LE (26).SC2Replay,2020-05-29 18:27:53+00:00,False,Protoss,Terran,4093.0,4081.0,&lt;Hasu&gt;<sp/>RunGen,Ever Dream LE,1582,12.0
+324,/home/dominik/Links/SC2Reps/Nightshade LE (46).SC2Replay,2020-04-27 12:02:46+00:00,False,Protoss,Terran,3959.0,3851.0,Schmaunzer,Nightshade LE,611,108.0
+325,/home/dominik/Links/SC2Reps/Simulacrum LE (39).SC2Replay,2020-03-02 13:45:55+00:00,True,Protoss,Protoss,4130.0,4166.0,WizZy,Simulacrum LE,1177,-36.0
+326,/home/dominik/Links/SC2Reps/Zen LE.SC2Replay,2020-03-14 15:34:48+00:00,True,Protoss,Terran,4014.0,3919.0,&lt;SCTR&gt;<sp/>LimeTime,Zen LE,785,95.0
+327,/home/dominik/Links/SC2Reps/Deathaura LE (33).SC2Replay,2020-07-28 19:29:52+00:00,True,Protoss,Protoss,4049.0,4085.0,Stefan,Deathaura LE,751,-36.0
+328,/home/dominik/Links/SC2Reps/Nightshade LE (33).SC2Replay,2020-02-15 13:41:00+00:00,False,Protoss,Zerg,4063.0,4042.0,llllllllllll,Nightshade LE,1826,21.0
+329,/home/dominik/Links/SC2Reps/Simulacrum LE (25).SC2Replay,2020-01-31 12:42:59+00:00,False,Protoss,Zerg,4031.0,4075.0,&lt;adR&gt;<sp/>rdmZoo,Simulacrum LE,454,-44.0
+330,/home/dominik/Links/SC2Reps/Ever Dream LE (45).SC2Replay,2020-08-01 16:00:37+00:00,True,Protoss,Zerg,,,Carrots,Ever Dream LE,350,
+331,/home/dominik/Links/SC2Reps/Nightshade LE (61).SC2Replay,2020-06-01 11:53:17+00:00,False,Protoss,Zerg,4094.0,4223.0,iga,Nightshade LE,687,-129.0
+332,/home/dominik/Links/SC2Reps/Ever Dream LE (37).SC2Replay,2020-07-15 18:23:44+00:00,False,Protoss,Protoss,4023.0,4030.0,&lt;Vizzor&gt;<sp/>titan,Ever Dream LE,110,-7.0
+333,/home/dominik/Links/SC2Reps/Ephemeron LE (17).SC2Replay,2019-11-18 16:08:11+00:00,False,Protoss,Zerg,3911.0,3966.0,trouth,Ephemeron LE,529,-55.0
+334,/home/dominik/Links/SC2Reps/Zen LE (2).SC2Replay,2020-03-18 12:41:44+00:00,True,Protoss,Protoss,4020.0,3975.0,Apollo,Zen LE,459,45.0
+335,/home/dominik/Links/SC2Reps/Nightshade LE (34).SC2Replay,2020-02-18 19:24:22+00:00,True,Protoss,Zerg,4047.0,4337.0,ajb,Nightshade LE,719,-290.0
+336,/home/dominik/Links/SC2Reps/Eternal Empire LE (16) drone rush.SC2Replay,2019-12-21 16:49:32+00:00,True,Protoss,Zerg,3941.0,4935.0,&lt;Гномик&gt;<sp/>IndeX,Eternal Empire LE,107,-994.0
+337,/home/dominik/Links/SC2Reps/Deathaura LE (43).SC2Replay,2020-08-01 15:32:27+00:00,True,Protoss,Zerg,4031.0,4117.0,fzmr,Deathaura LE,696,-86.0
+338,/home/dominik/Links/SC2Reps/Ice and Chrome LE (8).SC2Replay,2020-06-25 20:03:42+00:00,False,Protoss,Zerg,4071.0,4632.0,&lt;nDiie&gt;<sp/>Saske,Ice and Chrome LE,242,-561.0
+339,/home/dominik/Links/SC2Reps/Eternal Empire LE (23).SC2Replay,2019-12-24 18:36:06+00:00,True,Protoss,Zerg,3872.0,3864.0,Vakhtang,Eternal Empire LE,771,8.0
+340,/home/dominik/Links/SC2Reps/Submarine LE (31).SC2Replay,2020-08-01 15:19:14+00:00,True,Protoss,Zerg,4011.0,3975.0,Ghost,Submarine LE,758,36.0
+341,/home/dominik/Links/SC2Reps/Ever Dream LE (31).SC2Replay,2020-06-25 20:29:53+00:00,True,Protoss,Terran,4026.0,4011.0,illu,Ever Dream LE,1139,15.0
+342,/home/dominik/Links/SC2Reps/Ice and Chrome LE (7).SC2Replay,2020-06-25 19:40:34+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,495,
+343,/home/dominik/Links/SC2Reps/Simulacrum LE (35).SC2Replay,2020-03-01 20:09:47+00:00,True,Protoss,Zerg,4066.0,3999.0,FckVwls,Simulacrum LE,1137,67.0
+344,/home/dominik/Links/SC2Reps/World of Sleepers LE (16).SC2Replay,2019-11-05 18:35:35+00:00,True,Protoss,Zerg,3752.0,3686.0,Fleetz,World of Sleepers LE,777,66.0
+345,/home/dominik/Links/SC2Reps/Simulacrum LE (16).SC2Replay,2019-12-21 16:46:23+00:00,True,Protoss,Terran,3918.0,3967.0,Xenocide,Simulacrum LE,826,-49.0
+346,/home/dominik/Links/SC2Reps/Deathaura LE (12).SC2Replay,2020-07-06 19:04:54+00:00,True,Protoss,Zerg,,,Carrots,Deathaura LE,752,
+347,/home/dominik/Links/SC2Reps/Ever Dream LE (2).SC2Replay,2020-03-14 15:13:34+00:00,True,Protoss,Protoss,3970.0,4065.0,adrianjakuba,Ever Dream LE,276,-95.0
+348,/home/dominik/Links/SC2Reps/Simulacrum LE (40).SC2Replay,2020-03-04 17:39:40+00:00,False,Protoss,Zerg,4132.0,4076.0,Leaf,Simulacrum LE,923,56.0
+349,/home/dominik/Links/SC2Reps/Deathaura LE (25).SC2Replay,2020-07-18 18:14:06+00:00,True,Protoss,Zerg,,,A.I. 1 (Easy),Deathaura LE,521,
+350,/home/dominik/Links/SC2Reps/Golden Wall LE (21).SC2Replay,2020-06-09 16:57:17+00:00,True,Protoss,Protoss,,,A.I. 1 (Elite),Golden Wall LE,444,
+351,/home/dominik/Links/SC2Reps/Ever Dream LE (10).SC2Replay,2020-04-23 15:40:25+00:00,False,Protoss,Zerg,,,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,385,
+352,/home/dominik/Links/SC2Reps/Ice and Chrome LE (30).SC2Replay,2020-07-24 18:49:32+00:00,False,Protoss,Protoss,4063.0,3968.0,Inex,Ice and Chrome LE,754,95.0
+353,/home/dominik/Links/SC2Reps/Ephemeron LE (36).SC2Replay,2020-02-09 20:19:03+00:00,False,Protoss,Zerg,4004.0,3959.0,BlackSmith,Ephemeron LE,798,45.0
+354,/home/dominik/Links/SC2Reps/Simulacrum LE (49).SC2Replay,2020-04-17 19:15:54+00:00,True,Protoss,Terran,4001.0,3962.0,Vanquish,Simulacrum LE,346,39.0
+355,/home/dominik/Links/SC2Reps/Zen LE (13).SC2Replay,2020-05-11 09:23:27+00:00,False,Protoss,Zerg,4088.0,4225.0,DonkeyMonkey,Zen LE,605,-137.0
+356,/home/dominik/Links/SC2Reps/Deathaura LE (18).SC2Replay,2020-07-09 16:16:07+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,489,
+357,/home/dominik/Links/SC2Reps/Submarine LE (11).SC2Replay,2020-07-05 10:59:41+00:00,True,Protoss,Zerg,4064.0,4173.0,VirusRC,Submarine LE,524,-109.0
+358,/home/dominik/Links/SC2Reps/World of Sleepers LE (32).SC2Replay,2019-12-03 18:33:42+00:00,False,Protoss,Protoss,4028.0,4055.0,&lt;Furri&gt;<sp/>PrinceOfIEM,World of Sleepers LE,476,-27.0
+359,/home/dominik/Links/SC2Reps/Ever Dream LE (39).SC2Replay,2020-07-15 19:54:55+00:00,True,Protoss,Zerg,-36400.0,,A.I. 1 (Hard),Ever Dream LE,418,
+360,/home/dominik/Links/SC2Reps/Ice and Chrome LE (4).SC2Replay,2020-06-25 19:29:03+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,651,
+361,/home/dominik/Links/SC2Reps/Ice and Chrome LE (34).SC2Replay,2020-07-29 18:40:54+00:00,False,Protoss,Protoss,4041.0,4758.0,&lt;niau&gt;<sp/>Probewarp,Ice and Chrome LE,405,-717.0
+362,/home/dominik/Links/SC2Reps/Simulacrum LE (33).SC2Replay,2020-02-21 19:32:38+00:00,True,Protoss,Terran,4071.0,4021.0,Sentinel,Simulacrum LE,746,50.0
+363,/home/dominik/Links/SC2Reps/Nightshade LE (17).SC2Replay,2020-01-04 19:04:15+00:00,True,Protoss,Terran,4009.0,4038.0,Rêgo,Nightshade LE,935,-29.0
+364,/home/dominik/Links/SC2Reps/Golden Wall LE (15).SC2Replay,2020-05-07 09:30:41+00:00,True,Protoss,Zerg,4042.0,4008.0,&lt;BRSKR&gt;<sp/>Hexe,Golden Wall LE,985,34.0
+365,/home/dominik/Links/SC2Reps/Simulacrum LE (60).SC2Replay,2020-04-19 12:01:37+00:00,True,Protoss,Zerg,,,shadowofmich,Simulacrum LE,751,
+366,/home/dominik/Links/SC2Reps/Simulacrum LE (73).SC2Replay,2020-05-11 09:41:36+00:00,False,Protoss,Terran,4051.0,3944.0,ElBarto,Simulacrum LE,216,107.0
+367,/home/dominik/Links/SC2Reps/Deathaura LE.SC2Replay,2020-05-27 09:57:09+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,601,
+368,/home/dominik/Links/SC2Reps/Ephemeron LE (56).SC2Replay,2020-03-10 19:22:15+00:00,False,Protoss,Protoss,4053.0,4099.0,&lt;FaDr&gt;<sp/>BURNIE,Ephemeron LE,372,-46.0
+369,/home/dominik/Links/SC2Reps/Ephemeron LE (48).SC2Replay,2020-02-21 17:20:16+00:00,True,Protoss,Terran,4050.0,4144.0,Scythe,Ephemeron LE,775,-94.0
+370,/home/dominik/Links/SC2Reps/Deathaura LE (5).SC2Replay,2020-06-15 20:56:09+00:00,True,Protoss,Terran,4078.0,4494.0,&lt;PŖïMĄŁ&gt;<sp/>LeüHaN,Deathaura LE,211,-416.0
+371,/home/dominik/Links/SC2Reps/Ephemeron LE (10).SC2Replay,2019-11-02 18:05:44+00:00,False,Protoss,Zerg,,,A.I. 1 (Very Easy),Ephemeron LE,23,
+372,/home/dominik/Links/SC2Reps/Nightshade LE (6).SC2Replay,2019-12-12 19:53:53+00:00,False,Protoss,Zerg,4001.0,4037.0,Xaenor,Nightshade LE,650,-36.0
+373,/home/dominik/Links/SC2Reps/Nightshade LE (28).SC2Replay,2020-02-05 21:02:28+00:00,False,Protoss,Zerg,3989.0,3900.0,MorroLord,Nightshade LE,216,89.0
+374,/home/dominik/Links/SC2Reps/Ephemeron LE (39).SC2Replay,2020-02-11 18:03:23+00:00,True,Protoss,Protoss,4064.0,3966.0,ZZtopGun,Ephemeron LE,643,98.0
+375,/home/dominik/Links/SC2Reps/World of Sleepers LE (9).SC2Replay,2019-10-31 18:41:02+00:00,True,Zerg,Protoss,2982.0,2987.0,Anarazel,World of Sleepers LE,863,-5.0
+376,/home/dominik/Links/SC2Reps/Purity and Industry LE (5).SC2Replay,2020-04-17 20:10:15+00:00,False,Protoss,Terran,4062.0,4050.0,Etharis,Purity and Industry LE,792,12.0
+377,/home/dominik/Links/SC2Reps/Ephemeron LE (52).SC2Replay,2020-02-29 15:49:56+00:00,False,Protoss,Protoss,4085.0,4175.0,&lt;Irri&gt;<sp/>Irrichi,Ephemeron LE,400,-90.0
+378,/home/dominik/Links/SC2Reps/Pillars of Gold LE (10).SC2Replay,2020-07-06 11:36:49+00:00,False,Protoss,Terran,4111.0,4357.0,JCIPOWER,Pillars of Gold LE,925,-246.0
+379,/home/dominik/Links/SC2Reps/Ever Dream LE (3).SC2Replay,2020-03-22 11:58:56+00:00,False,Protoss,Terran,4066.0,4047.0,&lt;Hasu&gt;<sp/>RunGen,Ever Dream LE,935,19.0
+380,/home/dominik/Links/SC2Reps/Thunderbird LE (4).SC2Replay,2019-09-25 16:36:01+00:00,True,Protoss,Terran,-36400.0,3515.0,HeadAge,Thunderbird LE,910,-39915.0
+381,/home/dominik/Links/SC2Reps/Deathaura LE (42).SC2Replay,2020-07-31 15:02:03+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,645,
+382,/home/dominik/Links/SC2Reps/Nightshade LE (7).SC2Replay,2019-12-12 21:03:25+00:00,False,Protoss,Protoss,4001.0,3944.0,&lt;snajpu&gt;<sp/>Auddi,Nightshade LE,619,57.0
+383,/home/dominik/Links/SC2Reps/Eternal Empire LE (32).SC2Replay,2020-05-02 18:46:10+00:00,True,Protoss,Zerg,-36400.0,,A.I. 1 (Easy),Eternal Empire LE,464,
+384,/home/dominik/Links/SC2Reps/Pillars of Gold LE (4).SC2Replay,2020-06-23 11:48:24+00:00,True,Protoss,Zerg,,,shadowofmich,Pillars of Gold LE,595,
+385,/home/dominik/Links/SC2Reps/Nightshade LE (57).SC2Replay,2020-05-12 17:59:35+00:00,True,Protoss,Zerg,4005.0,4016.0,BuRneR,Nightshade LE,1260,-11.0
+386,/home/dominik/Links/SC2Reps/Eternal Empire LE (11).SC2Replay,2019-12-18 16:35:46+00:00,False,Protoss,Terran,3957.0,4066.0,&lt;IndyK&gt;<sp/>HaPe,Eternal Empire LE,235,-109.0
+387,/home/dominik/Links/SC2Reps/Eternal Empire LE (33).SC2Replay,2020-05-29 11:34:43+00:00,True,Protoss,Protoss,,,A.I. 1 (Elite),Eternal Empire LE,409,
+388,/home/dominik/Links/SC2Reps/Ice and Chrome LE (22).SC2Replay,2020-07-09 17:22:06+00:00,True,Protoss,Protoss,4073.0,4078.0,TerenceSkill,Ice and Chrome LE,856,-5.0
+389,/home/dominik/Links/SC2Reps/Triton LE (21).SC2Replay,2019-11-26 19:32:23+00:00,True,Protoss,Terran,3944.0,3808.0,Romio,Triton LE,685,136.0
+390,/home/dominik/Links/SC2Reps/Eternal Empire LE (18).SC2Replay,2019-12-22 21:26:35+00:00,True,Protoss,Terran,3877.0,3833.0,Nyxeu,Eternal Empire LE,895,44.0
+391,/home/dominik/Links/SC2Reps/Deathaura LE (31).SC2Replay,2020-07-26 11:10:45+00:00,False,Protoss,Terran,4066.0,4070.0,Alexclusive,Deathaura LE,196,-4.0
+392,/home/dominik/Links/SC2Reps/Simulacrum LE (77).SC2Replay,2020-06-04 19:03:54+00:00,False,Protoss,Terran,4203.0,4182.0,JOOPSTAR,Simulacrum LE,332,21.0
+393,/home/dominik/Links/SC2Reps/Triton LE (12).SC2Replay,2019-11-01 14:22:03+00:00,True,Zerg,Terran,3052.0,3156.0,&lt;ZЕRGML&gt;<sp/>Федя,Triton LE,739,-104.0
+394,/home/dominik/Links/SC2Reps/Deathaura LE (16).SC2Replay,2020-07-09 16:06:12+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,614,
+395,/home/dominik/Links/SC2Reps/World of Sleepers LE (28).SC2Replay,2019-11-28 19:09:44+00:00,True,Protoss,Protoss,3940.0,3854.0,&lt;vGL&gt;<sp/>Celestial,World of Sleepers LE,541,86.0
+396,/home/dominik/Links/SC2Reps/Purity and Industry LE (12).SC2Replay,2020-05-03 20:43:35+00:00,False,Protoss,Zerg,3966.0,3988.0,Mich,Purity and Industry LE,500,-22.0
+397,/home/dominik/Links/SC2Reps/Deathaura LE (40).SC2Replay,2020-07-31 14:52:46+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,679,
+398,/home/dominik/Links/SC2Reps/Nightshade LE (47).SC2Replay,2020-04-27 12:24:52+00:00,False,Protoss,Zerg,3935.0,3889.0,Ise,Nightshade LE,1218,46.0
+399,/home/dominik/Links/SC2Reps/Ice and Chrome LE (5).SC2Replay,2020-06-25 19:30:43+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,290,
+400,/home/dominik/Links/SC2Reps/Simulacrum LE (69).SC2Replay,2020-05-04 13:02:05+00:00,True,Protoss,Protoss,3967.0,3945.0,Piiras,Simulacrum LE,199,22.0
+401,/home/dominik/Links/SC2Reps/Simulacrum LE (5).SC2Replay,2019-12-12 19:28:57+00:00,False,Protoss,Terran,4041.0,4131.0,NazelHut,Simulacrum LE,317,-90.0
+402,/home/dominik/Links/SC2Reps/Golden Wall LE (8).SC2Replay,2020-04-22 20:30:29+00:00,False,Protoss,Protoss,4022.0,4021.0,puLse,Golden Wall LE,305,1.0
+403,/home/dominik/Links/SC2Reps/Ephemeron LE (42).SC2Replay,2020-02-15 12:57:31+00:00,False,Protoss,Zerg,4083.0,4135.0,&lt;FxL&gt;<sp/>bojan,Ephemeron LE,751,-52.0
+404,/home/dominik/Links/SC2Reps/Golden Wall LE (18).SC2Replay,2020-05-25 11:59:22+00:00,False,Protoss,Zerg,,,TGE,Golden Wall LE,1251,
+405,/home/dominik/Links/SC2Reps/Triton LE (7).SC2Replay,2019-10-29 11:14:53+00:00,True,Protoss,Protoss,3871.0,2981.0,YellowCoke,Triton LE,1,890.0
+406,/home/dominik/Links/SC2Reps/Pillars of Gold LE (7).SC2Replay,2020-06-23 12:24:29+00:00,False,Protoss,Zerg,,,shadowofmich,Pillars of Gold LE,663,
+407,/home/dominik/Links/SC2Reps/Deathaura LE (28).SC2Replay,2020-07-19 10:19:29+00:00,True,Protoss,Terran,3984.0,3983.0,glhf,Deathaura LE,738,1.0
+408,/home/dominik/Links/SC2Reps/Simulacrum LE (37).SC2Replay,2020-03-02 10:06:27+00:00,True,Protoss,Protoss,4088.0,4019.0,TGNP,Simulacrum LE,696,69.0
+409,/home/dominik/Links/SC2Reps/Nightshade LE (32).SC2Replay,2020-02-13 19:26:27+00:00,True,Protoss,Terran,4085.0,3995.0,HeroMarauder,Nightshade LE,777,90.0
+410,/home/dominik/Links/SC2Reps/Acropolis LE (23).SC2Replay,2019-11-12 09:42:59+00:00,True,Protoss,Protoss,3847.0,3888.0,&lt;UATeam&gt;<sp/>click,Acropolis LE,723,-41.0
+411,/home/dominik/Links/SC2Reps/Acropolis LE (11).SC2Replay,2019-10-22 12:19:39+00:00,False,Protoss,Zerg,3862.0,3964.0,Zergorix,Acropolis LE,891,-102.0
+412,/home/dominik/Links/SC2Reps/Ephemeron LE (26).SC2Replay,2019-12-24 13:53:48+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Ephemeron LE,764,
+413,/home/dominik/Links/SC2Reps/Purity and Industry LE (7).SC2Replay,2020-04-18 20:45:46+00:00,True,Protoss,Terran,4022.0,4109.0,&lt;RBP3&gt;<sp/>Steal,Purity and Industry LE,794,-87.0
+414,/home/dominik/Links/SC2Reps/Ice and Chrome LE (18).SC2Replay,2020-07-05 11:18:47+00:00,True,Protoss,Terran,4089.0,4105.0,LilaC,Ice and Chrome LE,1065,-16.0
+415,/home/dominik/Links/SC2Reps/Deathaura LE (17).SC2Replay,2020-07-09 16:13:14+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,684,
+416,/home/dominik/Links/SC2Reps/Ephemeron LE (53).SC2Replay,2020-03-04 17:52:41+00:00,False,Protoss,Terran,4109.0,4242.0,helloRJ,Ephemeron LE,751,-133.0
+417,/home/dominik/Links/SC2Reps/Simulacrum LE (18).SC2Replay,2019-12-24 11:33:55+00:00,True,Protoss,Protoss,3847.0,3966.0,ARCMAN,Simulacrum LE,971,-119.0
+418,/home/dominik/Links/SC2Reps/Nightshade LE (42).SC2Replay,2020-03-22 12:03:13+00:00,False,Protoss,Terran,4044.0,4003.0,OOOOOOOOOOOO,Nightshade LE,232,41.0
+419,/home/dominik/Links/SC2Reps/Purity and Industry LE (8).SC2Replay,2020-04-27 11:04:39+00:00,False,Protoss,Protoss,3977.0,4002.0,Mitchowyn,Purity and Industry LE,369,-25.0
+420,/home/dominik/Links/SC2Reps/World of Sleepers LE (39).SC2Replay,2019-12-20 19:06:55+00:00,False,Protoss,Zerg,3959.0,3963.0,&lt;TAW&gt;<sp/>Pote,World of Sleepers LE,453,-4.0
+421,/home/dominik/Links/SC2Reps/Ephemeron LE (47).SC2Replay,2020-02-21 17:06:44+00:00,True,Protoss,Zerg,4029.0,4009.0,&lt;0301&gt;<sp/>kookooseen,Ephemeron LE,1072,20.0
+422,/home/dominik/Links/SC2Reps/World of Sleepers LE (53).SC2Replay,2020-02-26 18:13:51+00:00,True,Protoss,Terran,4091.0,4136.0,BlackAnubis,World of Sleepers LE,945,-45.0
+423,/home/dominik/Links/SC2Reps/Submarine LE (30).SC2Replay,2020-07-28 19:16:44+00:00,True,Protoss,Terran,4027.0,4022.0,&lt;MBK&gt;<sp/>Mikami,Submarine LE,653,5.0
+424,/home/dominik/Links/SC2Reps/Purity and Industry LE (4).SC2Replay,2020-04-15 14:28:40+00:00,True,Protoss,Protoss,4022.0,4004.0,MrBeck,Purity and Industry LE,574,18.0
+425,/home/dominik/Links/SC2Reps/Ever Dream LE (14).SC2Replay,2020-04-28 12:40:14+00:00,True,Protoss,Zerg,3872.0,5035.0,&lt;Mkers&gt;<sp/>Doc,Ever Dream LE,1376,-1163.0
+426,/home/dominik/Links/SC2Reps/Golden Wall LE (17).SC2Replay,2020-05-25 11:33:51+00:00,True,Protoss,Zerg,,,TGE,Golden Wall LE,857,
+427,/home/dominik/Links/SC2Reps/Ever Dream LE (5).SC2Replay,2020-04-15 19:20:27+00:00,True,Protoss,Terran,,,&lt;TGCrew&gt;<sp/>Paloma,Ever Dream LE,782,
+428,/home/dominik/Links/SC2Reps/Submarine LE (29).SC2Replay,2020-07-26 11:25:18+00:00,False,Protoss,Terran,4045.0,4187.0,MavroFidi,Submarine LE,810,-142.0
+429,/home/dominik/Links/SC2Reps/Triton LE (8).SC2Replay,2019-10-29 11:42:15+00:00,False,Protoss,Terran,3836.0,3955.0,llllllllllll,Triton LE,758,-119.0
+430,/home/dominik/Links/SC2Reps/World of Sleepers LE (12).SC2Replay,2019-11-02 20:15:14+00:00,True,Protoss,Terran,3684.0,3626.0,lllllll,World of Sleepers LE,470,58.0
+431,/home/dominik/Links/SC2Reps/Ice and Chrome LE (19).SC2Replay,2020-07-08 20:06:03+00:00,True,Protoss,Terran,,,A.I. 1 (Elite),Ice and Chrome LE,639,
+432,/home/dominik/Links/SC2Reps/Simulacrum LE (65).SC2Replay,2020-05-01 12:12:21+00:00,False,Protoss,Protoss,3945.0,3905.0,xyzxyzxyz,Simulacrum LE,754,40.0
+433,/home/dominik/Links/SC2Reps/Nightshade LE (4).SC2Replay,2019-12-12 18:48:15+00:00,False,Protoss,Zerg,4061.0,4144.0,&lt;Nutri&gt;<sp/>Highscribe,Nightshade LE,733,-83.0
+434,/home/dominik/Links/SC2Reps/Eternal Empire LE (24).SC2Replay,2019-12-28 14:07:58+00:00,False,Zerg,Zerg,3118.0,3114.0,Sferum,Eternal Empire LE,222,4.0
+435,/home/dominik/Links/SC2Reps/Simulacrum LE (48).SC2Replay,2020-04-15 19:41:39+00:00,False,Protoss,Terran,,,&lt;TGCrew&gt;<sp/>Paloma,Simulacrum LE,619,
+436,/home/dominik/Links/SC2Reps/Eternal Empire LE (36).SC2Replay,2020-06-01 11:40:30+00:00,False,Protoss,Zerg,4112.0,4253.0,Minoda,Eternal Empire LE,570,-141.0
+437,/home/dominik/Links/SC2Reps/Golden Wall LE (13).SC2Replay,2020-05-03 20:33:12+00:00,True,Protoss,Zerg,3942.0,4039.0,&lt;FSeS&gt;<sp/>Wizzlô,Golden Wall LE,1369,-97.0
+438,/home/dominik/Links/SC2Reps/Thunderbird LE.SC2Replay,2019-09-12 10:42:41+00:00,True,Protoss,Terran,-36400.0,2179.0,ujptm,Thunderbird LE,729,-38579.0
+439,/home/dominik/Links/SC2Reps/Ever Dream LE (32).SC2Replay,2020-06-29 20:54:18+00:00,False,Protoss,Protoss,4047.0,4037.0,Nerevars,Ever Dream LE,1142,10.0
+440,/home/dominik/Links/SC2Reps/Ephemeron LE (2).SC2Replay,2019-10-08 19:33:28+00:00,False,Protoss,Protoss,3893.0,3946.0,Wavelength,Ephemeron LE,254,-53.0
+441,/home/dominik/Links/SC2Reps/Purity and Industry LE.SC2Replay,2020-03-14 16:31:42+00:00,False,Protoss,Zerg,4013.0,4093.0,hellyeah,Purity and Industry LE,746,-80.0
+442,/home/dominik/Links/SC2Reps/Ever Dream LE (42).SC2Replay,2020-07-28 19:43:47+00:00,True,Protoss,Protoss,4071.0,4373.0,&lt;Heroes&gt;<sp/>Tassad,Ever Dream LE,507,-302.0
+443,/home/dominik/Links/SC2Reps/Winter's Gate LE (2) wrong wall.SC2Replay,2019-10-10 07:41:27+00:00,False,Protoss,Zerg,3828.0,3802.0,PereiRa,Winter's Gate LE,45,26.0
+444,/home/dominik/Links/SC2Reps/Simulacrum LE (6).SC2Replay,2019-12-12 20:52:10+00:00,True,Protoss,Protoss,3980.0,3965.0,&lt;snajpu&gt;<sp/>Auddi,Simulacrum LE,356,15.0
+445,/home/dominik/Links/SC2Reps/World of Sleepers LE (20).SC2Replay,2019-11-12 10:06:52+00:00,True,Protoss,Terran,3890.0,3962.0,Paulie,World of Sleepers LE,1005,-72.0
+446,/home/dominik/Links/SC2Reps/Acropolis LE (18).SC2Replay,2019-11-01 13:42:38+00:00,False,Protoss,Protoss,3696.0,3631.0,&lt;PiGPan&gt;<sp/>Garethax,Acropolis LE,198,65.0
+447,/home/dominik/Links/SC2Reps/Ephemeron LE (12).SC2Replay,2019-11-05 18:43:20+00:00,False,Protoss,Protoss,3774.0,3827.0,&lt;XsR&gt;<sp/>Ajotaele,Ephemeron LE,426,-53.0
+448,/home/dominik/Links/SC2Reps/Deathaura LE (35).SC2Replay,2020-07-29 17:47:24+00:00,False,Protoss,Zerg,4044.0,3990.0,&lt;µ31&gt;<sp/>lyml,Deathaura LE,243,54.0
+449,/home/dominik/Links/SC2Reps/Thunderbird LE (3).SC2Replay,2019-09-24 16:26:09+00:00,True,Zerg,Terran,-36400.0,2539.0,Ayals,Thunderbird LE,479,-38939.0
+450,/home/dominik/Links/SC2Reps/Golden Wall LE (20).SC2Replay,2020-06-03 17:54:42+00:00,True,Protoss,Terran,4133.0,4160.0,Etharis,Golden Wall LE,3,-27.0
+451,/home/dominik/Links/SC2Reps/Nightshade LE (40).SC2Replay,2020-03-14 16:18:04+00:00,False,Protoss,Terran,4033.0,4091.0,&lt;PLA2N&gt;<sp/>ZloyVakarian,Nightshade LE,374,-58.0
+452,/home/dominik/Links/SC2Reps/Ever Dream LE (18).SC2Replay,2020-05-02 19:06:35+00:00,False,Protoss,Zerg,3966.0,3959.0,Pokimon,Ever Dream LE,647,7.0
+453,/home/dominik/Links/SC2Reps/Simulacrum LE (70).SC2Replay,2020-05-05 17:32:14+00:00,True,Protoss,Zerg,3988.0,3869.0,&lt;VKT&gt;<sp/>Rørtangen,Simulacrum LE,620,119.0
+454,/home/dominik/Links/SC2Reps/Purity and Industry LE (10).SC2Replay,2020-04-30 11:20:00+00:00,True,Protoss,Zerg,3937.0,3902.0,&lt;RIIP&gt;<sp/>Airea,Purity and Industry LE,1381,35.0
+455,/home/dominik/Links/SC2Reps/Submarine LE (32).SC2Replay,2020-08-03 19:17:22+00:00,False,Protoss,Protoss,,,horsebanger,Submarine LE,661,
+456,/home/dominik/Links/SC2Reps/Ever Dream LE (36).SC2Replay,2020-07-15 17:54:49+00:00,False,Protoss,Protoss,4058.0,3952.0,vasea,Ever Dream LE,637,106.0
+457,/home/dominik/Links/SC2Reps/Nightshade LE (58).SC2Replay,2020-05-25 11:18:22+00:00,True,Protoss,Zerg,,,TGE,Nightshade LE,813,
+458,/home/dominik/Links/SC2Reps/Deathaura LE (37).SC2Replay,2020-07-30 19:17:26+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Deathaura LE,496,
+459,/home/dominik/Links/SC2Reps/Simulacrum LE (67).SC2Replay,2020-05-02 19:31:03+00:00,True,Zerg,Zerg,3117.0,3119.0,doomsdayza,Simulacrum LE,568,-2.0
+460,/home/dominik/Links/SC2Reps/Submarine LE (19).SC2Replay,2020-07-16 14:38:38+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,260,
+461,/home/dominik/Links/SC2Reps/Nightshade LE (37).SC2Replay,2020-03-02 09:52:39+00:00,False,Protoss,Terran,4105.0,4285.0,IIIIIIIIIIII,Nightshade LE,786,-180.0
+462,/home/dominik/Links/SC2Reps/Ever Dream LE (29).SC2Replay,2020-06-14 11:55:40+00:00,True,Protoss,Zerg,4080.0,4125.0,&lt;InBri&gt;<sp/>ImbAZerG,Ever Dream LE,812,-45.0
+463,/home/dominik/Links/SC2Reps/Simulacrum LE (46).SC2Replay,2020-04-01 06:54:32+00:00,True,Protoss,Zerg,4000.0,4023.0,&lt;TRSO&gt;<sp/>THERIPPER,Simulacrum LE,950,-23.0
+464,/home/dominik/Links/SC2Reps/Eternal Empire LE (19).SC2Replay,2019-12-23 16:23:00+00:00,True,Protoss,Zerg,3897.0,3894.0,IntrinsiCat,Eternal Empire LE,870,3.0
+465,/home/dominik/Links/SC2Reps/Eternal Empire LE (34).SC2Replay,2020-05-29 17:58:42+00:00,True,Protoss,Zerg,4072.0,4040.0,Sclera,Eternal Empire LE,1724,32.0
+466,/home/dominik/Links/SC2Reps/Nightshade LE (11).SC2Replay,2019-12-22 21:11:02+00:00,False,Protoss,Protoss,3897.0,3948.0,DeepMind,Nightshade LE,159,-51.0
+467,/home/dominik/Links/SC2Reps/Deathaura LE (30).SC2Replay,2020-07-23 18:49:54+00:00,True,Protoss,Terran,4022.0,3900.0,&lt;ЯD&gt;<sp/>Rinogg,Deathaura LE,606,122.0
+468,/home/dominik/Links/SC2Reps/Simulacrum LE (31).SC2Replay,2020-02-17 17:47:46+00:00,False,Protoss,Terran,,,&lt;BnetFR&gt;<sp/>NeWHoriZonS,Simulacrum LE,776,
+469,/home/dominik/Links/SC2Reps/Ever Dream LE (40) decent macro pvz.SC2Replay,2020-07-21 19:54:19+00:00,True,Protoss,Zerg,3981.0,2800.0,pdd,Ever Dream LE,1176,1181.0
+470,/home/dominik/Links/SC2Reps/Submarine LE (9).SC2Replay,2020-07-04 17:23:16+00:00,True,Terran,Terran,-36400.0,,A.I. 1 (Hard),Submarine LE,610,
+471,/home/dominik/Links/SC2Reps/Simulacrum LE (4).SC2Replay,2019-12-09 20:28:00+00:00,False,Protoss,Zerg,4032.0,4161.0,PeterLax,Simulacrum LE,557,-129.0
+472,/home/dominik/Links/SC2Reps/Thunderbird LE (6).SC2Replay,2019-10-10 07:55:19+00:00,True,Protoss,Zerg,3760.0,3816.0,&lt;PROOO&gt;<sp/>Jesperpro,Thunderbird LE,801,-56.0
+473,/home/dominik/Links/SC2Reps/Nightshade LE (23).SC2Replay,2020-01-15 16:01:40+00:00,False,Protoss,Protoss,3969.0,4037.0,&lt;aW&gt;<sp/>Jeatall,Nightshade LE,204,-68.0
+474,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (2).SC2Replay,2019-10-04 11:08:46+00:00,True,Zerg,Protoss,-36400.0,3412.0,NikkooO,Disco Bloodbath LE,577,-39812.0
+475,/home/dominik/Links/SC2Reps/Acropolis LE (4).SC2Replay,2019-09-26 17:21:45+00:00,True,Zerg,Terran,-36400.0,3338.0,&lt;oooboy&gt;<sp/>Ojtech,Acropolis LE,945,-39738.0
+476,/home/dominik/Links/SC2Reps/Ice and Chrome LE (13).SC2Replay,2020-06-29 08:05:44+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,516,
+477,/home/dominik/Links/SC2Reps/Submarine LE (18).SC2Replay,2020-07-15 18:17:33+00:00,False,Protoss,Terran,4034.0,4483.0,yann,Submarine LE,999,-449.0
+478,/home/dominik/Links/SC2Reps/Ice and Chrome LE (16).SC2Replay,2020-07-03 20:34:10+00:00,True,Protoss,Terran,4082.0,4192.0,VouS,Ice and Chrome LE,568,-110.0
+479,/home/dominik/Links/SC2Reps/Ephemeron LE (37).SC2Replay,2020-02-10 19:08:40+00:00,True,Protoss,Protoss,3981.0,3879.0,Kachu,Ephemeron LE,305,102.0
+480,/home/dominik/Links/SC2Reps/Deathaura LE (36).SC2Replay,2020-07-29 17:57:00+00:00,False,Protoss,Terran,4020.0,4044.0,CleanSweep,Deathaura LE,492,-24.0
+481,/home/dominik/Links/SC2Reps/Ever Dream LE (15).SC2Replay,2020-05-01 11:39:32+00:00,False,Protoss,Zerg,3988.0,3952.0,Samaya,Ever Dream LE,307,36.0
+482,/home/dominik/Links/SC2Reps/Simulacrum LE (32).SC2Replay,2020-02-18 19:11:38+00:00,True,Protoss,Zerg,4024.0,4071.0,Hello,Simulacrum LE,887,-47.0
+483,/home/dominik/Links/SC2Reps/Deathaura LE (15).SC2Replay,2020-07-08 16:44:35+00:00,True,Protoss,Zerg,,,Carrots,Deathaura LE,938,
+484,/home/dominik/Links/SC2Reps/Thunderbird LE (8).SC2Replay,2019-10-21 11:46:27+00:00,False,Zerg,Protoss,3185.0,3122.0,AcahCruv,Thunderbird LE,620,63.0
+485,/home/dominik/Links/SC2Reps/Ever Dream LE (13).SC2Replay,2020-04-23 16:22:18+00:00,True,Protoss,Zerg,,,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,858,
+486,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (8).SC2Replay,2019-11-02 20:06:36+00:00,True,Protoss,Terran,3655.0,3647.0,lllllll,Disco Bloodbath LE,797,8.0
+487,/home/dominik/Links/SC2Reps/Purity and Industry LE (2).SC2Replay,2020-03-14 20:23:13+00:00,True,Protoss,Terran,4017.0,4045.0,Ben,Purity and Industry LE,734,-28.0
+488,/home/dominik/Links/SC2Reps/Deathaura LE (32).SC2Replay,2020-07-27 11:42:46+00:00,False,Protoss,Terran,,,A.I. 1 (Easy),Deathaura LE,225,
+489,/home/dominik/Links/SC2Reps/Simulacrum LE (19).SC2Replay,2019-12-28 14:03:26+00:00,True,Zerg,Terran,3089.0,3038.0,SMCWWMarF,Simulacrum LE,636,51.0
+490,/home/dominik/Links/SC2Reps/Ice and Chrome LE (28).SC2Replay,2020-07-18 18:58:45+00:00,True,Protoss,Terran,4016.0,4069.0,ZacheT,Ice and Chrome LE,876,-53.0
+491,/home/dominik/Links/SC2Reps/Simulacrum LE (56).SC2Replay,2020-04-19 11:26:52+00:00,True,Protoss,Zerg,,,shadowofmich,Simulacrum LE,658,
+492,/home/dominik/Links/SC2Reps/Zen LE (15).SC2Replay,2020-05-15 20:33:15+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Zen LE,574,
+493,/home/dominik/Links/SC2Reps/Ever Dream LE (11).SC2Replay,2020-04-23 15:56:17+00:00,True,Protoss,Zerg,,,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,895,
+494,/home/dominik/Links/SC2Reps/Simulacrum LE (15).SC2Replay,2019-12-21 14:10:12+00:00,False,Protoss,Terran,3915.0,4007.0,xYn,Simulacrum LE,492,-92.0
+495,/home/dominik/Links/SC2Reps/Acropolis LE (17).SC2Replay,2019-11-01 13:31:50+00:00,False,Zerg,Terran,3145.0,3153.0,qwe,Acropolis LE,727,-8.0
+496,/home/dominik/Links/SC2Reps/Ever Dream LE (34).SC2Replay,2020-07-08 15:51:01+00:00,True,Protoss,Zerg,,,Carrots,Ever Dream LE,667,
+497,/home/dominik/Links/SC2Reps/World of Sleepers LE (54).SC2Replay,2020-02-26 18:27:28+00:00,True,Protoss,Terran,4114.0,4213.0,&lt;BornG&gt;<sp/>LucidityDark,World of Sleepers LE,770,-99.0
+498,/home/dominik/Links/SC2Reps/Nightshade LE (16).SC2Replay,2019-12-28 21:06:48+00:00,True,Protoss,Zerg,3980.0,4240.0,contremaitre,Nightshade LE,478,-260.0
+499,/home/dominik/Links/SC2Reps/Ephemeron LE (54).SC2Replay,2020-03-05 21:18:52+00:00,False,Protoss,Protoss,4091.0,4017.0,Cyborg,Ephemeron LE,782,74.0
+500,/home/dominik/Links/SC2Reps/Ice and Chrome LE (10).SC2Replay,2020-06-29 07:57:16+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,275,
+501,/home/dominik/Links/SC2Reps/World of Sleepers LE (22).SC2Replay,2019-11-18 17:48:00+00:00,True,Protoss,Terran,3889.0,3907.0,&lt;TheDOH&gt;<sp/>secretspace,World of Sleepers LE,879,-18.0
+502,/home/dominik/Links/SC2Reps/Nightshade LE (18).SC2Replay,2020-01-05 14:47:32+00:00,True,Protoss,Terran,4019.0,4036.0,Sanedude,Nightshade LE,405,-17.0
+503,/home/dominik/Links/SC2Reps/Acropolis LE (21).SC2Replay,2019-11-04 20:40:48+00:00,True,Protoss,Terran,3799.0,3866.0,&lt;FreeHK&gt;<sp/>jellun,Acropolis LE,455,-67.0
+504,/home/dominik/Links/SC2Reps/Simulacrum LE (36).SC2Replay,2020-03-02 09:38:32+00:00,True,Protoss,Zerg,4086.0,4004.0,Piliskner,Simulacrum LE,945,82.0
+505,/home/dominik/Links/SC2Reps/Golden Wall LE.SC2Replay,2020-03-12 18:55:52+00:00,False,Protoss,Protoss,4030.0,4037.0,ORIGYN,Golden Wall LE,477,-7.0
+506,"/home/dominik/Links/SC2Reps/Golden Wall LE (24) gas blocked, mine drop.SC2Replay",2020-07-02 19:24:56+00:00,False,Protoss,Terran,4127.0,4187.0,Pulsar,Golden Wall LE,345,-60.0
+507,/home/dominik/Links/SC2Reps/Eternal Empire LE (3).SC2Replay,2019-12-03 18:55:23+00:00,True,Protoss,Terran,4007.0,3925.0,&lt;IBeAŚI&gt;<sp/>Bummsjordy,Eternal Empire LE,328,82.0
+508,/home/dominik/Links/SC2Reps/Acropolis LE (2).SC2Replay,2019-09-25 16:49:17+00:00,True,Zerg,Protoss,-36400.0,-36400.0,grishaadf,Acropolis LE,473,0.0
+509,/home/dominik/Links/SC2Reps/Golden Wall LE (16).SC2Replay,2020-05-07 10:13:37+00:00,True,Protoss,Terran,4086.0,4072.0,Yeezus,Golden Wall LE,1595,14.0
+510,/home/dominik/Links/SC2Reps/Nightshade LE (2).SC2Replay,2019-12-02 20:09:55+00:00,True,Protoss,Terran,4006.0,4016.0,kalarazar,Nightshade LE,1326,-10.0
+511,/home/dominik/Links/SC2Reps/World of Sleepers LE (49).SC2Replay,2020-02-09 20:04:14+00:00,False,Protoss,Zerg,4029.0,4054.0,Grandclicker,World of Sleepers LE,564,-25.0
+512,/home/dominik/Links/SC2Reps/World of Sleepers LE.SC2Replay,2019-09-12 10:53:37+00:00,True,Protoss,Terran,-36400.0,2535.0,&lt;klko&gt;<sp/>marauder,World of Sleepers LE,522,-38935.0
+513,/home/dominik/Links/SC2Reps/Acropolis LE (16).SC2Replay,2019-11-01 11:30:59+00:00,True,Zerg,Terran,3144.0,3128.0,AUzg,Acropolis LE,1076,16.0
+514,/home/dominik/Links/SC2Reps/Nightshade LE (8).SC2Replay,2019-12-12 21:16:53+00:00,False,Protoss,Protoss,3978.0,4169.0,Vidra,Nightshade LE,765,-191.0
+515,/home/dominik/Links/SC2Reps/Nightshade LE (50).SC2Replay,2020-04-30 11:33:13+00:00,True,Protoss,Zerg,3957.0,4088.0,KillemAll,Nightshade LE,725,-131.0
+516,/home/dominik/Links/SC2Reps/Nightshade LE (12).SC2Replay,2019-12-23 16:51:19+00:00,True,Protoss,Terran,3873.0,3786.0,Listig,Nightshade LE,1132,87.0
+517,/home/dominik/Links/SC2Reps/Eternal Empire LE (17).SC2Replay,2019-12-22 21:04:09+00:00,False,Protoss,Terran,3941.0,3880.0,Jungla,Eternal Empire LE,472,61.0
+518,/home/dominik/Links/SC2Reps/Simulacrum LE (47).SC2Replay,2020-04-15 15:03:08+00:00,False,Protoss,Zerg,4018.0,4153.0,Tomus,Simulacrum LE,603,-135.0
+519,/home/dominik/Links/SC2Reps/Ever Dream LE (9).SC2Replay,2020-04-23 15:33:05+00:00,False,Protoss,Zerg,,,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,66,
+520,/home/dominik/Links/SC2Reps/World of Sleepers LE (51).SC2Replay,2020-02-14 12:24:59+00:00,False,Protoss,Zerg,4123.0,4098.0,Haze,World of Sleepers LE,761,25.0
+521,/home/dominik/Links/SC2Reps/Acropolis LE (15).SC2Replay,2019-10-31 18:55:16+00:00,False,Protoss,Zerg,3766.0,3756.0,Granaatappel,Acropolis LE,777,10.0
+522,/home/dominik/Links/SC2Reps/Submarine LE (20).SC2Replay,2020-07-16 14:45:14+00:00,True,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,520,
+523,/home/dominik/Links/SC2Reps/Zen LE (18).SC2Replay,2020-05-26 09:46:32+00:00,False,Protoss,Protoss,4024.0,4074.0,MKPrime,Zen LE,646,-50.0
+524,/home/dominik/Links/SC2Reps/Submarine LE (4).SC2Replay,2020-06-15 20:48:52+00:00,False,Protoss,Terran,4098.0,4178.0,&lt;NVY&gt;<sp/>DeathMarine,Submarine LE,503,-80.0
+525,/home/dominik/Links/SC2Reps/Simulacrum LE (74).SC2Replay,2020-05-12 18:11:01+00:00,False,Protoss,Zerg,4027.0,4126.0,Лох,Simulacrum LE,545,-99.0
+526,/home/dominik/Links/SC2Reps/World of Sleepers LE (37).SC2Replay,2019-12-20 18:17:10+00:00,False,Protoss,Protoss,3957.0,3957.0,&lt;ƮesXG&gt;<sp/>Rocky,World of Sleepers LE,257,0.0
+527,/home/dominik/Links/SC2Reps/Golden Wall LE (7).SC2Replay,2020-04-22 20:24:41+00:00,False,Protoss,Protoss,4045.0,3998.0,puLse,Golden Wall LE,534,47.0
+528,/home/dominik/Links/SC2Reps/World of Sleepers LE (43).SC2Replay,2019-12-27 20:24:27+00:00,False,Protoss,Zerg,3933.0,4033.0,HiveMind,World of Sleepers LE,262,-100.0
+529,/home/dominik/Links/SC2Reps/Acropolis LE (26).SC2Replay,2019-11-26 19:04:47+00:00,False,Protoss,Protoss,3905.0,4596.0,Doomweed,Acropolis LE,224,-691.0
+530,/home/dominik/Links/SC2Reps/Ever Dream LE (22).SC2Replay,2020-05-12 17:37:31+00:00,False,Protoss,Zerg,4026.0,4040.0,Tiger,Ever Dream LE,433,-14.0
+531,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (13).SC2Replay,2019-11-25 17:23:07+00:00,True,Zerg,Protoss,3015.0,2968.0,&lt;b0O0n&gt;<sp/>DrLove,Disco Bloodbath LE,935,47.0
+532,/home/dominik/Links/SC2Reps/Triton LE (18).SC2Replay,2019-11-18 15:44:35+00:00,False,Protoss,Zerg,3913.0,3797.0,&lt;lLiTl&gt;<sp/>Eniman,Triton LE,278,116.0
+533,/home/dominik/Links/SC2Reps/Eternal Empire LE (35).SC2Replay,2020-05-30 21:10:17+00:00,True,Protoss,Terran,4089.0,4123.0,Onkelelak,Eternal Empire LE,996,-34.0
+534,/home/dominik/Links/SC2Reps/Submarine LE (13).SC2Replay,2020-07-06 18:32:57+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,4,
+535,/home/dominik/Links/SC2Reps/Winter's Gate LE.SC2Replay,2019-10-09 19:06:50+00:00,False,Zerg,Protoss,3125.0,3136.0,Justify,Winter's Gate LE,137,-11.0
+536,/home/dominik/Links/SC2Reps/World of Sleepers LE (55).SC2Replay,2020-03-09 11:22:11+00:00,True,Protoss,Zerg,4033.0,4001.0,Vorp,World of Sleepers LE,1084,32.0
+537,/home/dominik/Links/SC2Reps/Disco Bloodbath LE.SC2Replay,2019-09-11 15:35:39+00:00,True,Zerg,Zerg,-36400.0,2505.0,OtecAnisim,Disco Bloodbath LE,682,-38905.0
+538,/home/dominik/Links/SC2Reps/Nightshade LE (29).SC2Replay,2020-02-06 20:48:26+00:00,True,Protoss,Protoss,3988.0,3962.0,MsDragonFly,Nightshade LE,640,26.0
+539,/home/dominik/Links/SC2Reps/Zen LE (16).SC2Replay,2020-05-26 09:13:43+00:00,True,Protoss,Terran,4026.0,3981.0,Marvin,Zen LE,421,45.0
+540,/home/dominik/Links/SC2Reps/Eternal Empire LE (25).SC2Replay,2020-01-04 19:19:31+00:00,False,Protoss,Terran,4057.0,4089.0,Tsumi,Eternal Empire LE,714,-32.0
+541,/home/dominik/Links/SC2Reps/World of Sleepers LE (30).SC2Replay,2019-11-29 18:14:11+00:00,False,Protoss,Zerg,3959.0,3998.0,zzTp,World of Sleepers LE,384,-39.0
+542,/home/dominik/Links/SC2Reps/Golden Wall LE (23).SC2Replay,2020-06-25 20:10:00+00:00,False,Protoss,Zerg,4048.0,4047.0,Tiger,Golden Wall LE,137,1.0
+543,/home/dominik/Links/SC2Reps/Acropolis LE (22).SC2Replay,2019-11-07 18:09:53+00:00,False,Zerg,Zerg,3062.0,3068.0,FABBZH,Acropolis LE,429,-6.0
+544,/home/dominik/Links/SC2Reps/Triton LE (5).SC2Replay,2019-10-14 19:15:57+00:00,False,Protoss,Protoss,3878.0,3861.0,Supermaru,Triton LE,240,17.0
+545,/home/dominik/Links/SC2Reps/Simulacrum LE (2).SC2Replay,2019-12-02 19:29:02+00:00,True,Protoss,Terran,3961.0,4068.0,&lt;IWtD&gt;<sp/>DiabloFeTo,Simulacrum LE,575,-107.0
+546,/home/dominik/Links/SC2Reps/Eternal Empire LE (6).SC2Replay,2019-12-10 19:05:25+00:00,True,Protoss,Zerg,4017.0,4125.0,NSƒFaxo,Eternal Empire LE,755,-108.0
+547,/home/dominik/Links/SC2Reps/World of Sleepers LE (7).SC2Replay,2019-10-29 09:32:19+00:00,True,Protoss,Zerg,3821.0,3894.0,Tomaso,World of Sleepers LE,684,-73.0
+548,/home/dominik/Links/SC2Reps/Deathaura LE (14).SC2Replay,2020-07-08 16:11:31+00:00,True,Protoss,Zerg,,,Carrots,Deathaura LE,636,
+549,/home/dominik/Links/SC2Reps/Nightshade LE (55).SC2Replay,2020-05-08 11:34:03+00:00,True,Protoss,Zerg,4127.0,4018.0,Ergopro,Nightshade LE,1157,109.0
+550,/home/dominik/Links/SC2Reps/Ever Dream LE (7).SC2Replay,2020-04-23 15:13:24+00:00,True,Protoss,Zerg,,,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,470,
+551,/home/dominik/Links/SC2Reps/Pillars of Gold LE (9).SC2Replay,2020-07-03 20:24:17+00:00,False,Protoss,Zerg,4106.0,4027.0,Karasuman,Pillars of Gold LE,332,79.0
+552,/home/dominik/Links/SC2Reps/Submarine LE (28).SC2Replay,2020-07-18 18:42:46+00:00,True,Protoss,Zerg,4002.0,3705.0,&lt;DFBC&gt;<sp/>samuel,Submarine LE,535,297.0
+553,/home/dominik/Links/SC2Reps/Thunderbird LE (2).SC2Replay,2019-09-12 16:28:28+00:00,True,Protoss,Terran,-36400.0,2829.0,Toidak,Thunderbird LE,515,-39229.0
+554,/home/dominik/Links/SC2Reps/Simulacrum LE (3).SC2Replay,2019-12-02 19:42:48+00:00,True,Protoss,Terran,3985.0,3960.0,&lt;OnkelS&gt;<sp/>Prolow,Simulacrum LE,685,25.0
+555,/home/dominik/Links/SC2Reps/Submarine LE (5).SC2Replay,2020-06-19 11:33:03+00:00,False,Protoss,Terran,4117.0,4601.0,&lt;ICGl&gt;<sp/>PrimeMarine,Submarine LE,703,-484.0
+556,/home/dominik/Links/SC2Reps/Simulacrum LE (64).SC2Replay,2020-04-28 12:16:11+00:00,False,Protoss,Zerg,3912.0,4045.0,DupaDuupa,Simulacrum LE,728,-133.0
+557,/home/dominik/Links/SC2Reps/Purity and Industry LE (11).SC2Replay,2020-04-30 18:14:21+00:00,False,Protoss,Terran,3983.0,3921.0,FrosT,Purity and Industry LE,233,62.0
+558,/home/dominik/Links/SC2Reps/Ephemeron LE (46).SC2Replay,2020-02-21 16:46:06+00:00,False,Protoss,Terran,4048.0,4111.0,razor,Ephemeron LE,514,-63.0
+559,/home/dominik/Links/SC2Reps/World of Sleepers LE (41).SC2Replay,2019-12-24 19:08:58+00:00,True,Protoss,Terran,3914.0,3840.0,PPO,World of Sleepers LE,920,74.0
+560,/home/dominik/Links/SC2Reps/Ice and Chrome LE (11).SC2Replay,2020-06-29 07:58:32+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Ice and Chrome LE,304,
+561,/home/dominik/Links/SC2Reps/Eternal Empire LE (27).SC2Replay,2020-01-05 14:18:07+00:00,True,Protoss,Terran,4019.0,4005.0,delmak,Eternal Empire LE,867,14.0
+562,/home/dominik/Links/SC2Reps/Golden Wall LE (22).SC2Replay,2020-06-14 11:41:32+00:00,False,Protoss,Zerg,4104.0,4033.0,&lt;PLA2N&gt;<sp/>saccharose,Golden Wall LE,958,71.0
+563,/home/dominik/Links/SC2Reps/Ice and Chrome LE (21).SC2Replay,2020-07-09 16:42:07+00:00,True,Protoss,Terran,,,A.I. 1 (Elite),Ice and Chrome LE,653,
+564,/home/dominik/Links/SC2Reps/Eternal Empire LE (12).SC2Replay,2019-12-20 18:59:06+00:00,True,Protoss,Terran,3939.0,3886.0,CapSto,Eternal Empire LE,338,53.0
+565,/home/dominik/Links/SC2Reps/Nightshade LE (56).SC2Replay,2020-05-11 16:28:32+00:00,True,Protoss,Zerg,,,TGE,Nightshade LE,1184,
+566,/home/dominik/Links/SC2Reps/Acropolis LE (24).SC2Replay,2019-11-18 17:32:43+00:00,False,Protoss,Protoss,3910.0,3920.0,Raver,Acropolis LE,341,-10.0
+567,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (7).SC2Replay,2019-11-02 17:46:00+00:00,True,Protoss,Zerg,3691.0,3606.0,&lt;Aǂmove&gt;<sp/>AmoveZerg,Disco Bloodbath LE,2,85.0
+568,/home/dominik/Links/SC2Reps/Simulacrum LE (9).SC2Replay,2019-12-18 16:53:06+00:00,True,Protoss,Terran,3938.0,3828.0,FrozenZerg,Simulacrum LE,960,110.0
+569,/home/dominik/Links/SC2Reps/Submarine LE (2).SC2Replay,2020-06-13 18:37:28+00:00,True,Protoss,Terran,4079.0,4165.0,&lt;PŖïMĄŁ&gt;<sp/>Calixter,Submarine LE,503,-86.0
+570,/home/dominik/Links/SC2Reps/Deathaura LE (22).SC2Replay,2020-07-09 17:50:03+00:00,False,Terran,Protoss,-36400.0,,A.I. 1 (Hard),Deathaura LE,14,
+571,/home/dominik/Links/SC2Reps/Thunderbird LE (7).SC2Replay,2019-10-14 19:10:22+00:00,True,Zerg,Protoss,2956.0,2956.0,IIIIIIIIIIII,Thunderbird LE,843,0.0
+572,/home/dominik/Links/SC2Reps/World of Sleepers LE (40).SC2Replay,2019-12-22 21:07:48+00:00,False,Protoss,Protoss,3918.0,3927.0,DeepMind,World of Sleepers LE,175,-9.0
+573,/home/dominik/Links/SC2Reps/Golden Wall LE (19).SC2Replay,2020-05-30 20:50:13+00:00,True,Protoss,Zerg,4071.0,3949.0,Hellfighter,Golden Wall LE,718,122.0
+574,/home/dominik/Links/SC2Reps/Simulacrum LE (30).SC2Replay,2020-02-17 17:31:43+00:00,False,Protoss,Terran,,,&lt;BnetFR&gt;<sp/>NeWHoriZonS,Simulacrum LE,684,
+575,/home/dominik/Links/SC2Reps/Acropolis LE (8).SC2Replay,2019-10-14 19:45:44+00:00,True,Zerg,Terran,3039.0,3074.0,RoBoT,Acropolis LE,650,-35.0
+576,/home/dominik/Links/SC2Reps/Submarine LE (24).SC2Replay,2020-07-16 15:18:29+00:00,False,Protoss,Zerg,,,A.I. 1 (Elite),Submarine LE,20,
+577,/home/dominik/Links/SC2Reps/Nightshade LE.SC2Replay,2019-11-29 18:07:04+00:00,False,Protoss,Zerg,3981.0,3976.0,zzTp,Nightshade LE,468,5.0
+578,/home/dominik/Links/SC2Reps/Pillars of Gold LE.SC2Replay,2020-06-13 18:28:41+00:00,True,Protoss,Terran,4058.0,4034.0,Spectre,Pillars of Gold LE,886,24.0
+579,/home/dominik/Links/SC2Reps/Ever Dream LE (35).SC2Replay,2020-07-13 09:45:45+00:00,True,Protoss,Protoss,4084.0,3950.0,Atlas,Ever Dream LE,862,134.0
+580,/home/dominik/Links/SC2Reps/Acropolis LE (3).SC2Replay,2019-09-26 10:06:38+00:00,True,Zerg,Zerg,-36400.0,3001.0,&lt;SAZZ&gt;<sp/>LINUSWES,Acropolis LE,361,-39401.0
+581,/home/dominik/Links/SC2Reps/Ever Dream LE (12).SC2Replay,2020-04-23 16:04:26+00:00,False,Protoss,Zerg,,,&lt;ROXKIS&gt;<sp/>Shaddar,Ever Dream LE,384,
+582,/home/dominik/Links/SC2Reps/Deathaura LE (8).SC2Replay,2020-07-03 20:18:04+00:00,False,Protoss,Protoss,4125.0,4208.0,&lt;aW&gt;<sp/>VVV,Deathaura LE,262,-83.0
+583,/home/dominik/Links/SC2Reps/Acropolis LE (5).SC2Replay,2019-10-06 12:23:56+00:00,True,Protoss,Protoss,3751.0,3726.0,MJM,Acropolis LE,2,25.0
+584,/home/dominik/Links/SC2Reps/Simulacrum LE (75).SC2Replay,2020-05-27 10:56:00+00:00,True,Protoss,Terran,4030.0,4103.0,CleanSweep,Simulacrum LE,719,-73.0
+585,/home/dominik/Links/SC2Reps/Simulacrum LE (29).SC2Replay,2020-02-17 16:31:23+00:00,False,Protoss,Terran,4041.0,4008.0,&lt;lLiTl&gt;<sp/>Quickman,Simulacrum LE,804,33.0
+586,/home/dominik/Links/SC2Reps/Ephemeron LE (40).SC2Replay,2020-02-13 18:34:05+00:00,False,Protoss,Terran,4102.0,4238.0,&lt;BnetFR&gt;<sp/>NeWHoriZonS,Ephemeron LE,761,-136.0
+587,/home/dominik/Links/SC2Reps/Submarine LE (10).SC2Replay,2020-07-05 10:50:17+00:00,False,Protoss,Zerg,4083.0,4153.0,VirusRC,Submarine LE,286,-70.0
+588,/home/dominik/Links/SC2Reps/Disco Bloodbath LE (9).SC2Replay,2019-11-04 20:53:20+00:00,False,Protoss,Terran,3800.0,3883.0,&lt;MiClan&gt;<sp/>MiSHANYA,Disco Bloodbath LE,396,-83.0
+589,/home/dominik/Links/SC2Reps/Golden Wall LE (14).SC2Replay,2020-05-04 12:43:06+00:00,True,Protoss,Terran,3926.0,3831.0,StaMinA,Golden Wall LE,784,95.0
+590,/home/dominik/Links/SC2Reps/World of Sleepers LE (47).SC2Replay,2020-02-02 17:15:06+00:00,False,Protoss,Zerg,4012.0,4092.0,&lt;0mg&gt;<sp/>Sroljo,World of Sleepers LE,264,-80.0
+591,/home/dominik/Links/SC2Reps/Simulacrum LE (59).SC2Replay,2020-04-19 11:48:32+00:00,True,Protoss,Zerg,,,shadowofmich,Simulacrum LE,297,
+592,/home/dominik/Links/SC2Reps/Nightshade LE (51).SC2Replay,2020-04-30 18:34:01+00:00,True,Protoss,Terran,3964.0,4055.0,&lt;BRs&gt;<sp/>GoodFellas,Nightshade LE,1040,-91.0
+b1155686c85f1da6b76180f4ea62d4cc92ab11f4,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (40).SC2Replay,2020-08-20 14:46:56+00:00,True,Protoss,Zerg,3992.0,3970.0,BilIPlates,Ice and Chrome LE,577,22.0
+009214c67f5378e66daa54141c3517266bdb0b3d,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Submarine LE (37).SC2Replay,2020-08-20 14:58:25+00:00,False,Protoss,Terran,4013.0,3977.0,xaverx,Submarine LE,335,36.0
+1120e9ec6b9a071c412e6702cdc657bc9c6a0865,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (46).SC2Replay,2020-08-20 15:17:12+00:00,True,Protoss,Zerg,3990.0,3846.0,&lt;AoT&gt;<sp/>gray,Deathaura LE,1035,144.0
+0a1074f1c781fcb056c076a2bda0657b355a7b31,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (56).SC2Replay,2020-08-20 15:26:30+00:00,True,Protoss,Protoss,4008.0,4409.0,Haluc,Ever Dream LE,487,-401.0
+291eaaf90c328e54369e02ac6776c092b0436097,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (42).SC2Replay,2020-08-22 19:37:43+00:00,True,Protoss,Zerg,4029.0,-36400.0,Tech,Ice and Chrome LE,1531,40429.0
+a16465abbc326b2b4fefb445bbbfc78622811ddd,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (48).SC2Replay,2020-08-24 15:32:21+00:00,False,Protoss,Terran,4049.0,4059.0,MonsterMunch,Deathaura LE,577,-10.0
+5660c3a61e2c435de14424644f85cb5d185b42ff,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (58).SC2Replay,2020-08-24 15:33:22+00:00,True,Protoss,Terran,4028.0,4040.0,Bananakin,Ever Dream LE,0,-12.0
+33491f32c9629d539f773abe37f17d1135e240f6,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (59).SC2Replay,2020-08-24 15:48:32+00:00,True,Protoss,Terran,4050.0,4005.0,BadMICROBe,Ever Dream LE,851,45.0
+709590e72c32d33716c7c7d5cbc8466755c2d043,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (43).SC2Replay,2020-08-24 15:59:30+00:00,True,Protoss,Terran,4070.0,4173.0,&lt;DaGOAT&gt;<sp/>Sinus,Ice and Chrome LE,431,-103.0
+e27132bd6abbc31741d6526f28997dc58ad41370,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (60).SC2Replay,2020-08-24 16:08:41+00:00,True,Protoss,Protoss,4094.0,4177.0,MozartIRL,Ever Dream LE,474,-83.0
+4ec11e751556a7b48b39119b9aca8ba7ba311ca6,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (49).SC2Replay,2020-08-26 15:57:20+00:00,True,Protoss,Terran,4118.0,4240.0,KorZo,Deathaura LE,929,-122.0
+a0e95b38f29bf3d2461c5c1503a7ca0417c6b69d,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Submarine LE (38).SC2Replay,2020-08-26 16:13:11+00:00,False,Protoss,Terran,4143.0,4320.0,&lt;PiGPan&gt;<sp/>AssumedSite,Submarine LE,522,-177.0
+a32c832fddeeccacfe9951ad178ea9cb2ebaa5b9,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Submarine LE (39).SC2Replay,2020-08-26 16:21:35+00:00,False,Protoss,Protoss,4127.0,4595.0,&lt;DøA&gt;<sp/>Gorendre,Submarine LE,351,-468.0
+d5f7cea0032d94b3ed600cc3aeec53d806d091d8,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (60).SC2Replay,2020-08-26 16:41:02+00:00,True,Protoss,Terran,4117.0,4117.0,topgir,Ever Dream LE,658,0.0
+0994fbfcb1f55103a0535d136ffc17f34e1700b7,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Submarine LE (38).SC2Replay,2020-08-30 10:03:44+00:00,True,Protoss,Zerg,4138.0,4077.0,Denryuu,Submarine LE,980,61.0
+e09887a103b4558f2735ae749c033e890c563875,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (49).SC2Replay,2020-08-30 10:29:40+00:00,False,Protoss,Terran,4158.0,4134.0,ToTheTop,Deathaura LE,1281,24.0
+e51f2c62ae05b8473801a7095b361ac761b2c7b8,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Submarine LE (38).SC2Replay,2020-08-30 10:46:34+00:00,False,Protoss,Protoss,4136.0,4300.0,&lt;DeathU&gt;<sp/>Zerg,Submarine LE,731,-164.0
+98ddd36935c6ad206b57f469f5b2ca2e71710477,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (60).SC2Replay,2020-08-30 11:11:54+00:00,False,Protoss,Protoss,4119.0,3948.0,lexad,Ever Dream LE,506,171.0
+69c5e1c0f0cea206ff86821105b4b88eeee3b420,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Submarine LE (39).SC2Replay,2020-08-30 11:28:15+00:00,True,Protoss,Zerg,4092.0,-36400.0,ApacLNG,Submarine LE,848,40492.0
+f1d3119773d01f5c48256f32090184149f8ebeb8,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (61).SC2Replay,2020-08-30 11:31:17+00:00,False,Protoss,Protoss,4115.0,4052.0,&lt;Arrows&gt;<sp/>Dmitry,Ever Dream LE,122,63.0
+45c4be90882d984fe78f8abce8be7c499fb5548b,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (44).SC2Replay,2020-09-02 17:24:07+00:00,True,Protoss,Terran,4092.0,4092.0,&lt;PaniC&gt;<sp/>Happytoss,Ice and Chrome LE,822,0.0
+a607e0a93b8de8add5b618e676fa19ba4953f9b7,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (45).SC2Replay,2020-09-02 17:39:12+00:00,False,Protoss,Terran,4113.0,4070.0,&lt;PaniC&gt;<sp/>Happytoss,Ice and Chrome LE,863,43.0
+e252cd9346ed000cb419fa30b708095fc79785dd,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (46).SC2Replay,2020-09-02 17:49:53+00:00,False,Protoss,Protoss,4091.0,3838.0,Hidden,Ice and Chrome LE,516,253.0
+557ef1217371a81202e71287524e8fe0f3bc89ab,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (47).SC2Replay,2020-09-02 18:08:07+00:00,True,Protoss,Zerg,4070.0,3986.0,fzmr,Ice and Chrome LE,943,84.0
+d9edae37bcfd2d9120b257135ddf86d59a523bd7,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (44).SC2Replay,2020-09-03 17:51:56+00:00,True,Protoss,Protoss,4090.0,4130.0,&lt;HBGSJR&gt;<sp/>bububK,Ice and Chrome LE,245,-40.0
+6d193df4bd1b672b2519cf0f85e78a05492e2cd4,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (49).SC2Replay,2020-09-03 18:05:55+00:00,False,Protoss,Terran,4112.0,4206.0,Enigma,Deathaura LE,764,-94.0
+f615d68e5850ffe8a58294e363f94a0d7a994ece,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (50).SC2Replay,2020-09-03 18:21:35+00:00,True,Protoss,Protoss,4093.0,3993.0,WhiteHawk,Deathaura LE,865,100.0
+b5b2127b415a7eb41fbcf75115123343c971d509,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (51).SC2Replay,2020-09-03 18:32:34+00:00,True,Protoss,Protoss,,,&lt;TheDOH&gt;<sp/>LoKlok,Deathaura LE,108,
+0ff5461cd0feb86514d84947a145b59237ef3ca6,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (44).SC2Replay,2020-09-03 19:01:18+00:00,False,Protoss,Zerg,4112.0,4093.0,&lt;IIIII&gt;<sp/>IIIIIScanner,Ice and Chrome LE,1307,19.0
+59f8be783ae9d07cd141060abf62178663c2c56d,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (52).SC2Replay,2020-09-03 19:11:46+00:00,False,Protoss,Protoss,,,&lt;TheDOH&gt;<sp/>LoKlok,Deathaura LE,404,
+3e56ea5b70d061c784579ca7192d7df59ffc4b81,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (53).SC2Replay,2020-09-03 19:29:41+00:00,False,Protoss,Protoss,,,&lt;TheDOH&gt;<sp/>LoKlok,Deathaura LE,985,
+060e562d19b920a2fa0b25742d9e8b710cb6ffdd,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Eternal Empire LE (43).SC2Replay,2020-09-06 15:02:02+00:00,False,Protoss,Terran,,,&lt;BRSKR&gt;<sp/>Space,Eternal Empire LE,969,
+243f9eb752622187fb3240bbd1bf03bf6eb76af9,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Deathaura LE (54).SC2Replay,2020-09-06 15:18:42+00:00,False,Protoss,Terran,,,&lt;BRSKR&gt;<sp/>Space,Deathaura LE,872,
+8f0c4acc3a5887f31e0c05d5ec1defb8d0f78b97,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (60).SC2Replay,2020-09-06 15:35:37+00:00,True,Protoss,Terran,,,&lt;BRSKR&gt;<sp/>Space,Ever Dream LE,835,
+2391369f4d3e3b64f5976bb0d96d9d2f4baad8c4,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (45).SC2Replay,2020-09-06 15:59:23+00:00,False,Protoss,Terran,,,&lt;BRSKR&gt;<sp/>Space,Ice and Chrome LE,956,
+2be537e9df94214131d33b5ff2c5ede95e3a4a0f,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (61).SC2Replay,2020-09-08 17:05:49+00:00,True,Protoss,Zerg,,,Carrots,Ever Dream LE,646,
+eb6ec40581bd6210b8a22803211d88ea1fa0c63a,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ever Dream LE (62).SC2Replay,2020-09-08 17:22:51+00:00,False,Protoss,Zerg,,,Carrots,Ever Dream LE,808,
+702d970b2216158c90023927c849885827ca12c3,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (46).SC2Replay,2020-09-08 17:42:01+00:00,True,Protoss,Zerg,,,Carrots,Ice and Chrome LE,825,
+5c977c3a730a2d6c8fcffb846183a2fba1f12ff7,/progs/Games/sc2/drive_c/users/dominik/My Documents/StarCraft II/Accounts/478894239/2-S2-1-8844187/Replays/Multiplayer/Ice and Chrome LE (47).SC2Replay,2020-09-08 18:11:21+00:00,True,Protoss,Zerg,,,Carrots,Ice and Chrome LE,1055,

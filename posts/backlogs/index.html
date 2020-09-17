@@ -166,7 +166,7 @@ stuff I've quietly given up on over the years, etc etc):</p>
 <p></p>
 <center><iframe src="https://www.beeminder.com/widget?slug=todoist-backlog&amp;username=stanczakdominik" height="185px" width="230px" frameborder="0px"></iframe></center>
 <p>A little helper function to do the Beeminder API call is nice to have:</p>
-<pre class="code literal-block"><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
+<pre class="code literal-block"><span></span><span class="kn">import</span> <span class="nn">requests</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="n">beeminder_auth_token</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'BEEMINDER_TOKEN'</span><span class="p">]</span>
 <span class="n">beeminder_username</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">'BEEMINDER_USERNAME'</span><span class="p">]</span>
@@ -183,11 +183,11 @@ stuff I've quietly given up on over the years, etc etc):</p>
         <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
     <span class="p">)</span>
     <span class="k">return</span> <span class="n">response</span>
-</code></pre>
+</pre>
 
 
 <p>And now we use the <a href="https://pypi.org/project/todoist-python/">Todoist API</a> to get at out tasks:</p>
-<pre class="code literal-block"><span></span><code><span class="ch">#!/usr/bin/python</span>
+<pre class="code literal-block"><span></span><span class="ch">#!/usr/bin/python</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">dateutil</span>
@@ -207,7 +207,7 @@ stuff I've quietly given up on over the years, etc etc):</p>
 
 <span class="n">message</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"Incremented automatically from </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">undone_tasks</span><span class="p">)</span><span class="si">}</span><span class="s2"> tasks at </span><span class="si">{</span><span class="n">now</span><span class="si">}</span><span class="s2">"</span>
 <span class="n">increment_beeminder</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="s2">"todoist-backlog"</span><span class="p">,</span> <span class="n">total_days</span><span class="p">)</span>
-</code></pre>
+</pre>
 
 
 <h3>Youtube videos</h3>
@@ -218,7 +218,7 @@ accessible from remote API's, as I've written about
 before</a>; but once you get accustomed to
 using another playlist for you <del>kitten vids</del> SciPy tutorials, it's as simple
 as the following:</p>
-<pre class="code literal-block"><span></span><code><span class="ch">#!/usr/bin/python</span>
+<pre class="code literal-block"><span></span><span class="ch">#!/usr/bin/python</span>
 <span class="kn">import</span> <span class="nn">pafy</span>
 <span class="kn">import</span> <span class="nn">dateutil.parser</span>
 <span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
@@ -237,7 +237,7 @@ as the following:</p>
 
 <span class="n">message</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"Incremented automatically from </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">playlist</span><span class="p">[</span><span class="s1">'items'</span><span class="p">])</span><span class="si">}</span><span class="s2"> movies at </span><span class="si">{</span><span class="n">now</span><span class="si">}</span><span class="s2">"</span>
 <span class="n">increment_beeminder</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="s2">"youtube-backlog-upgrade"</span><span class="p">,</span> <span class="n">total_days</span><span class="p">)</span>
-</code></pre>
+</pre>
 
 
 <h3>Future work?</h3>
