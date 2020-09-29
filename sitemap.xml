@@ -7,298 +7,594 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://stanczakdominik.github.io/</loc>
-  <lastmod>2020-07-11T18:37:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/2017/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/2019/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/2020/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/about/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/archive.html</loc>
-  <lastmod>2020-09-17T08:31:00Z</lastmod>
+  <lastmod>2020-09-29T16:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/</loc>
-  <lastmod>2020-09-17T08:26:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/article/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/bayes/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/benchmark/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cat_ising/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cat_julia/</loc>
-  <lastmod>2020-07-21T17:07:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cat_nonlinear/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cat_nontech/</loc>
-  <lastmod>2020-09-17T08:26:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cat_open-science/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cat_pic/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cat_starcraft-ii-bayesian-replay-analysis/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/cupy/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/gpu/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/ising/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/joss/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/julia/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/maintenance/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/nbody/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/nonlinear-dynamics/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/numba/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/numpy/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/paper/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/particle-in-cell/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/personal/</loc>
-  <lastmod>2020-09-17T08:26:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/pic/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/plasma/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/plasmapy/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/pymc3/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/categories/python-sympy/</loc>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/python/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/rossler/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/scipy/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/scripting/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/simulation/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/sphinx/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/categories/starcraft/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/credits/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/2017/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/2019/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/2020/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/about/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/archive.html</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/article/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/bayes/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/benchmark/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cat_ising/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cat_julia/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cat_nonlinear/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cat_nontech/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cat_open-science/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cat_pic/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cat_starcraft-ii-bayesian-replay-analysis/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/cupy/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/gpu/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/ising/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/joss/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/julia/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/maintenance/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/nbody/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/nonlinear-dynamics/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/numba/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/numpy/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/paper/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/particle-in-cell/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/personal/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/pic/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/plasma/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/plasmapy/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/pymc3/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/python-sympy/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/python/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/rossler/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/scipy/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/scripting/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/simulation/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/sphinx/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/categories/starcraft/</loc>
+  <lastmod>2020-09-29T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/credits/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/index-1.html</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/index-2.html</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/an-introduction/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/anger-disinformation-populism-truth/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/backlogs/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/bayes-sc2-part-1/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/bayes-sc2-part-2/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/changing-fields/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/cupy-nbody-direct-force-calculation/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/distance-matrix-numba/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/first-dive-julia/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/first-joss-review/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/julia-composability/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/no-new-post-today/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/numpy-ish-gpu-computations-with-cupy/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/parallelizable-numpy-implementation-of-2d-ising-model/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/parsing-and-plotting-latex-expressions-with-sympy/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/particle-in-cell-methods/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/post-mortem-for-my-engineering-thesis-code-pythonpic/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/quantitative-data-analysis-of-the-2d-ising-model/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/recent-happenings/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/sc2-parse-replays/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/scipyintegratesolve_ivp-and-makeshift-poincare-sections-of-the-rossler-attractor/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/self-organized-criticality-student-project-post-mortem/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/short-updates-bayes-masters-plasmapy-protoss-julia/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/sympy-for-physics-homework-in-2020/</loc>
+  <lastmod>2020-09-29T16:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/update-on-the-year-2019/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/posts/youtube-watch-later-export.rst/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stanczakdominik.github.io/en/search/</loc>
+  <lastmod>2020-09-29T16:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/index-1.html</loc>
-  <lastmod>2020-09-17T08:26:00Z</lastmod>
+  <lastmod>2020-09-29T16:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/index-2.html</loc>
-  <lastmod>2020-09-17T08:31:00Z</lastmod>
+  <lastmod>2020-09-29T16:44:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/an-introduction/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/anger-disinformation-populism-truth/</loc>
-  <lastmod>2020-09-17T08:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://stanczakdominik.github.io/posts/back-to-the-regularly-scheduled-programming-soon/</loc>
-  <lastmod>2020-09-17T08:26:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/backlogs/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/bayes-sc2-part-1/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/bayes-sc2-part-2/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/changing-fields/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/cupy-nbody-direct-force-calculation/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/distance-matrix-numba/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/first-dive-julia/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/first-joss-review/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/julia-composability/</loc>
-  <lastmod>2020-07-21T17:07:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/no-new-post-today/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/numpy-ish-gpu-computations-with-cupy/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/on-the-recent-on-the-boris-solver-in-particle-in-cell-simulations-paper/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/parallelizable-numpy-implementation-of-2d-ising-model/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/parsing-and-plotting-latex-expressions-with-sympy/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/particle-in-cell-methods/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/post-mortem-for-my-engineering-thesis-code-pythonpic/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/quantitative-data-analysis-of-the-2d-ising-model/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/recent-happenings/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/sc2-parse-replays/</loc>
-  <lastmod>2020-06-23T17:31:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/scipyintegratesolve_ivp-and-makeshift-poincare-sections-of-the-rossler-attractor/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/self-organized-criticality-student-project-post-mortem/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/short-updates-bayes-masters-plasmapy-protoss-julia/</loc>
-  <lastmod>2020-07-11T18:38:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/simple-binder-usage-with-sphinx-gallery-through-jupytext/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
-  <loc>https://stanczakdominik.github.io/posts/tokamaks-vs-stellarators/</loc>
-  <lastmod>2020-09-17T08:26:00Z</lastmod>
+  <loc>https://stanczakdominik.github.io/posts/sympy-for-physics-homework-in-2020/</loc>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/update-on-the-year-2019/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/posts/youtube-watch-later-export.rst/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://stanczakdominik.github.io/search/</loc>
-  <lastmod>2020-06-20T14:57:00Z</lastmod>
+  <lastmod>2020-09-29T16:38:00Z</lastmod>
  </url>
 </urlset>

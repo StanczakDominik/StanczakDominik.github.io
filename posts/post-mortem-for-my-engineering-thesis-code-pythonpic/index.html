@@ -53,7 +53,7 @@ navbar-dark bg-dark
 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
             <div class="dropdown-menu">
                     <a href="../../about" class="dropdown-item">About</a>
-                    <a href="../../credits" class="dropdown-item">Credits</a>
+                    <a href="../../credits" class="dropdown-item">Acknoledgments</a>
             </div>
                 </li>
 <li class="nav-item">
@@ -63,10 +63,10 @@ navbar-dark bg-dark
 <a href="../../categories/" class="nav-link">Posts by tag</a>
                 </li>
 <li class="nav-item">
-<a href="../../rss.xml" class="nav-link">RSS feed</a>
+<a href="../../rss.xml" class="nav-link"><img alt="RSS feed" height="24" width="24" style="border-width:0; margin-bottom:12px;" src="../../images/rss.png"></a>
                 </li>
 <li class="nav-item">
-<a href="https://github.com/StanczakDominik/stanczakdominik.github.io/tree/src" class="nav-link">This site on GitHub</a>
+<a href="https://github.com/StanczakDominik/stanczakdominik.github.io/tree/src" class="nav-link"><img alt="GitHub" height="24" width="24" style="border-width:0; margin-bottom:12px;" src="../../images/GitHub-Mark-64px.png"></a>
 
                 
             </li>
@@ -160,28 +160,28 @@ what I was doing was, pretty much, crap.</p>
 breakdown then. Eventually I reached out again to IPPLM and mr. Jabłoński, who
 agreed the situation is pretty bad but didn't think it worth giving up on. The
 code ended up working after many adventures:</p>
-<pre class="code literal-block"><span></span><span class="err">|\</span>
-<span class="err">* | 207371b wat</span>
-<span class="err">| |\  </span>
-<span class="err">| * | 00b554c started writing diagnostics</span>
-<span class="err">| * | 3942c6e continue writing diagnostics, abandoning idea of multifunction simulation load'</span>
-<span class="err">| | * e726000 revert to old simulation init, energy calculation</span>
-<span class="err">| |/  </span>
-<span class="err">| *   ca0742a merged</span>
-<span class="err">| * 62fe945 energy still blows up</span>
-<span class="err">|/  </span>
-<span class="err">*   6e172d6 merged</span>
-<span class="err">...</span>
-<span class="err">* 5068dfb langmuir waves kinda sorta running?</span>
-<span class="err">...</span>
-<span class="err">* b9580ac Finish fixing tests</span>
-<span class="err">* 864d27a Turn recurrent deposition into deposition on a while loop</span>
-<span class="err">* 280d176 Start fixing Laser simulation</span>
-<span class="err">...</span>
-<span class="err">* a5c4623 Fix difficult to find bugs in longitudinal current deposition</span>
-<span class="err">...</span>
-<span class="err">* 080a226 what may amount to release</span>
-</pre>
+<pre class="code literal-block"><span></span><code><span class="o">|</span>\
+<span class="o">*</span> <span class="o">|</span> <span class="mi">207371</span><span class="n">b</span> <span class="n">wat</span>
+<span class="o">|</span> <span class="o">|</span>\  
+<span class="o">|</span> <span class="o">*</span> <span class="o">|</span> <span class="mi">00</span><span class="n">b554c</span> <span class="n">started</span> <span class="n">writing</span> <span class="n">diagnostics</span>
+<span class="o">|</span> <span class="o">*</span> <span class="o">|</span> <span class="mi">3942</span><span class="n">c6e</span> <span class="k">continue</span> <span class="n">writing</span> <span class="n">diagnostics</span><span class="p">,</span> <span class="n">abandoning</span> <span class="n">idea</span> <span class="n">of</span> <span class="n">multifunction</span> <span class="n">simulation</span> <span class="nb">load</span><span class="s1">'</span>
+<span class="o">|</span> <span class="o">|</span> <span class="o">*</span> <span class="n">e726000</span> <span class="n">revert</span> <span class="n">to</span> <span class="n">old</span> <span class="n">simulation</span> <span class="n">init</span><span class="p">,</span> <span class="n">energy</span> <span class="n">calculation</span>
+<span class="o">|</span> <span class="o">|/</span>  
+<span class="o">|</span> <span class="o">*</span>   <span class="n">ca0742a</span> <span class="n">merged</span>
+<span class="o">|</span> <span class="o">*</span> <span class="mi">62</span><span class="n">fe945</span> <span class="n">energy</span> <span class="n">still</span> <span class="n">blows</span> <span class="n">up</span>
+<span class="o">|/</span>  
+<span class="o">*</span>   <span class="mf">6e172</span><span class="n">d6</span> <span class="n">merged</span>
+<span class="o">...</span>
+<span class="o">*</span> <span class="mi">5068</span><span class="n">dfb</span> <span class="n">langmuir</span> <span class="n">waves</span> <span class="n">kinda</span> <span class="n">sorta</span> <span class="n">running</span><span class="err">?</span>
+<span class="o">...</span>
+<span class="o">*</span> <span class="n">b9580ac</span> <span class="n">Finish</span> <span class="n">fixing</span> <span class="n">tests</span>
+<span class="o">*</span> <span class="mi">864</span><span class="n">d27a</span> <span class="n">Turn</span> <span class="n">recurrent</span> <span class="n">deposition</span> <span class="n">into</span> <span class="n">deposition</span> <span class="n">on</span> <span class="n">a</span> <span class="k">while</span> <span class="n">loop</span>
+<span class="o">*</span> <span class="mi">280</span><span class="n">d176</span> <span class="n">Start</span> <span class="n">fixing</span> <span class="n">Laser</span> <span class="n">simulation</span>
+<span class="o">...</span>
+<span class="o">*</span> <span class="n">a5c4623</span> <span class="n">Fix</span> <span class="n">difficult</span> <span class="n">to</span> <span class="n">find</span> <span class="n">bugs</span> <span class="ow">in</span> <span class="n">longitudinal</span> <span class="n">current</span> <span class="n">deposition</span>
+<span class="o">...</span>
+<span class="o">*</span> <span class="mi">080</span><span class="n">a226</span> <span class="n">what</span> <span class="n">may</span> <span class="n">amount</span> <span class="n">to</span> <span class="n">release</span>
+</code></pre>
 
 
 <p>and I was able to benchmark it nicely.</p>
@@ -302,7 +302,7 @@ could have been better, <abbr title="narrator: He is.">I'm happy I wrote that li
         </section></article><script>var disqus_shortname="stanczakdominik-github-io";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><!--End of body content--><footer id="footer">
             Contents © 2020         <a href="mailto:stanczakdominik@gmail.com">Dominik Stańczak</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a> - 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>
+<img alt="Creative Commons License BY-NC-SA" style="border-width:0; margin-bottom:12px;" src="../../images/creativecommons.png"></a>
             
             
         </footer>
