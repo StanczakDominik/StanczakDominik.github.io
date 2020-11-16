@@ -36,7 +36,8 @@ repository on my GitHub page is. In a single vide">
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href="../../">
@@ -183,7 +184,6 @@ code ended up working after many adventures:</p>
 <span class="o">*</span> <span class="mi">080</span><span class="n">a226</span> <span class="n">what</span> <span class="n">may</span> <span class="n">amount</span> <span class="n">to</span> <span class="n">release</span>
 </code></pre>
 
-
 <p>and I was able to benchmark it nicely.</p>
 <p><img alt="Python runtimes" src="../../images/speed_Python.svg"></p>
 <h3>The benchmarking</h3>
@@ -313,9 +313,7 @@ could have been better, <abbr title="narrator: He is.">I'm happy I wrote that li
         <script src="../../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>

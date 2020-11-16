@@ -21,9 +21,10 @@
 <meta property="og:url" content="https://stanczakdominik.github.io/posts/an-introduction/">
 <meta property="og:description" content="Why start this blog?
 
+
 To share knowledge
 Knowledge does not diminish from being shared, instead it is reinforced and gains in utility.
-I gain much utility from amazing resources on the web and elsewhe">
+I gain much utility from amazing resources on the web and elsewh">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-06-30T09:49:08+02:00">
 </head>
@@ -33,7 +34,8 @@ I gain much utility from amazing resources on the web and elsewhe">
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href="../../">
@@ -117,8 +119,9 @@ navbar-dark bg-dark
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>Why start this blog?
-<!-- TEASER_END --></p>
+<p>Why start this blog?</p>
+<!-- TEASER_END -->
+
 <h2>To share knowledge</h2>
 <p>Knowledge does not diminish from being shared, instead it is reinforced and gains in utility.
 I gain much utility from amazing resources on the web and elsewhere. It is only fair that I disseminate some
@@ -233,9 +236,7 @@ we're getting quite close - a few more steps in a long marathon - to getting tha
         <script src="../../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>

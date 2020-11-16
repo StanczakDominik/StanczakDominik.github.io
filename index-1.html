@@ -23,7 +23,8 @@
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href=".">
@@ -440,8 +441,7 @@ $$ \Delta(k) = \frac{\rho_1-\rho_2}{\rho_1 + \rho_2} gk + \frac{\gamma k^3}{\rho
 </div>
     </header><div class="p-summary entry-summary">
     <div>
-<p>Why start this blog?
-</p>
+<p>Why start this blog?</p>
 <p class="more"><a href="posts/an-introduction/">Read more…</a></p>
 </div>
     </div>
@@ -477,9 +477,7 @@ MathJax.Hub.Config({
         <script src="assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>

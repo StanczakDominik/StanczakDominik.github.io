@@ -35,7 +35,8 @@ figure out adding time dependence by using ga">
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href="../../">
@@ -158,15 +159,18 @@ thinking about it more since (e)attending a seminar by Alan Edelman and, if I
 wasn't flooded by projects already, I'd be writing something up for this place
 already. For now, three recommendations:</p>
 <ol>
-<li>
-<p>This anecdote from the seminar is amazing and really stuck with me:<br><iframe width="560" height="315" src="https://www.youtube.com/embed/fGgLrzalESY?start=3042" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</li>
-<li>
-<p>This example from a great talk on Julia is pretty darn cool:<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kc9HwsxE1OY?start=227" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe></p>
-</li>
-<li>
-<p>And <a href="http://www.stochasticlifestyle.com/comparison-differential-equation-solver-suites-matlab-r-julia-python-c-fortran/">this write-up on comparing different ODE solver
+<li>This anecdote from the seminar is amazing and really stuck with me:  </li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fGgLrzalESY?start=3042" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ol>
+<li>This example from a great talk on Julia is pretty darn cool:  </li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kc9HwsxE1OY?start=227" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+<ol>
+<li>And <a href="http://www.stochasticlifestyle.com/comparison-differential-equation-solver-suites-matlab-r-julia-python-c-fortran/">this write-up on comparing different ODE solver
    packages</a>
    has made me give up on using Python for that. I've been trying to use
    scipy's odeint to efficiently solve stuff for a while now; but one thing I
@@ -174,8 +178,7 @@ picture-in-picture" allowfullscreen></iframe></p>
    then having your solver call them the myriad of times required to integrate
    an ODE might... not be the best idea. PV has in fact called it the worst
    case scenario for python, and when you think about it, it makes sense,
-   doesn't it?</p>
-</li>
+   doesn't it?</li>
 </ol>
 <p>As a bonus, <a href="https://github.com/SciML/diffeqpy"><code>diffeqpy</code></a> is a workaround for
 that python problem! So I'm not abandoning Python as a high level language, but
@@ -227,9 +230,7 @@ the numerics I'll probably do in Julia from now on.</p>
         <script src="../../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>
