@@ -118,10 +118,10 @@ bg-dark
 <p>YouTube is increasingly becoming a walled garden. One of the dark patterns I see in it is that the Watch Later playlist, which you may have gathered over what feels like a millenia (so many lectures, so little time...), cannot be exported - you can only add one video at a time to another playlist. That obviously doesn't scale. Here's a quick trick to solve that!</p>
 <!-- TEASER_END -->
 <p>Take this URL:</p>
-<pre class="code text"><a name="rest_code_33c6d544324841bbaa3dd66d06ceef2a-1"></a>https://www.youtube.com/playlist?list=WL
+<pre class="code text"><a name="rest_code_baa526f8382643f68033845b87cc23d6-1"></a>https://www.youtube.com/playlist?list=WL
 </pre>
 <p>Append <cite>&amp;disable_polymer=true</cite> to it:</p>
-<pre class="code text"><a name="rest_code_93fc14f3577346d19f225a8dd9152c9a-1"></a>https://www.youtube.com/playlist?list=WL&amp;disable_polymer=true
+<pre class="code text"><a name="rest_code_317585e8a2f740d0ab644ca0ca9337b0-1"></a>https://www.youtube.com/playlist?list=WL&amp;disable_polymer=true
 </pre>
 <p>And this should bring you to an older version of the website, where if you click the 3-dot "More" menu, you'll find an "Add all to..." button. This allows you to export your Watch Later playlist to another playlist, without the annoying limitations. Once you're there, you can use better software (<a class="reference external" href="https://github.com/TeamNewPipe/NewPipe">NewPipe</a>, for example, or <a class="reference external" href="https://webapps.stackexchange.com/questions/27589/how-do-i-export-my-youtube-playlists">another solution from the many available</a>) to store the playlist elsewhere. I did not investigate those, as I simply wanted to mirror my Watch Later playlist in NewPipe.</p>
 <p>Sadly, the same method does not work for the Liked Videos page - which is why you should probably not trust YouTube with your data as much as you likely do now.</p>
