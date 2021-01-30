@@ -10,7 +10,8 @@
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../pl/rss.xml">
 <link rel="canonical" href="https://stanczakdominik.github.io/posts/short-updates-bayes-masters-plasmapy-protoss-julia/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
 <link rel="stylesheet" type="text/css" href="../../assets/css/tipuesearch.css">
@@ -28,6 +29,7 @@ The Bayesian analysis of starcraft data is a bit stuck. I've been trying to
 figure out adding time dependence by using ga">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-07-11T20:28:28+02:00">
+<link rel="alternate" hreflang="pl" href="../../pl/posts/short-updates-bayes-masters-plasmapy-protoss-julia/">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -53,7 +55,7 @@ bg-dark
 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
             <div class="dropdown-menu">
                     <a href="../../about" class="dropdown-item">About</a>
-                    <a href="../../credits" class="dropdown-item">Acknoledgments</a>
+                    <a href="../../credits" class="dropdown-item">Acknowledgments</a>
             </div>
                 </li>
 <li class="nav-item">
@@ -79,7 +81,14 @@ bg-dark
 
 
             <ul class="navbar-nav navbar-right">
-<li class="nav-item">
+<li>
+            </li>
+<li class="nav-item"><a href="../../pl/" rel="alternate" hreflang="pl" class="nav-link">Polski</a></li>
+
+                
+                    
+    
+    <li class="nav-item">
     <a href="index.md" id="sourcelink" class="nav-link">Source</a>
     </li>
 
@@ -159,15 +168,18 @@ thinking about it more since (e)attending a seminar by Alan Edelman and, if I
 wasn't flooded by projects already, I'd be writing something up for this place
 already. For now, three recommendations:</p>
 <ol>
-<li>
-<p>This anecdote from the seminar is amazing and really stuck with me:<br><iframe width="560" height="315" src="https://www.youtube.com/embed/fGgLrzalESY?start=3042" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-</li>
-<li>
-<p>This example from a great talk on Julia is pretty darn cool:<br><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kc9HwsxE1OY?start=227" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe></p>
-</li>
-<li>
-<p>And <a href="http://www.stochasticlifestyle.com/comparison-differential-equation-solver-suites-matlab-r-julia-python-c-fortran/">this write-up on comparing different ODE solver
+<li>This anecdote from the seminar is amazing and really stuck with me:  </li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fGgLrzalESY?start=3042" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ol>
+<li>This example from a great talk on Julia is pretty darn cool:  </li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kc9HwsxE1OY?start=227" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+<ol>
+<li>And <a href="http://www.stochasticlifestyle.com/comparison-differential-equation-solver-suites-matlab-r-julia-python-c-fortran/">this write-up on comparing different ODE solver
    packages</a>
    has made me give up on using Python for that. I've been trying to use
    scipy's odeint to efficiently solve stuff for a while now; but one thing I
@@ -175,8 +187,7 @@ picture-in-picture" allowfullscreen></iframe></p>
    then having your solver call them the myriad of times required to integrate
    an ODE might... not be the best idea. PV has in fact called it the worst
    case scenario for python, and when you think about it, it makes sense,
-   doesn't it?</p>
-</li>
+   doesn't it?</li>
 </ol>
 <p>As a bonus, <a href="https://github.com/SciML/diffeqpy"><code>diffeqpy</code></a> is a workaround for
 that python problem! So I'm not abandoning Python as a high level language, but

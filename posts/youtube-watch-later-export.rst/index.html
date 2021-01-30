@@ -10,7 +10,8 @@
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" hreflang="en" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pl)" hreflang="pl" href="../../pl/rss.xml">
 <link rel="canonical" href="https://stanczakdominik.github.io/posts/youtube-watch-later-export.rst/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
 <link rel="stylesheet" type="text/css" href="../../assets/css/tipuesearch.css">
@@ -23,6 +24,7 @@
 <meta property="og:description" content="YouTube is increasingly becoming a walled garden. One of the dark patterns I see in it is that the Watch Later playlist, which you may have gathered over what feels like a millenia (so many lectures, ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-02-17T18:00:00+01:00">
+<link rel="alternate" hreflang="pl" href="../../pl/posts/youtube-watch-later-export.rst/">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -48,7 +50,7 @@ bg-dark
 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
             <div class="dropdown-menu">
                     <a href="../../about" class="dropdown-item">About</a>
-                    <a href="../../credits" class="dropdown-item">Acknoledgments</a>
+                    <a href="../../credits" class="dropdown-item">Acknowledgments</a>
             </div>
                 </li>
 <li class="nav-item">
@@ -74,7 +76,14 @@ bg-dark
 
 
             <ul class="navbar-nav navbar-right">
-<li class="nav-item">
+<li>
+            </li>
+<li class="nav-item"><a href="../../pl/" rel="alternate" hreflang="pl" class="nav-link">Polski</a></li>
+
+                
+                    
+    
+    <li class="nav-item">
     <a href="index.rst" id="sourcelink" class="nav-link">Source</a>
     </li>
 
@@ -118,10 +127,10 @@ bg-dark
 <p>YouTube is increasingly becoming a walled garden. One of the dark patterns I see in it is that the Watch Later playlist, which you may have gathered over what feels like a millenia (so many lectures, so little time...), cannot be exported - you can only add one video at a time to another playlist. That obviously doesn't scale. Here's a quick trick to solve that!</p>
 <!-- TEASER_END -->
 <p>Take this URL:</p>
-<pre class="code text"><a name="rest_code_baa526f8382643f68033845b87cc23d6-1"></a>https://www.youtube.com/playlist?list=WL
+<pre class="code text"><a name="rest_code_2ebb8e0966874d558951710832eb48ca-1"></a>https://www.youtube.com/playlist?list=WL
 </pre>
 <p>Append <cite>&amp;disable_polymer=true</cite> to it:</p>
-<pre class="code text"><a name="rest_code_317585e8a2f740d0ab644ca0ca9337b0-1"></a>https://www.youtube.com/playlist?list=WL&amp;disable_polymer=true
+<pre class="code text"><a name="rest_code_20875f5544584a10a905cb7e0176c9dc-1"></a>https://www.youtube.com/playlist?list=WL&amp;disable_polymer=true
 </pre>
 <p>And this should bring you to an older version of the website, where if you click the 3-dot "More" menu, you'll find an "Add all to..." button. This allows you to export your Watch Later playlist to another playlist, without the annoying limitations. Once you're there, you can use better software (<a class="reference external" href="https://github.com/TeamNewPipe/NewPipe">NewPipe</a>, for example, or <a class="reference external" href="https://webapps.stackexchange.com/questions/27589/how-do-i-export-my-youtube-playlists">another solution from the many available</a>) to store the playlist elsewhere. I did not investigate those, as I simply wanted to mirror my Watch Later playlist in NewPipe.</p>
 <p>Sadly, the same method does not work for the Liked Videos page - which is why you should probably not trust YouTube with your data as much as you likely do now.</p>
