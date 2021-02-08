@@ -3,7 +3,10 @@
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;
 &lt;img alt="Creative Commons License BY-NC-SA"
 style="border-width:0; margin-bottom:12px;"
-src="/images/creativecommons.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Fri, 05 Feb 2021 08:54:05 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The plan for 2021</title><link>https://stanczakdominik.github.io/posts/2021/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div&gt;&lt;p&gt;And good riddance to 2020!&lt;/p&gt;
+src="/images/creativecommons.png"&gt;&lt;/a&gt;</copyright><lastBuildDate>Mon, 08 Feb 2021 19:08:31 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Now with comments through utteranc.es!</title><link>https://stanczakdominik.github.io/posts/utterances/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div&gt;&lt;p&gt;As promised, I've switched the site's comment system from Disqus to
+&lt;a href="https://utteranc.es/"&gt;utteranc.es&lt;/a&gt;. It ended up being &lt;a href="https://github.com/StanczakDominik/stanczakdominik.github.io/commit/858c7530d6bd83f1a193ef9225bee5776f2c591c"&gt;pretty simple to
+do in Nikola&lt;/a&gt;. If I'm correct about how this is supposed to work, comments on the site will now appear as &lt;a href="https://github.com/StanczakDominik/stanczakdominik.github.io/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"&gt;issues on the site's repo&lt;/a&gt;. Of course, I would love to test out how this works :)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://stanczakdominik.github.io/posts/utterances/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://stanczakdominik.github.io/posts/utterances/</guid><pubDate>Mon, 08 Feb 2021 18:47:16 GMT</pubDate></item><item><title>The plan for 2021</title><link>https://stanczakdominik.github.io/posts/2021/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div&gt;&lt;p&gt;And good riddance to 2020!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://stanczakdominik.github.io/posts/2021/"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://stanczakdominik.github.io/posts/2021/</guid><pubDate>Mon, 04 Jan 2021 19:21:24 GMT</pubDate></item><item><title>SymPy for physics homework in 2020</title><link>https://stanczakdominik.github.io/posts/sympy-for-physics-homework-in-2020/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
@@ -38,15 +41,4 @@ angrily work through a few ideas on my mind.&lt;/p&gt;
 content to read, watch, listen to or play through. I've been thinking about
 ways to tackle my gathering points, and I think I finally have something I'm
 willing to share that could be useful for you as well.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://stanczakdominik.github.io/posts/backlogs/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>python</category><category>scripting</category><guid>https://stanczakdominik.github.io/posts/backlogs/</guid><pubDate>Sun, 17 May 2020 11:25:00 GMT</pubDate></item><item><title>First JOSS review!</title><link>https://stanczakdominik.github.io/posts/first-joss-review/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div&gt;&lt;p&gt;Several months ago, I stumbled upon &lt;a href="https://www.youtube.com/watch?v=Y4eKWN_eAxM"&gt;the journal they call
-Joss&lt;/a&gt;. Well, actually, &lt;a href="https://joss.theoj.org/"&gt;JOSS - the
-Journal of Open Source Software, "a developer friendly, open access journal for
-research software packages"&lt;/a&gt;. It's a completely free,
-open-source and open-access alternative to established,
-&lt;a href="https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science"&gt;for-(often-a-lot-of)-profit&lt;/a&gt;
-journals such as those by Reed-Elsevier or Springer.&lt;/p&gt;
-&lt;p&gt;And a few days ago, &lt;a href="https://github.com/openjournals/joss-reviews/issues/2133#issuecomment-618617823"&gt;I've been called into
-service&lt;/a&gt;
-to review &lt;a href="https://github.com/joglekara/VlaPy"&gt;VlaPy, "1D-1V Vlasov-Poisson(-Fokker-Planck) Plasma Physics
-Simulation Tool"&lt;/a&gt;. While I'm digging into that code, I thought I'd write something up about JOSS in general!&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://stanczakdominik.github.io/posts/first-joss-review/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>article</category><category>joss</category><guid>https://stanczakdominik.github.io/posts/first-joss-review/</guid><pubDate>Sat, 02 May 2020 17:55:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="https://stanczakdominik.github.io/posts/backlogs/"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>python</category><category>scripting</category><guid>https://stanczakdominik.github.io/posts/backlogs/</guid><pubDate>Sun, 17 May 2020 11:25:00 GMT</pubDate></item></channel></rss>
